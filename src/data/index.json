@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "src": "./img/pilar.png",
+            "title": "Front-End",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 2,
+            "src": "./img/pilar.png",
+            "title": "Back-End",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 3,
+            "src": "./img/pilar.png",
+            "title": "UI",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 4,
+            "src": "./img/pilar.png",
+            "title": "HDL",
+            "description": "lorem ipsum"
+        }
+    ]
+}
