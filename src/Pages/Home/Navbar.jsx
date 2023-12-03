@@ -33,9 +33,9 @@ function Navbar() {
             </div>
             <a className={`nav__hamburguer ${navActive ? "active" : ""}`}
                 onClick={toggleNav}>
-                <span className="nav__hambueguer__line"></span>
-                <span className="nav__hambueguer__line"></span>
-                <span className="nav__hambueguer__line"></span>
+                <span className="nav__hamburguer__line"></span>
+                <span className="nav__hamburguer__line"></span>
+                <span className="nav__hamburguer__line"></span>
             </a>
             <div className={`navbar--items ${navActive ? "active" : ""}`}>
                 <ul>
@@ -48,7 +48,7 @@ function Navbar() {
                               duration={500}
                               to="heroSection"
                               className="navbar--content"
-                        > Home</Link>
+                        >Home</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu}
@@ -59,7 +59,7 @@ function Navbar() {
                               duration={500}
                               to="MyPortfolio"
                               className="navbar--content"
-                        > Portfolio</Link>
+                        >Portfolio</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu}
@@ -70,7 +70,7 @@ function Navbar() {
                               duration={500}
                               to="AboutMe"
                               className="navbar--content"
-                        > About Me</Link>
+                        >About Me</Link>
                     </li>
                 </ul>
             </div>
@@ -80,9 +80,9 @@ function Navbar() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  to="AboutMe"
+                  to="Contact"
                   className="btn btn-outline-primary" 
-            > Contact Me</Link>
+            >Contact Me</Link>
         </nav>
     )
 }

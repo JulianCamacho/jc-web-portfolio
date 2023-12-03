@@ -24,5 +24,29 @@
             "title": "HDL",
             "description": "lorem ipsum"
         }
+    ],
+    "portfolio": [
+        {
+            "id": 1,
+            "src": "./img/pilar.png",
+            "title": "Project 1",
+            "description": "lorem ipsum",
+            "link": "View in GitHub"
+        },
+        {
+            "id": 2,
+            "src": "./img/pilar.png",
+            "title": "Project 2",
+            "description": "lorem ipsum", 
+            "link": "View in GitHub"
+        },
+        {
+            "id": 3,
+            "src": "./img/pilar.png",
+            "title": "Project 3",
+            "description": "lorem ipsum",
+            "link": "View in GitHub"          
+        }
+
     ]
 }
