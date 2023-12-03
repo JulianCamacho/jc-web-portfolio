@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import DarkMode from "../DarkMode/DarkMode";
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
@@ -83,6 +84,7 @@ function Navbar() {
                   to="Contact"
                   className="btn btn-outline-primary" 
             >Contact Me</Link>
+            <DarkMode />
         </nav>
     )
 }

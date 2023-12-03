@@ -32,6 +32,22 @@ p{
   --white: #ffffff;
 }
 
+[data-theme="dark"] {
+  --primary: #5b912a;
+  --heading-color: #d1d2da;
+  --bg-shade: #0e0e0e;
+  --github: #279bb8;
+  --darkblue: #9394b8;
+  --white: #000000;
+  --black: #ffffff;
+}
+/*
+.sunny {
+  fill: var(--primary);
+  stroke: var(--black);   
+}
+*/
+
 .btn{
   font-family: "Roboto";
   display: inline-block;
@@ -110,6 +126,7 @@ h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
+  color: var(--black);
 }
 
 /* Heading 3 */
@@ -260,7 +277,7 @@ h3 {
 }
 
 .hero--section--description{
-  color: va(--darkblue);
+  color: var(--black);
   font-size: 24px;
   font-weight: 400px;
   line-height: 36px;
@@ -285,6 +302,7 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
+  background-color: var(--bg-shade);
 }
 
 .skills--section--heading{
@@ -364,6 +382,7 @@ h3 {
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
+  background-color: var(--bg-shade);
 }
 
 .about--section--img > img{
@@ -381,6 +400,7 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+  background-color: var(--bg-shade);
 }
 
 .portfolio--container--box {
@@ -464,6 +484,7 @@ h3 {
   align-items: center;
   text-align: center;
   gap: 64px;
+  background-color: var(--bg-shade);
 }
 
 .contact--form{
@@ -534,6 +555,82 @@ input[type="checkbox"] {
 }
 
 /* Contact Section Style Ends */
+
+/* Darkmode Style */
+
+.dark_mode {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.dark_mode_label {
+  width: 65px;
+  height: 30px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow: var(--bg-shade);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dark_mode_label:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: var(--bg-shade);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.dark_mode_input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.dark_mode_input:checked + .dark_mode_label {
+  background: var(--bg-shade);
+}
+.dark_mode_input:checked + .dark_mode_label:after {
+  left: 62px;
+  transform: translateX(-100%);
+  background: var(--bg-shade);
+}
+.dark_mode_label:active:after {
+  width: 30px;
+}
+
+.dark_mode_label svg {
+  position: absolute;
+  width: 20px;
+  top: 5px;
+  z-index: 100;
+}
+.dark_mode_label svg.sun {
+  left: 5px;
+  fill: var(--black);
+  stroke: var(--black);
+  transition: 0.3s;
+}
+.dark_mode_label svg.moon {
+  left: 40px;
+  fill: var(--black);
+  stroke: var(--black);
+  transition: 0.3s;
+}
+.dark_mode_input:checked + .dark_mode_label svg.sun {
+  fill: var(--black);
+  stroke: var(--black);
+}
+.dark_mode_input:checked + .dark_mode_label svg.moon {
+  fill: var(--black);
+  stroke: var(--black);
+}
+
+/* Darkmode Style Ends */
 
 /* Footer Section Style */
 .footer--container {
