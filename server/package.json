@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "node index.js",
-    "build": "npm install express"
+    "build": "npm install nodemailer express cors dotenv path"
   },
   "browserslist": {
     "production": [
