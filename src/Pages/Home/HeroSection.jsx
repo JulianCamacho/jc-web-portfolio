@@ -64,7 +64,8 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <a className="btn btn-primary" href={urls?.linkedin}
-                    style={{ display: 'flex', alignItems: 'center' }}>
+                    style={{ display: 'flex', alignItems: 'center' }}
+                    target="_blank" rel="noreferrer">
                     Get in touch
                     <svg className="btn-logo"
                         xmlns="http://www.w3.org/2000/svg"

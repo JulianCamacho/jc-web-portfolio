@@ -28,24 +28,24 @@
     "portfolio": [
         {
             "id": 1,
-            "src": "./img/pilar.png",
-            "title": "Project 1",
+            "src": "./img/proyecto1-bda.png",
+            "title": "Advanced Databases Course - Project 1",
             "description": "lorem ipsum",
-            "link": "View in GitHub"
+            "link": "https://github.com/astuaTEC/Proyecto-1-BDA"
         },
         {
             "id": 2,
-            "src": "./img/pilar.png",
-            "title": "Project 2",
+            "src": "./img/proyecto2-bda.png",
+            "title": "Advanced Databases Course - Project 2",
             "description": "lorem ipsum", 
-            "link": "View in GitHub"
+            "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
         },
         {
             "id": 3,
-            "src": "./img/pilar.png",
-            "title": "Project 3",
+            "src": "./img/proyecto1-emb.jpeg",
+            "title": "Embedded Systems - Project 1",
             "description": "lorem ipsum",
-            "link": "View in GitHub"          
+            "link": "https://github.com/TheACE01/CE5303-2023-P1"          
         }
 
     ]

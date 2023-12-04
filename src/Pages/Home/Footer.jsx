@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 import React from "react";
-import urls from "../../data/url.json"
+import urls from "../../data/url.json";
+import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
 
 function Footer() {
 
@@ -8,7 +9,7 @@ function Footer() {
         <footer className="footer--container">
             <div className="footer--link--container">
                 <div>
-                    <img src="./img/jc-logo-3.png" alt="Logo" />
+                    <LogoSVG className="navbar--logo" />
                 </div>
                 <div className="footer--items">
                     <ul>
@@ -35,7 +36,7 @@ function Footer() {
                                 to="MyPortfolio"
                                 className="text-md"
                             >
-                                Portfolio
+                                My Skills
                             </Link>
                         </li>
                         <li>
@@ -49,6 +50,19 @@ function Footer() {
                                 className="text-md"
                             >
                                 About Me
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="navbar--active-content"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                to="MyPortfolio"
+                                className="text-md"
+                            >
+                                Portfolio
                             </Link>
                         </li>
                         <li>

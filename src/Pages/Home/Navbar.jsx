@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
 import DarkMode from "../DarkMode/DarkMode";
 
 function Navbar() {
@@ -30,7 +31,8 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img src="./img/jc-logo-3.png" alt="Logo" className="logo"/>
+                <LogoSVG className="navbar--logo" />
+                {/*<img src="./img/jc-logo-3.svg" alt="Logo" className="logo"/>*/}
             </div>
             <button style={{ textDecoration: 'underline', cursor: 'pointer', border: 'none', background: 'none' }}            
                 onClick={toggleNav}>
@@ -58,9 +60,9 @@ function Navbar() {
                               smooth={true}
                               offset={-70}
                               duration={500}
-                              to="MyPortfolio"
+                              to="mySkills"
                               className="navbar--content"
-                        >Portfolio</Link>
+                        >My Skills</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu}
@@ -72,6 +74,17 @@ function Navbar() {
                               to="AboutMe"
                               className="navbar--content"
                         >About Me</Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu}
+                              activeClass="navbar--active-content"
+                              spy={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                              to="MyPortfolio"
+                              className="navbar--content"
+                        >Portfolio</Link>
                     </li>
                 </ul>
             </div>
