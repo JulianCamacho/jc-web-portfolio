@@ -30,7 +30,7 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img src="./img/jc-logo-2.png" alt="Logo" className="logo"/>
+                <img src="./img/jc-logo-3.png" alt="Logo" className="logo"/>
             </div>
             <a className={`nav__hamburguer ${navActive ? "active" : ""}`}
                 onClick={toggleNav}>
