@@ -34,7 +34,7 @@ export default function ContactMe(){
         let result = await response.json();
         setButtonText("Submit");
         setFormData(formInitialData);
-        if (result.code = "200"){
+        if (result.code == 200){
             setStatus({success: true, message: "Message sent succesfully"});
             setTimeout(() => {
                 setStatus({});

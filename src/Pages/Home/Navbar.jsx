@@ -32,7 +32,7 @@ function Navbar() {
             <div>
                 <img src="./img/jc-logo-3.png" alt="Logo" className="logo"/>
             </div>
-            <a className={`nav__hamburguer ${navActive ? "active" : ""}`}
+            <a href="#" className={`nav__hamburguer ${navActive ? "active" : ""}`}
                 onClick={toggleNav}>
                 <span className="nav__hamburguer__line"></span>
                 <span className="nav__hamburguer__line"></span>
