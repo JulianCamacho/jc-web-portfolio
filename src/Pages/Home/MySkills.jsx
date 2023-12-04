@@ -1,3 +1,6 @@
+import { ReactComponent as BackendSVG } from '../../assets/backend.svg';
+import { ReactComponent as TeamworkSVG } from "../../assets/teamwork.svg";
+import { ReactComponent as WebSVG } from "../../assets/web.svg";
 import data from "../../data/index.json";
 
 export default function MySkills() {
@@ -11,15 +14,13 @@ export default function MySkills() {
                 {data?.skills?.map((item, index) => (
                     <div key={index} className="skills--section--card">
                         <div className="skills--section-img">
-                            <img src={item.src} alt="Product Chain" />
+                            {item.src === "./img/backend.svg" && <BackendSVG className="skill--logo" />}
+                            {item.src === "./img/web.svg" && <WebSVG className="skill--logo" />}
+                            {item.src === "./img/teamwork.svg" && <TeamworkSVG className="skill--logo" />}
                         </div>
                         <div className="skills--section--card--content">
-                            <h3 className="skills--section--title">
-                                {item.title}
-                            </h3>
-                            <p className="skills--section--description">
-                                {item.description}
-                            </p>
+                            <h3 className="skills--section--title">{item.title}</h3>
+                            <p className="skills--section--description">{item.description}</p>
                         </div>
                     </div>
                 ))}

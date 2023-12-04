@@ -26,18 +26,20 @@ p{
   --primary: #5b912a;
   --heading-color: #282938;
   --bg-shade: #f8f8f8;
-  --github: #279bb8;
+  --bg-shader: #f1f1f1;
+  --github: #000000;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
 }
 
 [data-theme="dark"] {
-  --primary: #5b912a;
+  --primary: #4f7e24;
   --heading-color: #d1d2da;
   --bg-shade: #0e0e0e;
-  --github: #279bb8;
-  --darkblue: #9394b8;
+  --bg-shader: #080808;
+  --github: #ffffff;
+  --darkblue: #b9badb;
   --white: #000000;
   --black: #ffffff;
 }
@@ -93,6 +95,11 @@ p{
   background-color: var(--white);
 }
 
+.btn-primary:hover > .btn-logo{
+  fill: var(--primary);
+  stroke: var(--primary);
+}
+
 .btn-github{
   color: var(--white);
   background-color: var(--github);
@@ -102,12 +109,31 @@ p{
   justify-content: center;
   align-items: center;
   box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
-  gap: 16px
 }
 
 .btn-github:hover{
   color: var(--github);
   background-color: var(--white);
+}
+
+.btn-github-logo{
+  fill: var(--white);
+  margin-left: 8px;
+}
+
+.btn-github:hover #gh{
+  fill: var(--black);
+}
+
+#gh{
+  fill: var(--white);
+  margin-left: 8px;
+}
+
+.btn-logo{
+  fill: var(--white);
+  stroke: var(--white);
+  margin-left: 8px;
 }
 
 /* Global CSS ends */
@@ -288,9 +314,9 @@ h3 {
 }
 
 .hero--section--img > img{
-  width: 50%;
-  height: 50%;
-  border-radius: 60%;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
 }
 /* Hero Section Style Ends */
 
@@ -328,7 +354,7 @@ h3 {
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
-  background: var(--bg-shade);
+  background: var(--bg-shader);
   min-height: 250px;
 }
 
@@ -349,6 +375,12 @@ h3 {
   border-radius: 10.6px;
   background: var(--white);
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skill--logo {
+  fill: var(--black);
+  width: 25%;
+  height: auto;
 }
 
 .skills--section--card--content {
@@ -386,8 +418,8 @@ h3 {
 }
 
 .about--section--img > img{
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   border-radius: 60%;
 }
 /* About Section Style Ends */
@@ -656,6 +688,10 @@ h3 {
   font-size: 18.667px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.footer--logo{
+  fill: var(--black);
 }
 
 /* Responsive Screens */

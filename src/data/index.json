@@ -2,19 +2,19 @@
     "skills": [
         {
             "id": 1,
-            "src": "./img/pilar.png",
+            "src": "./img/web.svg",
             "title": "Front-End",
             "description": "lorem ipsum"
         },
         {
             "id": 2,
-            "src": "./img/pilar.png",
+            "src": "./img/backend.svg",
             "title": "Back-End",
             "description": "lorem ipsum"
         },
         {
             "id": 3,
-            "src": "./img/pilar.png",
+            "src": "./img/teamwork.svg",
             "title": "UI",
             "description": "lorem ipsum"
         },
