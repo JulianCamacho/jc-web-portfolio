@@ -5,11 +5,8 @@
   "proxy": "http://localhost:3001",
 
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "dev": "node server/index.js",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "npm i"
   },
   "eslintConfig": {
     "extends": [
