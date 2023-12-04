@@ -8,8 +8,8 @@
     "node": "18.17.1"
   },
   "scripts": {
-    "dev": "node server/index.js",
-    "build": "npm i"
+    "dev": "node index.js",
+    "build": "npm install express"
   },
   "browserslist": {
     "production": [
