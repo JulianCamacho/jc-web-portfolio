@@ -32,12 +32,12 @@ function Navbar() {
             <div>
                 <img src="./img/jc-logo-3.png" alt="Logo" className="logo"/>
             </div>
-            <a href="#" className={`nav__hamburguer ${navActive ? "active" : ""}`}
+            <button style={{ textDecoration: 'underline', cursor: 'pointer', border: 'none', background: 'none' }}            
                 onClick={toggleNav}>
                 <span className="nav__hamburguer__line"></span>
                 <span className="nav__hamburguer__line"></span>
                 <span className="nav__hamburguer__line"></span>
-            </a>
+            </button>
             <div className={`navbar--items ${navActive ? "active" : ""}`}>
                 <ul>
                     <li>
