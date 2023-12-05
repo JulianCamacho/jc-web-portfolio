@@ -34,12 +34,12 @@ function Navbar() {
                 <LogoSVG className="navbar--logo" />
                 {/*<img src="./img/jc-logo-3.svg" alt="Logo" className="logo"/>*/}
             </div>
-            <button style={{ textDecoration: 'underline', cursor: 'pointer', border: 'none', background: 'none' }}            
+            <a className={`nav__hamburger ${navActive ? "active" : ""}`}
                 onClick={toggleNav}>
-                <span className="nav__hamburguer__line"></span>
-                <span className="nav__hamburguer__line"></span>
-                <span className="nav__hamburguer__line"></span>
-            </button>
+                <span className="nav__hamburger__line"></span>
+                <span className="nav__hamburger__line"></span>
+                <span className="nav__hamburger__line"></span>
+            </a>
             <div className={`navbar--items ${navActive ? "active" : ""}`}>
                 <ul>
                     <li>

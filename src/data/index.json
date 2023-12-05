@@ -15,13 +15,13 @@
         {
             "id": 3,
             "src": "./img/teamwork.svg",
-            "title": "UI",
+            "title": "Teamwork",
             "description": "lorem ipsum"
         },
         {
             "id": 4,
-            "src": "./img/pilar.png",
-            "title": "HDL",
+            "src": "./img/databases.svg",
+            "title": "Databases",
             "description": "lorem ipsum"
         }
     ],

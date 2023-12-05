@@ -10,7 +10,7 @@ export default function HeroSection() {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Computer Engineering Student", "Web Developer", "Web Designer"];
+    const toRotate = ["Frontend Developer", "Backend Developer"];
     const period = 2000;
 
     useEffect(() => {
@@ -53,14 +53,14 @@ export default function HeroSection() {
                     <p className="section--title">Hi! I'm Julian Camacho</p>
                     <h1 className="hero--section--title">
                         <span className="hero--section--title--color">
-                            <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span>
+                            <span className="txt-rotate"><span className="wrap">{text}</span>
                             </span>
                         </span>{" "}
                         <br />
                     </h1>
                     <p className="hero--section--description">
-                        Hola mundo
-                        <br /> Sigoasdadasd
+                        I'm a Computer Engineering Student at TEC, Costa Rica
+                        <br /> Welcome to my portfolio
                     </p>
                 </div>
                 <a className="btn btn-primary" href={urls?.linkedin}

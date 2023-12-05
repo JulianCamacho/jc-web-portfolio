@@ -174,7 +174,7 @@ function Footer() {
             </div>
             <hr className="divider" />
             <div className="footer--content--container">
-                <p className="footer--content">José Julián Camacho Hernández</p>
+                <p className="footer--content">© 2023, José Julián Camacho Hernández</p>
                 <div className="footer--social--icon">
                     <ul>
                         <li>

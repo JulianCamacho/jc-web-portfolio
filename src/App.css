@@ -51,7 +51,7 @@ p{
 */
 
 .btn{
-  font-family: "Roboto";
+  font-family: 'Roboto';
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -108,7 +108,8 @@ p{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
+  box-shadow: 0 1px 2px 0 var(--bg-shader);
+  margin-left: auto;
 }
 
 .btn-github:hover{
@@ -313,6 +314,8 @@ h3 {
 
 .hero--section--img{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero--section--img > img{
@@ -419,6 +422,12 @@ h3 {
   background-color: var(--bg-shade);
 }
 
+.about--section--img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .about--section--img > img{
   width: 60%;
   height: 60%;
@@ -437,12 +446,20 @@ h3 {
   background-color: var(--bg-shade);
 }
 
-.portfolio--container--box {
+.portfolio--container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
+/*
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+*/
 
 .portfolio--container {
   display: flex;
@@ -829,13 +846,14 @@ h3 {
   position: absolute;
   top: 25px;
   right: 25px;
+  margin-top: 8px;
 }
 
 .nav__hamburger__line {
   display: block;
   height: 0.188rem;
   width: 100%;
-  background-color: #000000;
+  background-color: var(--black);
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
@@ -853,7 +871,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255);
+    background-color: var(--white);
     top: -20rem;
     left: 0;
     width: 100%;

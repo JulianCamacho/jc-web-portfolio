@@ -9,8 +9,7 @@ export default function MyPortfolio() {
                     <p className="sub--title">Recent Projects</p>
                     <h2 className="section--heading">My Portfolio</h2>
                 </div>
-                <div>
-                <br/>
+                <div className="portfolio--container">
                     <a className="btn btn-github" href={urls?.gitHub}
                         style={{ display: 'flex', alignItems: 'center' }}>
                         Visit my GitHub
@@ -39,7 +38,7 @@ export default function MyPortfolio() {
                         </div>
                         <div className="portfolio--section--card--content">
                             <div>
-                                <h3 className="portfolio--section---title">
+                                <h3 className="portfolio--section--title">
                                     {item.title}
                                 </h3>
                                 <p className="text-md">

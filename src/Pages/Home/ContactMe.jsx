@@ -49,7 +49,7 @@ export default function ContactMe(){
             <div>
                 <p className="sub--title">Get In Touch</p>
                 <h2>Contact Me</h2>
-                <p className="text-lg">texto texto textotexto</p>
+                <p className="text-lg">Fill the form or contact me at camachohjosejulian@gmail.com</p>
             </div>
             <form className="contact--form--contaier" onSubmit={handleSubmit}>
                 <div className="container">
