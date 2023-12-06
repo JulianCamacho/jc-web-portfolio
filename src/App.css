@@ -36,7 +36,7 @@ p{
 [data-theme="dark"] {
   --primary: #4f7e24;
   --heading-color: #d1d2da;
-  --bg-shade: #080808;
+  --bg-shade: #0c0c0c;
   --bg-shader: #050505;
   --github: #ffffff;
   --darkblue: #b9badb;
@@ -51,7 +51,7 @@ p{
 */
 
 .btn{
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -227,6 +227,7 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 
 .navbar--items > ul{
@@ -301,13 +302,20 @@ h3 {
   align-self: stretch;
 }
 
+.hero--section--button-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+}
+
 .hero--section--title--color{
   color: var(--primary);
 }
 
 .hero--section--description{
   color: var(--black);
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 400px;
   line-height: 36px;
 }
@@ -360,7 +368,7 @@ h3 {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shader);
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .skills--section--card:hover{
@@ -410,6 +418,7 @@ h3 {
   font-weight: 400;
   line-height: 32px;
 }
+
 /* Skills Section Style Ends */
 
 /* About Section Style */
@@ -418,7 +427,7 @@ h3 {
   padding: 133.3px 85.3px;
   align-items: center;
   gap: 114.6px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
   background-color: var(--bg-shade);
 }
 
@@ -429,8 +438,8 @@ h3 {
 }
 
 .about--section--img > img{
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   border-radius: 60%;
 }
 /* About Section Style Ends */
@@ -453,14 +462,6 @@ h3 {
   width: 100%;
 }
 
-/*
-display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-
-*/
-
 .portfolio--container {
   display: flex;
   flex-direction: column;
@@ -469,11 +470,7 @@ display: flex;
 }
 
 .portfolio--section--container {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
   width: 100%;
-  gap: 46.6px;
 }
 
 .portfolio--section--img {
@@ -503,6 +500,7 @@ display: flex;
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  margin: 13px;
 }
 
 .portfolio--section--card--content {
@@ -530,6 +528,16 @@ display: flex;
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
+
+.project-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  gap: 8px;
+}
+
+
+
 /* Portfolio Section Style Ends */
 
 /* Contact Section Style */
@@ -778,6 +786,7 @@ display: flex;
   }
   .skills--section--container,
   .about--section,
+  .hero--section--button-container,
   .portfolio--section--container,
   .portfolio--container-box,
   .footer--link--container,
