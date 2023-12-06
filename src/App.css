@@ -578,7 +578,7 @@ h3 {
 
 .contact--input{
   display: flex;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   padding: 16px;
   align-items: center;
   align-self: stretch;

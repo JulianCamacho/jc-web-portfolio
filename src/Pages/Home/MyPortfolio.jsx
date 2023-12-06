@@ -72,7 +72,7 @@ export default function MyPortfolio() {
                                     </p>
                                     <a className="text-sm portfolio--link" href={item.link}
                                         target="_blank" rel="noreferrer">
-                                        View src in GitHub
+                                        View source code in GitHub
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="16"
