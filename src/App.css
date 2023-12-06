@@ -216,6 +216,13 @@ h3 {
 /* Section Titles Ends */
 
 /* Navbar Style */
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: var(--black);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
