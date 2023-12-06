@@ -9,17 +9,10 @@ export default function HeroSection() {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
+    // eslint-disable-next-line
     const [index, setIndex] = useState(1);
     const toRotate = ["Frontend", "Backend"];
     const period = 2000;
-
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta);
-
-        return () => { clearInterval(ticker) };
-    }, [text]) // Run everytime the text is updated
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -45,6 +38,15 @@ export default function HeroSection() {
             setIndex(prevIndex => prevIndex + 1);
         }
     }
+
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta);
+
+        return () => { clearInterval(ticker) };
+        // eslint-disable-next-line
+    }, [text, delta]);
 
     return (
         <section id="heroSection" className="hero--section">
