@@ -1,34 +1,16 @@
 import data from "../../data/index.json";
 import urls from "../../data/url.json";
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 export default function MyPortfolio() {
-
-    const responsive = {
-        superLargeDesktop: {
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
-    };
 
     return (
         <section className="portfolio--section" id="MyPortfolio">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <p className="sub--title">Recent Projects</p>
                     <h2 className="section--heading">My Portfolio</h2>
                 </div>
                 <div className="portfolio--container">
@@ -54,14 +36,30 @@ export default function MyPortfolio() {
             </div>
 
             <div className="portfolio--section--container">
-                <Carousel responsive={responsive} infinite={true}
-                    emulateTouch={true} useKeyboardArrows={true}
-                    className="project-slider">
+                <p className="portfolio--sub--title">Web related projects</p>
+                <Swiper
+                    spaceBetween={24}
+                    loop={false}
+                    grabCursor={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    breakpoints={{
+                        576: {
+                            slidesPerView: 1
+                        },
+                        768: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                        }
+                    }}
+                    modules={[Pagination]}
+                >
                     {data?.portfolio?.map((item, index) => (
-                        <div key={index} className="item portfolio--section--card">
-                            <div className="portfolio--section--img">
-                                <img src={item.src} alt="Placeholder" />
-                            </div>
+                        <SwiperSlide key={index}>
+                            <img src={item.src} alt="Placeholder" />
                             <div className="portfolio--section--card--content">
                                 <div>
                                     <h3 className="portfolio--section--title">
@@ -91,15 +89,68 @@ export default function MyPortfolio() {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </SwiperSlide>
                     ))}
-                </Carousel>
-                <style>{`
-          .control-dots {
-            z-index: 99;
-          }
-        `}</style>
+                </Swiper>
             </div>
+
+            <div className="portfolio--section--container">
+                <p className="portfolio--sub--title">Some other cool projects</p>
+                <Swiper
+                    spaceBetween={24}
+                    loop={false}
+                    grabCursor={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    breakpoints={{
+                        576: {
+                            slidesPerView: 1
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 48
+                        },
+                    }}
+                    modules={[Pagination]}
+                >
+                    {data?.other_projects?.map((item, index) => (
+                        <SwiperSlide key={index}>
+                            <img src={item.src} alt="Placeholder" />
+                            <div className="portfolio--section--card--content">
+                                <div>
+                                    <h3 className="portfolio--section--title">
+                                        {item.title}
+                                    </h3>
+                                    <p className="text-md">
+                                        {item.description}
+                                    </p>
+                                    <a className="text-sm portfolio--link" href={item.link}
+                                        target="_blank" rel="noreferrer">
+                                        View source code in GitHub
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            viewBox="0 0 20 19"
+                                            fill="none"
+                                        >
+                                            <path
+                                                d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                                                stroke="currentColor"
+                                                stroke-width="2.66667"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+
         </section >
     )
 }

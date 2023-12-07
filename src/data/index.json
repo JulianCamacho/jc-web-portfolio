@@ -46,6 +46,50 @@
             "title": "Embedded Systems - Project 1",
             "description": "lorem ipsum",
             "link": "https://github.com/TheACE01/CE5303-2023-P1"          
+        },
+        {
+            "id": 1,
+            "src": "./img/proyecto1-bda.png",
+            "title": "Advanced Databases Course - Project 1",
+            "description": "lorem ipsum",
+            "link": "https://github.com/astuaTEC/Proyecto-1-BDA"
+        },
+        {
+            "id": 2,
+            "src": "./img/proyecto2-bda.png",
+            "title": "Advanced Databases Course - Project 2",
+            "description": "lorem ipsum", 
+            "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
+        },
+        {
+            "id": 3,
+            "src": "./img/proyecto1-emb.jpeg",
+            "title": "Embedded Systems - Project 1",
+            "description": "lorem ipsum",
+            "link": "https://github.com/TheACE01/CE5303-2023-P1"          
+        }
+    ],
+    "other_projects": [
+        {
+            "id": 1,
+            "src": "./img/rowser-castle/rowser-castle-level-2.png",
+            "title": "Rowser Castle",
+            "description": "lorem ipsum",
+            "link": "https://github.com/JulianCamacho/Rowser_Castle"
+        },
+        {
+            "id": 2,
+            "src": "./img/proyecto2-bda.png",
+            "title": "Advanced Databases Course - Project 2",
+            "description": "lorem ipsum", 
+            "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
+        },
+        {
+            "id": 3,
+            "src": "./img/proyecto1-emb.jpeg",
+            "title": "Embedded Systems - Project 1",
+            "description": "lorem ipsum",
+            "link": "https://github.com/TheACE01/CE5303-2023-P1"          
         }
     ]
 }
