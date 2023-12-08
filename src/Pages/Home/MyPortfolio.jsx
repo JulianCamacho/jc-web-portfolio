@@ -1,12 +1,12 @@
-import data from "../../data/index.json";
 import urls from "../../data/url.json";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import MySwiper from "./MySwiper";
+import data from "../../data/index.json";
 
 export default function MyPortfolio() {
 
+    const webProjects = data?.portfolio;
+    const otherProjects = data?.other_projects;
+    
     return (
         <section className="portfolio--section" id="MyPortfolio">
             <div className="portfolio--container-box">
@@ -37,118 +37,11 @@ export default function MyPortfolio() {
 
             <div className="portfolio--section--container">
                 <p className="portfolio--sub--title">Web related projects</p>
-                <Swiper
-                    spaceBetween={24}
-                    loop={false}
-                    grabCursor={true}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    breakpoints={{
-                        576: {
-                            slidesPerView: 1
-                        },
-                        768: {
-                            slidesPerView: 2,
-                        },
-                        1024: {
-                            slidesPerView: 3,
-                        }
-                    }}
-                    modules={[Pagination]}
-                >
-                    {data?.portfolio?.map((item, index) => (
-                        <SwiperSlide key={index}>
-                            <img src={item.src} alt="Placeholder" />
-                            <div className="portfolio--section--card--content">
-                                <div>
-                                    <h3 className="portfolio--section--title">
-                                        {item.title}
-                                    </h3>
-                                    <p className="text-md">
-                                        {item.description}
-                                    </p>
-                                    <a className="text-sm portfolio--link" href={item.link}
-                                        target="_blank" rel="noreferrer">
-                                        View source code in GitHub
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="16"
-                                            height="16"
-                                            viewBox="0 0 20 19"
-                                            fill="none"
-                                        >
-                                            <path
-                                                d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                                stroke="currentColor"
-                                                stroke-width="2.66667"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                <MySwiper projects={webProjects}/>
             </div>
-
             <div className="portfolio--section--container">
                 <p className="portfolio--sub--title">Some other cool projects</p>
-                <Swiper
-                    spaceBetween={24}
-                    loop={false}
-                    grabCursor={true}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    breakpoints={{
-                        576: {
-                            slidesPerView: 1
-                        },
-                        768: {
-                            slidesPerView: 2,
-                            spaceBetween: 48
-                        },
-                    }}
-                    modules={[Pagination]}
-                >
-                    {data?.other_projects?.map((item, index) => (
-                        <SwiperSlide key={index}>
-                            <img src={item.src} alt="Placeholder" />
-                            <div className="portfolio--section--card--content">
-                                <div>
-                                    <h3 className="portfolio--section--title">
-                                        {item.title}
-                                    </h3>
-                                    <p className="text-md">
-                                        {item.description}
-                                    </p>
-                                    <a className="text-sm portfolio--link" href={item.link}
-                                        target="_blank" rel="noreferrer">
-                                        View source code in GitHub
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="16"
-                                            height="16"
-                                            viewBox="0 0 20 19"
-                                            fill="none"
-                                        >
-                                            <path
-                                                d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                                                stroke="currentColor"
-                                                stroke-width="2.66667"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                            />
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                <MySwiper projects={otherProjects}/>
             </div>
 
         </section >
