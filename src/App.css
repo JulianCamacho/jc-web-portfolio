@@ -604,7 +604,7 @@ h3 {
 }
 
 .project--slide--container>img {
-  width: 35%;
+  width: 80%;
   height: auto;
   border-radius: 5px;
   display: block;
@@ -963,6 +963,7 @@ h3 {
   .divider {
     margin: 20px;
   }
+
 }
 
 /* Hamburger menu  */

@@ -112,7 +112,37 @@
         "src": "./img/proyecto2-bda.png",
         "title": "Advanced Databases Course - Project 2",
         "description": "lorem ipsum",
-        "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
+        "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
+        "imgs": [
+            {
+                "number": 1,
+                "src": "./img/proyecto2-bda.png"
+            },
+            {
+                "number": 2,
+                "src": "./img/proyecto2-bda.png"
+            },
+            {
+                "number": 3,
+                "src": "./img/proyecto2-bda.png"
+            },
+            {
+                "number": 4,
+                "src": "./img/proyecto2-bda.png"
+            },
+            {
+                "number": 5,
+                "src": "./img/proyecto2-bda.png"
+            },
+            {
+                "number": 6,
+                "src": "./img/proyecto2-bda.png"
+            },
+            {
+                "number": 7,
+                "src": "./img/proyecto2-bda.png"
+            }
+        ]
     },
     {
         "id": 3,
