@@ -14,14 +14,44 @@
         },
         {
             "id": 3,
-            "src": "./img/teamwork.svg",
-            "title": "Teamwork",
+            "src": "./img/databases.svg",
+            "title": "Databases",
             "description": "lorem ipsum"
         },
         {
             "id": 4,
-            "src": "./img/databases.svg",
-            "title": "Databases",
+            "src": "",
+            "title": "Programming Languages",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 5,
+            "src": "",
+            "title": "DevOps",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 6,
+            "src": "",
+            "title": "AI and ML environment",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 7,
+            "src": "",
+            "title": "HDL and Assembly",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 8,
+            "src": "",
+            "title": "Operating Systems",
+            "description": "lorem ipsum"
+        },
+        {
+            "id": 9,
+            "src": "",
+            "title": "Other skills",
             "description": "lorem ipsum"
         }
     ],
@@ -106,50 +136,50 @@
                     "src": "./img/rowser-castle/rowser-castle-game-over.png"
                 }
             ]
-    },
-    {
-        "id": 2,
-        "src": "./img/proyecto2-bda.png",
-        "title": "Advanced Databases Course - Project 2",
-        "description": "lorem ipsum",
-        "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
-        "imgs": [
-            {
-                "number": 1,
-                "src": "./img/proyecto2-bda.png"
-            },
-            {
-                "number": 2,
-                "src": "./img/proyecto2-bda.png"
-            },
-            {
-                "number": 3,
-                "src": "./img/proyecto2-bda.png"
-            },
-            {
-                "number": 4,
-                "src": "./img/proyecto2-bda.png"
-            },
-            {
-                "number": 5,
-                "src": "./img/proyecto2-bda.png"
-            },
-            {
-                "number": 6,
-                "src": "./img/proyecto2-bda.png"
-            },
-            {
-                "number": 7,
-                "src": "./img/proyecto2-bda.png"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "src": "./img/proyecto1-emb.jpeg",
-        "title": "Embedded Systems - Project 1",
-        "description": "lorem ipsum",
-        "link": "https://github.com/TheACE01/CE5303-2023-P1"
-    }
-]
+        },
+        {
+            "id": 2,
+            "src": "./img/proyecto2-bda.png",
+            "title": "Advanced Databases Course - Project 2",
+            "description": "lorem ipsum",
+            "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
+            "imgs": [
+                {
+                    "number": 1,
+                    "src": "./img/proyecto2-bda.png"
+                },
+                {
+                    "number": 2,
+                    "src": "./img/proyecto2-bda.png"
+                },
+                {
+                    "number": 3,
+                    "src": "./img/proyecto2-bda.png"
+                },
+                {
+                    "number": 4,
+                    "src": "./img/proyecto2-bda.png"
+                },
+                {
+                    "number": 5,
+                    "src": "./img/proyecto2-bda.png"
+                },
+                {
+                    "number": 6,
+                    "src": "./img/proyecto2-bda.png"
+                },
+                {
+                    "number": 7,
+                    "src": "./img/proyecto2-bda.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "src": "./img/proyecto1-emb.jpeg",
+            "title": "Embedded Systems - Project 1",
+            "description": "lorem ipsum",
+            "link": "https://github.com/TheACE01/CE5303-2023-P1"
+        }
+    ]
 }
