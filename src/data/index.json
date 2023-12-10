@@ -83,10 +83,30 @@
             ]
         },
         {
-            "src": "./img/proyecto1-bda.png",
+            "src": "./img/xbattle-pong/match/xbattle-pong-match-8.PNG",
             "title": "XBattlePong",
             "description": "lorem ipsum",
-            "link": "https://dev.azure.com/CRUD-Masters/XBattlePong"
+            "link": "https://dev.azure.com/CRUD-Masters/XBattlePong",
+            "imgs": [
+                "./img/xbattle-pong/match/xbattle-pong-match-1.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-2.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-3.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-4.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-5.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-6.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-7.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-8.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-9.PNG",
+                "./img/xbattle-pong/match/xbattle-pong-match-10.PNG"
+            ],
+            "admin_imgs": [
+                "./img/xbattle-pong/mockups/xbattle-pong-mockups-1.PNG",
+                "./img/xbattle-pong/mockups/xbattle-pong-mockups-2.png",
+                "./img/xbattle-pong/mockups/xbattle-pong-mockups-3.PNG",
+                "./img/xbattle-pong/mockups/xbattle-pong-mockups-4.PNG",
+                "./img/xbattle-pong/mockups/xbattle-pong-mockups-5.PNG",
+                "./img/xbattle-pong/mockups/xbattle-pong-mockups-6.png"
+            ]
         },
         {
             "src": "./img/proyecto1-bda.png",

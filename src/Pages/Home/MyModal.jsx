@@ -39,7 +39,8 @@ export default function MyModal(props) {
                     <div className="portfolio--section--container">
                         <ProjectSwiper projectData={projectInfo.imgs} />
                     </div>
-                    {(projectInfo.title === "GymTEC" || projectInfo.title === "SmartHomeTEC") &&
+                    {(projectInfo.title === "GymTEC" || projectInfo.title === "SmartHomeTEC" ||
+                    projectInfo.title === "XBattlePong") &&
                         <div className="portfolio--section--container">
                             <br/><br/>
                             <ProjectSwiper projectData={projectInfo.admin_imgs} />
