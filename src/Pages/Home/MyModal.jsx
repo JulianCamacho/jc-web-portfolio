@@ -8,6 +8,7 @@ export default function MyModal(props) {
     const [openModal, setOpenModal] = useState(false);
 
     const handleOpen = () => {
+        console.log(projectInfo.imgs)
         setOpenModal(true);
     };
 
@@ -36,8 +37,13 @@ export default function MyModal(props) {
                         {projectInfo.description}
                     </p>
                     <div className="portfolio--section--container">
-                        <ProjectSwiper projectData={projectInfo} />
+                        <ProjectSwiper projectData={projectInfo.imgs} />
                     </div>
+                    {(projectInfo.title === "GymTEC" || projectInfo.title === "SmartHomeTEC") &&
+                        <div className="portfolio--section--container">
+                            <br/><br/>
+                            <ProjectSwiper projectData={projectInfo.admin_imgs} />
+                        </div>}
                 </div>
             </Modal>
         </>

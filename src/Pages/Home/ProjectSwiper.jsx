@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 
 export default function ProjectSwiper(props) {
 
-    const project = props.projectData;
+    const projectImgs = props.projectData;
     const pagination = {
         clickable: true,
         renderBullet: function (index, className) {
@@ -19,10 +19,10 @@ export default function ProjectSwiper(props) {
             pagination={pagination}
             modules={[Pagination]}
         >
-            {project.imgs?.map((item, index) => (
+            {projectImgs?.map((item, index) => (
                 <SwiperSlide key={index} className='project--slide'>
                     <div className='project--slide--container'>
-                        <img src={item.src} alt="Placeholder" />
+                        <img src={item} alt="Placeholder" />
                     </div>
                 </SwiperSlide>
             ))}

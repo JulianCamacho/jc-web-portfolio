@@ -57,46 +57,82 @@
     ],
     "portfolio": [
         {
-            "id": 1,
+            "src": "./img/databases-gymtec/client/gymtec-client-3.png",
+            "title": "GymTEC",
+            "description": "lorem ipsum",
+            "link": "https://dev.azure.com/tec-bases-IS2021-KBJ/Proyecto%20II",
+            "imgs": [
+                "./img/databases-gymtec/client/gymtec-client-1.png",
+                "./img/databases-gymtec/client/gymtec-client-2.png",
+                "./img/databases-gymtec/client/gymtec-client-3.png",
+                "./img/databases-gymtec/client/gymtec-client-4.png",
+                "./img/databases-gymtec/client/gymtec-client-5.png",
+                "./img/databases-gymtec/client/gymtec-client-6.png"
+            ],
+            "admin_imgs": [
+                "./img/databases-gymtec/admin/gymtec-admin-1.png",
+                "./img/databases-gymtec/admin/gymtec-admin-2.png",
+                "./img/databases-gymtec/admin/gymtec-admin-3.png",
+                "./img/databases-gymtec/admin/gymtec-admin-4.png",
+                "./img/databases-gymtec/admin/gymtec-admin-5.png",
+                "./img/databases-gymtec/admin/gymtec-admin-6.png",
+                "./img/databases-gymtec/admin/gymtec-admin-7.png",
+                "./img/databases-gymtec/admin/gymtec-admin-8.png",
+                "./img/databases-gymtec/admin/gymtec-admin-9.png",
+                "./img/databases-gymtec/admin/gymtec-admin-10.png"
+            ]
+        },
+        {
+            "src": "./img/proyecto1-bda.png",
+            "title": "XBattlePong",
+            "description": "lorem ipsum",
+            "link": "https://dev.azure.com/CRUD-Masters/XBattlePong"
+        },
+        {
             "src": "./img/proyecto1-bda.png",
             "title": "Advanced Databases Course - Project 1",
             "description": "lorem ipsum",
             "link": "https://github.com/astuaTEC/Proyecto-1-BDA"
         },
         {
-            "id": 2,
+            "src": "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
+            "title": "SmartHomeTEC",
+            "description": "lorem ipsum",
+            "link": "https://dev.azure.com/tec-bases-IS2021-KBJ/Proyecto%20I",
+            "imgs": [
+                "./img/databases-smart-home-tec/client/smart-home-tec-client-1.png",
+                "./img/databases-smart-home-tec/client/smart-home-tec-client-2.png",
+                "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
+                "./img/databases-smart-home-tec/client/smart-home-tec-client-4.png",
+                "./img/databases-smart-home-tec/client/smart-home-tec-client-5.png",
+                "./img/databases-smart-home-tec/client/smart-home-tec-client-6.png"
+            ],
+            "admin_imgs": [
+                "./img/databases-smart-home-tec/admin/smart-home-tec-admin-1.png",
+                "./img/databases-smart-home-tec/admin/smart-home-tec-admin-2.png",
+                "./img/databases-smart-home-tec/admin/smart-home-tec-admin-3.png",
+                "./img/databases-smart-home-tec/admin/smart-home-tec-admin-4.png",
+                "./img/databases-smart-home-tec/admin/smart-home-tec-admin-5.png"
+            ]
+        },
+        {
             "src": "./img/proyecto2-bda.png",
             "title": "Advanced Databases Course - Project 2",
             "description": "lorem ipsum",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
         },
         {
-            "id": 3,
             "src": "./img/proyecto1-emb.jpeg",
             "title": "Embedded Systems - Project 1",
             "description": "lorem ipsum",
-            "link": "https://github.com/TheACE01/CE5303-2023-P1"
-        },
-        {
-            "id": 1,
-            "src": "./img/proyecto1-bda.png",
-            "title": "Advanced Databases Course - Project 1",
-            "description": "lorem ipsum",
-            "link": "https://github.com/astuaTEC/Proyecto-1-BDA"
-        },
-        {
-            "id": 2,
-            "src": "./img/proyecto2-bda.png",
-            "title": "Advanced Databases Course - Project 2",
-            "description": "lorem ipsum",
-            "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
-        },
-        {
-            "id": 3,
-            "src": "./img/proyecto1-emb.jpeg",
-            "title": "Embedded Systems - Project 1",
-            "description": "lorem ipsum",
-            "link": "https://github.com/TheACE01/CE5303-2023-P1"
+            "link": "https://github.com/TheACE01/CE5303-2023-P1",
+            "imgs": [
+                "./img/embedded-systems/embedded-systems-1.jpeg",
+                "./img/embedded-systems/embedded-systems-2.jpeg",
+                "./img/embedded-systems/embedded-systems-3.jpeg",
+                "./img/embedded-systems/embedded-systems-4.jpeg",
+                "./img/embedded-systems/embedded-systems-5.jpeg"
+            ]
         }
     ],
     "other_projects": [
@@ -107,34 +143,13 @@
             "description": "lorem ipsum",
             "link": "https://github.com/JulianCamacho/Rowser_Castle",
             "imgs": [
-                {
-                    "number": 1,
-                    "src": "./img/rowser-castle/rowsercastle-start-screen.png"
-                },
-                {
-                    "number": 2,
-                    "src": "./img/rowser-castle/rowser-castle-controls.png"
-                },
-                {
-                    "number": 3,
-                    "src": "./img/rowser-castle/rowser-castle-level-1.png"
-                },
-                {
-                    "number": 4,
-                    "src": "./img/rowser-castle/rowser-castle-level-2.png"
-                },
-                {
-                    "number": 5,
-                    "src": "./img/rowser-castle/rowser-castle-level-3.png"
-                },
-                {
-                    "number": 6,
-                    "src": "./img/rowser-castle/rowser-castle-win.png"
-                },
-                {
-                    "number": 7,
-                    "src": "./img/rowser-castle/rowser-castle-game-over.png"
-                }
+                "./img/rowser-castle/rowsercastle-start-screen.png",
+                "./img/rowser-castle/rowser-castle-controls.png",
+                "./img/rowser-castle/rowser-castle-level-1.png",
+                "./img/rowser-castle/rowser-castle-level-2.png",
+                "./img/rowser-castle/rowser-castle-level-3.png",
+                "./img/rowser-castle/rowser-castle-win.png",
+                "./img/rowser-castle/rows,er-castle-game-over.png"
             ]
         },
         {
@@ -144,34 +159,13 @@
             "description": "lorem ipsum",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
             "imgs": [
-                {
-                    "number": 1,
-                    "src": "./img/proyecto2-bda.png"
-                },
-                {
-                    "number": 2,
-                    "src": "./img/proyecto2-bda.png"
-                },
-                {
-                    "number": 3,
-                    "src": "./img/proyecto2-bda.png"
-                },
-                {
-                    "number": 4,
-                    "src": "./img/proyecto2-bda.png"
-                },
-                {
-                    "number": 5,
-                    "src": "./img/proyecto2-bda.png"
-                },
-                {
-                    "number": 6,
-                    "src": "./img/proyecto2-bda.png"
-                },
-                {
-                    "number": 7,
-                    "src": "./img/proyecto2-bda.png"
-                }
+                "./img/proyecto2-bda.png",
+                "./img/proyecto2-bda.png",
+                "./img/proyecto2-bda.png",
+                "./img/proyecto2-bda.png",
+                "./img/proyecto2-bda.png",
+                "./img/proyecto2-bda.png",
+                "./img/proyecto2-bda.png"
             ]
         },
         {
