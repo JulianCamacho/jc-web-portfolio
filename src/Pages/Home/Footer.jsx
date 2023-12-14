@@ -1,13 +1,23 @@
 import { Link } from "react-scroll";
-import React from "react";
+import React, { useEffect } from "react";
 import urls from "../../data/url.json";
 import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
 import Cookies from 'js-cookie';
 
 function Footer() {
 
-    const getViews = Cookies.get('website_views');
-    const currentViews = getViews/2;
+    useEffect(() => {
+        const views = Cookies.get('website_views') || 0;
+    
+        // Set expiration to 7 days from now
+        const expirationDate = new Date();
+        expirationDate.setDate(expirationDate.getDate() + 7);
+    
+        Cookies.set('website_views', parseInt(views) + 1, 
+          { expires: expirationDate, secure: true, sameSite: 'strict' });
+    
+        console.log(`Website views: ${Cookies.get('website_views')}`);
+      }, []);
 
     return (
         <footer className="footer--container">
@@ -204,7 +214,7 @@ function Footer() {
                                 to="Terms_of_Service"
                                 className="text-sm"
                             >
-                                Website views: {currentViews}
+                                Current views: {Cookies.get('website_views')}
                             </Link>
                         </li>
                         <li>
