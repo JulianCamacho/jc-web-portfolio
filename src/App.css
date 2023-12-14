@@ -378,15 +378,11 @@ h3 {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shader);
-  max-height: 10%;
-  overflow: hidden;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .skills--section--card:hover {
   border-bottom: 5px solid var(--primary);
-  max-height: 85%;
 }
 
 .skills--section--card:hover .skills--section--description {
@@ -988,6 +984,10 @@ h3 {
 
   .divider {
     margin: 20px;
+  }
+
+  .skill--logo {
+    max-height: 300px;
   }
 }
 
