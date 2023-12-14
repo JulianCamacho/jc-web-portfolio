@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import MyModal from './MyModal';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export default function MySwiper(props) {
     return (
@@ -11,6 +12,7 @@ export default function MySwiper(props) {
             spaceBetween={24}
             loop={false}
             grabCursor={true}
+            navigation={true}
             pagination={{
                 clickable: true,
             }}
@@ -25,7 +27,7 @@ export default function MySwiper(props) {
                     slidesPerView: 3,
                 }
             }}
-            modules={[Pagination]}
+            modules={[Navigation, Pagination]}
         >
             {props.projects.map((item, index) => (
                 <SwiperSlide key={index} className='my-swiper-slide'>

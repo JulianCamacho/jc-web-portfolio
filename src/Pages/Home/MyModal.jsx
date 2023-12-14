@@ -8,7 +8,6 @@ export default function MyModal(props) {
     const [openModal, setOpenModal] = useState(false);
 
     const handleOpen = () => {
-        console.log(projectInfo.imgs)
         setOpenModal(true);
     };
 

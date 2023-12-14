@@ -2,8 +2,12 @@ import { Link } from "react-scroll";
 import React from "react";
 import urls from "../../data/url.json";
 import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
+import Cookies from 'js-cookie';
 
 function Footer() {
+
+    const getViews = Cookies.get('website_views');
+    const currentViews = getViews/2;
 
     return (
         <footer className="footer--container">
@@ -200,7 +204,7 @@ function Footer() {
                                 to="Terms_of_Service"
                                 className="text-sm"
                             >
-                                Terms of Service
+                                Website views: {currentViews}
                             </Link>
                         </li>
                         <li>
