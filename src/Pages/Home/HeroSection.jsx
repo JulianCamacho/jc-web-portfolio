@@ -62,7 +62,7 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className="hero--section--description">
-                        I'm a Computer Engineering Student at TEC, Costa Rica
+                        I'm a Computer Engineering Student at TEC, <br /> Costa Rica
                         <br /> Welcome to my portfolio
                     </p>
                 </div>
@@ -99,7 +99,7 @@ export default function HeroSection() {
                 </div>
             </div>
             <div className="hero--section--img">
-                <img src="./img/profile-pic-2.png" alt="Hero Section" />
+                <img src={urls.images[0].profile.heroSection} alt="Hero Section" />
             </div>
         </section>
     )

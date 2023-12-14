@@ -15,10 +15,13 @@ export default function ExpandableCard(props) {
 
     const [isOpen, setIsOpen] = useState(false);
 
+    const isDarkModeEnabled = () => {
+        return document.querySelector("body").getAttribute('data-theme') === 'dark';
+    };
+
     return (
-        <motion.div layout className="skills--section--card" id='expandableContainer'
-            onHoverStart={() => setIsOpen(true)} onHoverEnd={() => setIsOpen(false)} 
-            transition={{layout: {duration:1, type: "spring"}}}>
+        <motion.div layout className="skills--section--card" onClick={() => setIsOpen(!isOpen)}
+            transition={{ layout: { duration: 1, type: "spring" } }}>
             <motion.div layout="position" className="skills--section-img">
                 {props.skill.title === "Back-End" && <BackendSVG className="skill--logo" />}
                 {props.skill.title === "Front-End" && <WebSVG className="skill--logo" />}
@@ -35,9 +38,14 @@ export default function ExpandableCard(props) {
                     <h3 className="skills--section--title">{props.skill.title}</h3>
                     <p className="skills--section--description">{props.skill.description}</p>
                     <div className='skill--tool--container'>
-                        {props.skill?.badges?.map((item, index) => (
-                            <img src={item.src} key={index} alt={index.name} />
-                        ))}
+                        {props.skill?.badges?.map((item, index) => {
+                            const modifiedSrc = isDarkModeEnabled()
+                                ? item.src.replace("f8f8f8", "0c0c0c") 
+                                : item.src.replace("0c0c0c", "f8f8f8");
+                            return(     
+                                <img src={modifiedSrc} key={index} alt={index.name} />
+                            )
+                        })}
                     </div>
                 </motion.div>
             }

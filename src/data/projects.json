@@ -4,7 +4,13 @@
             "src": "./img/databases-gymtec/client/gymtec-client-3.png",
             "title": "GymTEC",
             "description": "lorem ipsum",
+            "course": "Databases",
+            "src_ctrl": "Azure",
             "link": "https://dev.azure.com/tec-bases-IS2021-KBJ/Proyecto%20II",
+            "tools": [
+                "Angular", "Bootstrap", "HTML5", "CSS3", 
+                ".NET", "C#", "SQL Server"
+            ],
             "imgs": [
                 "./img/databases-gymtec/client/gymtec-client-1.png",
                 "./img/databases-gymtec/client/gymtec-client-2.png",
@@ -30,7 +36,13 @@
             "src": "./img/xbattle-pong/match/xbattle-pong-match-8.PNG",
             "title": "XBattlePong",
             "description": "lorem ipsum",
+            "course": "Software Design and Specification",
+            "src_ctrl": "Azure",
             "link": "https://dev.azure.com/CRUD-Masters/XBattlePong",
+            "tools": [
+                "Angular", "Bootstrap", "HTML5", "CSS3", 
+                ".NET", "PostgreSQL", "TypeScript", "C#", "DevOps"
+            ],
             "imgs": [
                 "./img/xbattle-pong/match/xbattle-pong-match-1.PNG",
                 "./img/xbattle-pong/match/xbattle-pong-match-2.PNG",
@@ -54,15 +66,26 @@
         },
         {
             "src": "./img/proyecto1-bda.png",
-            "title": "Advanced Databases Course - Project 1",
+            "title": "Club Manager",
             "description": "lorem ipsum",
-            "link": "https://github.com/astuaTEC/Proyecto-1-BDA"
+            "course": "Advanced Databases",
+            "src_ctrl": "GitHub",
+            "link": "https://github.com/astuaTEC/Proyecto-1-BDA",
+            "tools": [
+
+            ]
         },
         {
             "src": "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
             "title": "SmartHomeTEC",
             "description": "lorem ipsum",
+            "course": "Databases",
+            "src_ctrl": "Azure",
             "link": "https://dev.azure.com/tec-bases-IS2021-KBJ/Proyecto%20I",
+            "tools": [
+                "Angular", "Bootstrap", "HTML5", "CSS3", "Ionic", 
+                ".NET", "PostgreSQL", "SQLite", "TypeScript", "C#"
+            ],
             "imgs": [
                 "./img/databases-smart-home-tec/client/smart-home-tec-client-1.png",
                 "./img/databases-smart-home-tec/client/smart-home-tec-client-2.png",
@@ -72,24 +95,40 @@
                 "./img/databases-smart-home-tec/client/smart-home-tec-client-6.png"
             ],
             "admin_imgs": [
+                "./img/databases-smart-home-tec/admin/smart-home-tec-architecture.png",
                 "./img/databases-smart-home-tec/admin/smart-home-tec-admin-1.png",
                 "./img/databases-smart-home-tec/admin/smart-home-tec-admin-2.png",
                 "./img/databases-smart-home-tec/admin/smart-home-tec-admin-3.png",
                 "./img/databases-smart-home-tec/admin/smart-home-tec-admin-4.png",
                 "./img/databases-smart-home-tec/admin/smart-home-tec-admin-5.png"
+            ],
+            "mobile_imgs": [
+                "./img/databases-smart-home-tec/mobile/smart-home-tec-mobile-1.png",
+                "./img/databases-smart-home-tec/mobile/smart-home-tec-mobile-2.png",
+                "./img/databases-smart-home-tec/mobile/smart-home-tec-mobile-3.png"
             ]
         },
         {
             "src": "./img/proyecto2-bda.png",
             "title": "Advanced Databases Course - Project 2",
+            "course": "Advanced Databases",
+            "src_ctrl": "GitHub",
             "description": "lorem ipsum",
-            "link": "https://github.com/astuaTEC/Proyecto-2-BDA"
+            "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
+            "tools": [
+
+            ]
         },
         {
             "src": "./img/proyecto1-emb.jpeg",
-            "title": "Embedded Systems - Project 1",
+            "title": "Smart Home",
+            "course": "Embedded Systems",
+            "src_ctrl": "GitHub",
             "description": "lorem ipsum",
             "link": "https://github.com/TheACE01/CE5303-2023-P1",
+            "tools": [
+
+            ],
             "imgs": [
                 "./img/embedded-systems/embedded-systems-1.jpeg",
                 "./img/embedded-systems/embedded-systems-2.jpeg",
@@ -102,26 +141,36 @@
     "other_projects": [
         {
             "id": 1,
-            "src": "./img/rowser-castle/rowser-castle-level-2.png",
+            "src": "https://i.imgur.com/OTGoUAk.png",
             "title": "Rowser Castle",
             "description": "lorem ipsum",
+            "course": "Programming Workshop",
+            "src_ctrl": "GitHub",
             "link": "https://github.com/JulianCamacho/Rowser_Castle",
+            "tools": [
+
+            ],
             "imgs": [
-                "./img/rowser-castle/rowsercastle-start-screen.png",
-                "./img/rowser-castle/rowser-castle-controls.png",
-                "./img/rowser-castle/rowser-castle-level-1.png",
-                "./img/rowser-castle/rowser-castle-level-2.png",
-                "./img/rowser-castle/rowser-castle-level-3.png",
-                "./img/rowser-castle/rowser-castle-win.png",
-                "./img/rowser-castle/rows,er-castle-game-over.png"
+                "https://i.imgur.com/9DMXlkV.png",
+                "https://i.imgur.com/LXipuLn.png",
+                "https://i.imgur.com/jTjS98P.png",
+                "https://i.imgur.com/OTGoUAk.png",
+                "https://i.imgur.com/ewLerU0.png",
+                "https://i.imgur.com/McJOC7f.png",
+                "https://i.imgur.com/wKETSNp.png"
             ]
         },
         {
             "id": 2,
             "src": "./img/proyecto2-bda.png",
             "title": "Advanced Databases Course - Project 2",
+            "course": "Databases",
+            "src_ctrl": "GitHub",
             "description": "lorem ipsum",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
+            "tools": [
+
+            ],
             "imgs": [
                 "./img/proyecto2-bda.png",
                 "./img/proyecto2-bda.png",
@@ -136,8 +185,13 @@
             "id": 3,
             "src": "./img/proyecto1-emb.jpeg",
             "title": "Embedded Systems - Project 1",
+            "course": "Databases",
+            "src_ctrl": "GitHub",
             "description": "lorem ipsum",
-            "link": "https://github.com/TheACE01/CE5303-2023-P1"
+            "link": "https://github.com/TheACE01/CE5303-2023-P1",
+            "tools": [
+
+            ]
         }
     ]
 }

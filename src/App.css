@@ -334,7 +334,7 @@ h3 {
   justify-content: center;
 }
 
-.hero--section--img>img {
+.hero--section--img > img {
   width: 60%;
   height: 60%;
   border-radius: 50%;
@@ -512,7 +512,7 @@ h3 {
   display: flex;
   padding: 32px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   align-self: stretch;
   gap: 32px;
 }
@@ -619,7 +619,6 @@ h3 {
   align-items: center;
   border-radius: 8px;
   width: 100%;
-  max-height: 400px;
   overflow: hidden;
 }
 
@@ -628,6 +627,19 @@ h3 {
   height: auto;
   border-radius: 5px;
   display: block;
+}
+
+.project--tool--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+}
+
+.project--tool--container > img{
+  width: 10%;
 }
 
 .swiper-pagination-bullet {
@@ -925,6 +937,10 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+
+  .portfolio--section {
+    padding: 112px 45px;
+  } 
 
   .skills--section--container {
     grid-template-columns: repeat(1, 1fr);

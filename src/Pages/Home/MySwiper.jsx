@@ -5,7 +5,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+/**
+ * https://swiperjs.com/demos#pagination
+ */
 export default function MySwiper(props) {
+
     return (
         <Swiper
             className='my-swiper'
@@ -37,12 +41,15 @@ export default function MySwiper(props) {
                             <h3 className="portfolio--section--title">
                                 {item.title}
                             </h3>
+                            <h4 className="text-md">
+                                Course: {item.course}
+                            </h4>
                             <p className="text-md">
                                 {item.description}
                             </p>
                             <a className="text-sm portfolio--link" href={item.link}
                                 target="_blank" rel="noreferrer">
-                                View source code in GitHub
+                                View source code in {item.src_ctrl}
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"
@@ -61,7 +68,7 @@ export default function MySwiper(props) {
                             </a>
                         </div>
                     </div>
-                    <MyModal project={item}/>
+                    <MyModal project={item} />
                 </SwiperSlide>
             ))}
         </Swiper>

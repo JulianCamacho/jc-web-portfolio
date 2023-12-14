@@ -1,4 +1,13 @@
 {
     "gitHub": "https://github.com/JulianCamacho",
-    "linkedin": "https://www.linkedin.com/in/julian-camacho-h/"
+    "linkedin": "https://www.linkedin.com/in/julian-camacho-h/",
+    "images": [
+        {
+            "profile": 
+                {
+                    "heroSection": "https://i.imgur.com/u2YK0Qo.png",
+                    "aboutMe": "https://imgur.com/EUVyNpC.png"
+                }
+        }
+    ]
 }

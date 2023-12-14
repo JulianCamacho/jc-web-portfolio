@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import urls from "../../data/url.json"
 
 export default function AboutMe() {
 
@@ -19,7 +20,7 @@ export default function AboutMe() {
 
             <motion.div style={{ y: yImg }}>
                 <div className="about--section--img">
-                    <img src="./img/about-pic-2.png" alt="About Me" />
+                    <img src={urls.images[0].profile.aboutMe} alt="About Me" />
                 </div>
             </motion.div>
 

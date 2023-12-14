@@ -1,6 +1,10 @@
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 
+/**
+ * https://www.emailjs.com/
+ */
+
 export default function ContactMe() {
 
     const formInitialData = {
@@ -84,8 +88,8 @@ export default function ContactMe() {
                     <label htmlFor="message" className="contact--label">
                         <span className="text-md">Message</span>
                         <textarea className="contact--input text-md" name="message"
-                            id="message" rows="8" placeholder="Please type your message"
-                            value={formData.message}
+                            id="message" rows="6" placeholder="Please type your message"
+                            value={formData.message} required
                             onChange={(e) => onFormUpdate("message", e.target.value)} />
                     </label>
                     <div>

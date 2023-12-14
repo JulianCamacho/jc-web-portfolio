@@ -17,6 +17,7 @@ export default function ProjectSwiper(props) {
     return (
         <Swiper
             className='project-swiper'
+            autoHeight={true}
             pagination={pagination}
             navigation={true}
             modules={[Navigation, Pagination]}
@@ -24,7 +25,7 @@ export default function ProjectSwiper(props) {
             {projectImgs?.map((item, index) => (
                 <SwiperSlide key={index} className='project--slide'>
                     <div className='project--slide--container'>
-                        <img src={item} alt="Placeholder" />
+                        <img src={item} alt="Placeholder"/>
                     </div>
                 </SwiperSlide>
             ))}

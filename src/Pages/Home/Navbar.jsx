@@ -70,9 +70,9 @@ function Navbar() {
                               smooth={true}
                               offset={-70}
                               duration={500}
-                              to="AboutMe"
+                              to="MyPortfolio"
                               className="navbar--content"
-                        >About Me</Link>
+                        >Portfolio</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu}
@@ -81,9 +81,9 @@ function Navbar() {
                               smooth={true}
                               offset={-70}
                               duration={500}
-                              to="MyPortfolio"
+                              to="AboutMe"
                               className="navbar--content"
-                        >Portfolio</Link>
+                        >About Me</Link>
                     </li>
                 </ul>
             </div>
