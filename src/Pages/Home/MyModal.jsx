@@ -7,6 +7,11 @@ import data from "../../data/skills.json"
 /**
  * https://mui.com/material-ui/react-modal/
  * Project tools listed in projects.json should also be one in skills.json for them to render
+ * 
+ * Badge background color is hardcoded
+ * To adjust the darkmode color toggle, change the color 0c0c0c in the src field in skills.json                   
+ * Also adjust colorModSrc definition lines of this file
+ * These are also hardcoded to var(--bg-shade) of App.css
  */
 
 export default function MyModal(props) {
@@ -75,7 +80,6 @@ export default function MyModal(props) {
                                     ? toolBadge?.src.replace("f8f8f8", "0c0c0c")
                                     : toolBadge?.src.replace("0c0c0c", "f8f8f8");
                                 const modifiedSrc = colorModSrc.replace(/badge\/.*?-/, "badge/-"); // Removes everything between "badge/" and "-"
-                                console.log(modifiedSrc)
                                 return (
                                     <img
                                         src={modifiedSrc}
@@ -84,22 +88,18 @@ export default function MyModal(props) {
                                     />
                                 );
                             })}
+                            {projectInfo.extra_tools?.map((extra_tool, index3) => (
+                                <img src={extra_tool} key={index3} alt="Extra_Tool" className='modal--extra--tools'/>
+                            ))}
                         </div>
                         <br /><br />
                         <div className="portfolio--section--container">
                             <ProjectSwiper projectData={projectInfo.imgs} />
+                            <br /><br />
+                            {projectInfo.admin_imgs && <ProjectSwiper projectData={projectInfo.admin_imgs} />}
+                            <br /><br />
+                            {projectInfo.mobile_imgs && <ProjectSwiper projectData={projectInfo.mobile_imgs} />}
                         </div>
-                        {(projectInfo.title === "GymTEC" || projectInfo.title === "SmartHomeTEC" ||
-                            projectInfo.title === "XBattlePong") &&
-                            <div className="portfolio--section--container">
-                                <br /><br />
-                                <ProjectSwiper projectData={projectInfo.admin_imgs} />
-                            </div>}
-                        { /*projectInfo.title === "SmartHomeTEC" &&
-                            <div className="portfolio--section--container">
-                                <br /><br />
-                                <ProjectSwiper projectData={projectInfo.mobile_imgs} />
-                        </div>*/}
                     </div>
                 </Fade>
             </Modal>

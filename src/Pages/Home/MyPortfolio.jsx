@@ -14,8 +14,8 @@ export default function MyPortfolio() {
                     <h2 className="section--heading">My Portfolio</h2>
                 </div>
                 <div className="portfolio--container">
-                    <a className="btn btn-github" href={urls?.gitHub}
-                        style={{ display: 'flex', alignItems: 'center' }}>
+                    <a className="btn btn-github" href={urls?.gitHub} target="_blank" 
+                        rel="noreferrer" style={{ display: 'flex', alignItems: 'center' }}>
                         Visit my GitHub
                         <svg className="btn-github-logo"
                             width="30px"

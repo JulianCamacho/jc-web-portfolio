@@ -602,6 +602,12 @@ h3 {
   overflow: scroll;
 }
 
+.modal--extra--tools {
+  max-width: 80px;
+  max-height: 30px;
+  border-radius: 8px;
+}
+
 .project-swiper {
   max-width: 100%;
   max-height: auto;

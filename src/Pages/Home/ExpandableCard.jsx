@@ -11,6 +11,13 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 //import { ReactComponent as TeamworkSVG } from "../../assets/teamwork.svg";
 
+/**
+ * Badge background color is hardcoded
+ * To adjust the darkmode color toggle, change the color 0c0c0c in the src field in skills.json                   
+ * Also adjust colorModSrc definition lines of this file
+ * These are also hardcoded to var(--bg-shade) of App.css
+ */
+
 export default function ExpandableCard(props) {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +36,7 @@ export default function ExpandableCard(props) {
                 {props.skill.title === "Programming Languages" && <LanguageSVG className="skill--logo" />}
                 {props.skill.title === "DevOps" && <DevOpsSVG className="skill--logo" />}
                 {props.skill.title === "AI and ML environment" && <AISVG className="skill--logo" />}
-                {props.skill.title === "HDL and Assembly" && <CircuitSVG className="skill--logo" />}
+                {props.skill.title === "HDL, Assembly and Embedded Systems" && <CircuitSVG className="skill--logo" />}
                 {props.skill.title === "Operating Systems" && <OSSVG className="skill--logo" />}
                 {props.skill.title === "Other skills" && <SkillsSVG className="skill--logo" />}
             </motion.div>

@@ -64,11 +64,11 @@
                 },
                 {
                     "name": "Express",
-                    "src": "https://img.shields.io/badge/Express-0c0c0c.svg?style=for-the-badge&logo=express&logoColor=white)"
+                    "src": "https://img.shields.io/badge/Express-0c0c0c.svg?style=for-the-badge&logo=express&logoColor=a5a5a5"
                 },
                 {
                     "name": "Flask",
-                    "src": "https://img.shields.io/badge/Flask-0c0c0c.svg?style=for-the-badge&logo=flask&logoColor=white)"
+                    "src": "https://img.shields.io/badge/Flask-0c0c0c.svg?style=for-the-badge&logo=flask&logoColor=A5A5A5"
                 }
             ]
         },
@@ -140,7 +140,7 @@
                 },
                 {
                     "name": "Rust",
-                    "src": "https://img.shields.io/badge/Rust-0c0c0c?style=for-the-badge&logo=rust&logoColor=white"
+                    "src": "https://img.shields.io/badge/Rust-0c0c0c?style=for-the-badge&logo=rust&logoColor=a5a5a5"
                 }
             ]
         },
@@ -191,12 +191,12 @@
         {
             "id": 7,
             "src": "",
-            "title": "HDL and Assembly",
+            "title": "HDL, Assembly and Embedded Systems",
             "description": "lorem ipsum",
             "badges": [
                 {
                     "name": "Assembly x86",
-                    "src": "https://img.shields.io/badge/Assembly_x86-0c0c0c?style=for-the-badge&logo=assemblyscript"
+                    "src": "https://img.shields.io/badge/Assembly_x86-0c0c0c?style=for-the-badge&logo=assemblyscript&logoColor=a5a5a5"
                 },
                 {
                     "name": "Assembly ARM",
@@ -209,6 +209,14 @@
                 {
                     "name": "Verilog",
                     "src": "https://img.shields.io/badge/Verilog-0c0c0c?style=for-the-badge&logo=velog&logoColor=darkblue"
+                },
+                {
+                    "name": "Arduino",
+                    "src": "https://img.shields.io/badge/Arduino-0c0c0c?style=for-the-badge&logo=arduino&logoColor=00878F"
+                },
+                {
+                    "name": "RaspberryPi",
+                    "src": "https://img.shields.io/badge/RaspberryPi-0c0c0c?style=for-the-badge&logo=raspberrypi&logoColor=A22846"
                 }
             ]
         },

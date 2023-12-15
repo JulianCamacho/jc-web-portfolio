@@ -45,7 +45,7 @@ export default function MySwiper(props) {
                                 Course: {item.course}
                             </h4>
                             <p className="text-md">
-                                {item.description}
+                                {item.short_description}
                             </p>
                             <a className="text-sm portfolio--link" href={item.link}
                                 target="_blank" rel="noreferrer">
