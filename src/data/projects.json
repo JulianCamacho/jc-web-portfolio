@@ -251,6 +251,41 @@
         },
         {
             "id": 3,
+            "src": "./img/circuit-designer/cd-11.png",
+            "title": "Circuit Designer",
+            "course": "Algorithms and Data Structures I",
+            "src_ctrl": "GitHub",
+            "short_description": "",
+            "description": "lorem ipsum",
+            "link": "https://github.com/JulianCamacho/Circuit-Designer",
+            "tools": [],
+            "extra_tools": [
+                "https://img.shields.io/badge/JavaFx-478ed1?style=for-the-badge",
+                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
+                "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea"
+            ],
+            "imgs": [
+                "./img/circuit-designer/cd-1.png",
+                "./img/circuit-designer/cd-2.png",
+                "./img/circuit-designer/cd-3.png",
+                "./img/circuit-designer/cd-4.png",
+                "./img/circuit-designer/cd-5.png",
+                "./img/circuit-designer/cd-6.png",
+                "./img/circuit-designer/cd-7.png",
+                "./img/circuit-designer/cd-8.png",
+                "./img/circuit-designer/cd-9.png",
+                "./img/circuit-designer/cd-10.png",
+                "./img/circuit-designer/cd-11.png",
+                "./img/circuit-designer/cd-12.png",
+                "./img/circuit-designer/cd-13.png",
+                "./img/circuit-designer/cd-14.png",
+                "./img/circuit-designer/cd-15.png",
+                "./img/circuit-designer/cd-16.png",
+                "./img/circuit-designer/cd-17.png"
+            ]
+        },
+        {
+            "id": 4,
             "src": "./img/computer-architecture/computer-arch-4.png",
             "title": "RSA image decryption",
             "course": "Computer Architecture I",
@@ -269,18 +304,17 @@
             ]
         },
         {
-            "id": 4,
-            "src": "./img/proyecto2-bda.png",
+            "id": 5,
+            "src": " ",
             "title": "Logo",
             "course": "Languages, Compilers and Interpreters",
             "src_ctrl": "GitHub",
             "short_description": "",
-            "description": "The Text Finder application is designed with the primary goal of facilitating text searches within txt, pdf, and docx files that users have previously added to their library. Upon adding documents, the application indexes them and incorporates all their words into a binary search tree. Users can then perform text searches by looking up the specified word or phrase in the pre-built binary tree. Once the user enters the word or phrase of interest, the application displays search results across all documents, highlighting the relevant word and providing an excerpt of the surrounding text.",
+            "description": " ",
             "link": "https://github.com/Braalfa/Logo",
             "tools": [],
             "extra_tools": [
-                "https://img.shields.io/badge/JavaFx-478ed1?style=for-the-badge",
-                "https://img.shields.io/badge/Java-orange?style=for-the-badge"
+              
             ],
             "imgs": [
                 "./img/proyecto2-bda.png",
@@ -294,31 +328,68 @@
         },
         {
             "id": 5,
-            "src": "./img/proyecto2-bda.png",
+            "src": "./img/text-finder/textfinder-4.png",
             "title": "Text Finder",
             "course": "Algorithms and Data Structures I",
             "src_ctrl": "GitHub",
             "short_description": "Text searching Java application",
             "description": "The Text Finder application is designed with the primary goal of facilitating text searches within txt, pdf, and docx files that users have previously added to their library. Upon adding documents, the application indexes them and incorporates all their words into a binary search tree. Users can then perform text searches by looking up the specified word or phrase in the pre-built binary tree. Once the user enters the word or phrase of interest, the application displays search results across all documents, highlighting the relevant word and providing an excerpt of the surrounding text.",
             "link": "https://github.com/JulianCamacho/Text-Finder",
-            "tools": [
-                "Java"
-            ],
+            "tools": [],
             "extra_tools": [
-                "https://img.shields.io/badge/JavaFx-478ed1?style=for-the-badge"
+                "https://img.shields.io/badge/Java_Scene_Builder-478ed1?style=for-the-badge",
+                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
+                "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea"
             ],
             "imgs": [
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png"
+                "./img/text-finder/textfinder-1.png",
+                "./img/text-finder/textfinder-2.png",
+                "./img/text-finder/textfinder-3.png",
+                "./img/text-finder/textfinder-4.png",
+                "./img/text-finder/textfinder-5.png",
+                "./img/text-finder/textfinder-6.png",
+                "./img/text-finder/textfinder-7.png",
+                "./img/text-finder/textfinder-8.png",
+                "./img/text-finder/textfinder-9.png",
+                "./img/text-finder/textfinder-10.png"
             ]
         },
         {
             "id": 6,
+            "src": "./img/formula-e/fe-1.png",
+            "title": "Formula E - CE Telemetry",
+            "course": "Programming Workshop",
+            "src_ctrl": "GitHub",
+            "short_description": "",
+            "description": "https://github.com/JulianCamacho/Formula-E_CE_TEC",
+            "link": "",
+            "tools": [
+                "Python"
+            ],
+            "extra_tools": [
+                "https://img.shields.io/badge/NodeMCU-0c0c0c?style=for-the-badge"
+            ],
+            "imgs": [
+                "./img/formula-e/fe-1.png",
+                "./img/formula-e/fe-2.png",
+                "./img/formula-e/fe-3.png",
+                "./img/formula-e/fe-4.png",
+                "./img/formula-e/fe-5.png",
+                "./img/formula-e/fe-6.png",
+                "./img/formula-e/fe-7.png",
+                "./img/formula-e/fe-8.png",
+                "./img/formula-e/fe-9.png",
+                "./img/formula-e/fe-10.png",
+                "./img/formula-e/fe-11.jpg",
+                "./img/formula-e/fe-12.jpg",
+                "./img/formula-e/fe-13.jpg",
+                "./img/formula-e/fe-14.jpg",
+                "./img/formula-e/fe-15.jpg",
+                "./img/formula-e/fe-16.png"
+            ]
+        },
+        {
+            "id": 7,
             "src": "./img/numerical-analysis/numerical-analysis-1.jpeg",
             "title": "Integral Calculator and course exercises",
             "course": "Numerical Analysis",
@@ -341,7 +412,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 8,
             "src": "./img/lang-comp/4Line/4Line-3.png",
             "title": "4 Line",
             "course": "Languages, Compilers and Interpreters",

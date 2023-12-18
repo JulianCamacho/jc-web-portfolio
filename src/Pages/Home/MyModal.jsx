@@ -35,7 +35,6 @@ export default function MyModal(props) {
         for (const skill of data.skills) {
             for (const badge of skill.badges) {
                 if (badge.name === badgeName) {
-                    console.log(badge)
                     return badge;
                 }
             }
