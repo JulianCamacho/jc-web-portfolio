@@ -35,7 +35,9 @@ export default function MySwiper(props) {
         >
             {props.projects.map((item, index) => (
                 <SwiperSlide key={index} className='my-swiper-slide'>
-                    <img src={item.src} alt="Placeholder" />
+                    <div className='slide--img--container'>
+                        <img src={item.src} alt="Placeholder" />
+                    </div>
                     <div className="portfolio--section--card--content">
                         <div>
                             <h3 className="portfolio--section--title">

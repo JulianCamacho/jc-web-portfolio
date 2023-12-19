@@ -565,16 +565,24 @@ h3 {
   background: var(--white);
   border-radius: 8px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.15);
+  min-height: 480px;
+  max-height: 480px;
 }
 
-.my-swiper-slide img {
-  object-fit: cover;
+.slide--img--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  overflow: hidden;
+}
+
+.slide--img--container img {
   border-radius: 5px;
   width: 100%;
   display: block;
   padding-top: 24px;
-  max-height: 220px;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 /* Modal Style */

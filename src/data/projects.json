@@ -361,8 +361,8 @@
             "course": "Programming Workshop",
             "src_ctrl": "GitHub",
             "short_description": "",
-            "description": "https://github.com/JulianCamacho/Formula-E_CE_TEC",
-            "link": "",
+            "description": "",
+            "link": "https://github.com/JulianCamacho/Formula-E_CE_TEC",
             "tools": [
                 "Python"
             ],
