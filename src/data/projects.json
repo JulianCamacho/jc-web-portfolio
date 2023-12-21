@@ -287,10 +287,10 @@
         {
             "id": 4,
             "src": "./img/computer-architecture/computer-arch-4.png",
-            "title": "RSA image decryption",
+            "title": "The Imitation Game",
             "course": "Computer Architecture I",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "RSA image decryption x86 app",
             "description": "lorem ipsum",
             "link": "https://github.com/JulianCamacho/jcamacho_computer_architecture_1_2022",
             "tools": [
@@ -314,7 +314,9 @@
             "link": "https://github.com/Braalfa/Logo",
             "tools": [],
             "extra_tools": [
-              
+                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
+                "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea",
+                "https://img.shields.io/badge/ANTLR-#E4202E?style=for-the-badge"
             ],
             "imgs": [
                 "./img/lang-comp/logo/logo-1.png",
@@ -336,7 +338,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 6,
             "src": "./img/text-finder/textfinder-4.png",
             "title": "Text Finder",
             "course": "Algorithms and Data Structures I",
@@ -364,7 +366,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "src": "./img/formula-e/fe-1.png",
             "title": "Formula E - CE Telemetry",
             "course": "Programming Workshop",
@@ -398,7 +400,29 @@
             ]
         },
         {
-            "id": 7,
+            "id": 8,
+            "src": "./img/operating-systems/mobile-maze/mobile-maze-3.png",
+            "title": "Mobile Maze",
+            "course": "Operating Systems",
+            "src_ctrl": "GitHub",
+            "short_description": "",
+            "description": "lorem ipsum",
+            "link": "https://github.com/SistemasOperativos-lS2023/Tarea1",
+            "tools": [
+                "Assembly x86"
+            ],
+            "extra_tools": [
+                "https://img.shields.io/badge/Bootloader-0c0c0c?style=for-the-badge"
+            ],
+            "imgs": [
+                "./img/operating-systems/mobile-maze/mobile-maze-1.png",
+                "./img/operating-systems/mobile-maze/mobile-maze-2.png",
+                "./img/operating-systems/mobile-maze/mobile-maze-3.png",
+                "./img/operating-systems/mobile-maze/mobile-maze-4.png"
+            ]
+        },
+        {
+            "id": 9,
             "src": "./img/numerical-analysis/numerical-analysis-1.jpeg",
             "title": "Integral Calculator and course exercises",
             "course": "Numerical Analysis",
@@ -421,7 +445,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 10,
             "src": "./img/lang-comp/4Line/4Line-3.png",
             "title": "4 Line",
             "course": "Languages, Compilers and Interpreters",
@@ -447,6 +471,44 @@
             ],
             "mobile_imgs": [
                 "./img/lang-comp/restaurantec.png"
+            ]
+        },
+        {
+            "id": 11,
+            "src": " ",
+            "title": "Operating Systems Projects",
+            "course": "Operating Systems",
+            "src_ctrl": "GitHub",
+            "short_description": "",
+            "description": "lorem ipsum",
+            "link": "https://github.com/orgs/SistemasOperativos-lS2023/repositories",
+            "tools": [
+                "Assembly x86"
+            ],
+            "imgs": [
+                "./img/computer-architecture/computer-arch-1.png",
+                "./img/computer-architecture/computer-arch-2.png",
+                "./img/computer-architecture/computer-arch-3.png",
+                "./img/computer-architecture/computer-arch-4.png"
+            ]
+        },
+        {
+            "id": 12,
+            "src": " ",
+            "title": "Electronics Projects",
+            "course": "Computer Architecture I",
+            "src_ctrl": " ",
+            "short_description": "",
+            "description": "lorem ipsum",
+            "link": " ",
+            "tools": [
+                "Assembly x86"
+            ],
+            "imgs": [
+                "./img/computer-architecture/computer-arch-1.png",
+                "./img/computer-architecture/computer-arch-2.png",
+                "./img/computer-architecture/computer-arch-3.png",
+                "./img/computer-architecture/computer-arch-4.png"
             ]
         }
     ]
