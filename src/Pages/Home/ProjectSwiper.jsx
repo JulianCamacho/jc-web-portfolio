@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Zoom, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/zoom';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
@@ -20,12 +21,13 @@ export default function ProjectSwiper(props) {
             autoHeight={true}
             pagination={pagination}
             navigation={true}
-            modules={[Navigation, Pagination]}
+            zoom={true}
+            modules={[Zoom, Navigation, Pagination]}
         >
             {projectImgs?.map((item, index) => (
                 <SwiperSlide key={index} className='project--slide'>
-                    <div className='project--slide--container'>
-                        <img src={item} alt="Placeholder"/>
+                    <div className='swiper-zoom-container'>
+                        <img src={item} alt="Placeholder" className='project--slide--container--img'/>
                     </div>
                 </SwiperSlide>
             ))}

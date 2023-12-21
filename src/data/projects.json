@@ -305,7 +305,7 @@
         },
         {
             "id": 5,
-            "src": " ",
+            "src": "./img/lang-comp/logo/logo-9.png",
             "title": "Logo",
             "course": "Languages, Compilers and Interpreters",
             "src_ctrl": "GitHub",
@@ -317,13 +317,22 @@
               
             ],
             "imgs": [
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png",
-                "./img/proyecto2-bda.png"
+                "./img/lang-comp/logo/logo-1.png",
+                "./img/lang-comp/logo/logo-2.png",
+                "./img/lang-comp/logo/logo-3.png",
+                "./img/lang-comp/logo/logo-4.png",
+                "./img/lang-comp/logo/logo-5.png",
+                "./img/lang-comp/logo/logo-6.png",
+                "./img/lang-comp/logo/logo-7.png",
+                "./img/lang-comp/logo/logo-8.png",
+                "./img/lang-comp/logo/logo-9.png",
+                "./img/lang-comp/logo/logo-10.png",
+                "./img/lang-comp/logo/logo-11.png",
+                "./img/lang-comp/logo/logo-12.png",
+                "./img/lang-comp/logo/logo-13.png",
+                "./img/lang-comp/logo/logo-14.png",
+                "./img/lang-comp/logo/logo-15.png",
+                "./img/lang-comp/logo/logo-16.png"
             ]
         },
         {

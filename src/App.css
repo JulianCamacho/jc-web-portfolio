@@ -379,7 +379,7 @@ h3 {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shader);
-  cursor: pointer;
+  cursor:context-menu;
 }
 
 .skills--section--card:hover {
@@ -674,20 +674,11 @@ h3 {
   overflow: hidden;
 }
 
-.project--slide--container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.project--slide--container>img {
+.project--slide--container--img {
   width: 50%;
   height: auto;
   border-radius: 5px;
-  display: block;
+  cursor: zoom-in;
 }
 
 .project--tool--container {
