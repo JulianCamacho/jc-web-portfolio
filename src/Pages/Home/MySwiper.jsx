@@ -49,7 +49,7 @@ export default function MySwiper(props) {
                             <p className="text-md">
                                 {item.short_description}
                             </p>
-                            <a className="text-sm portfolio--link" href={item.link}
+                            {item.src_ctrl && <a className="text-sm portfolio--link" href={item.link}
                                 target="_blank" rel="noreferrer">
                                 View source code in {item.src_ctrl}
                                 <svg
@@ -67,7 +67,7 @@ export default function MySwiper(props) {
                                         stroke-linejoin="round"
                                     />
                                 </svg>
-                            </a>
+                            </a> }
                         </div>
                     </div>
                     <MyModal project={item} />

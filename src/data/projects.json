@@ -226,7 +226,7 @@
         },
         {
             "id": 2,
-            "src": "./img/pattern-recognition/ml-1.png",
+            "src": "./img/pattern-recognition/ml-1.jpeg",
             "title": "Machine Learning Projects",
             "course": "Introduction to Pattern Recognition",
             "src_ctrl": "GitHub",
@@ -234,12 +234,16 @@
             "description": "",
             "link": "https://github.com/JulianCamacho/CE-5506-Reconocimiento-de-Patrones",
             "tools": [
-                "Python", "TensorFlow", "Keras", "Scikit-learn", "Jupyter", "Google Colab"
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "Scikit-learn",
+                "Jupyter",
+                "Google Colab"
             ],
-            "extra_tools": [
-            ],
+            "extra_tools": [],
             "imgs": [
-                "./img/pattern-recognition/ml-1.png",
+                "./img/pattern-recognition/ml-1.jpeg",
                 "./img/pattern-recognition/ml-2.png",
                 "./img/pattern-recognition/ml-3.png",
                 "./img/pattern-recognition/ml-4.png",
@@ -475,7 +479,7 @@
         },
         {
             "id": 11,
-            "src": " ",
+            "src": "./img/operating-systems/so-1.jpeg",
             "title": "Operating Systems Projects",
             "course": "Operating Systems",
             "src_ctrl": "GitHub",
@@ -486,18 +490,19 @@
                 "Assembly x86"
             ],
             "imgs": [
-                "./img/computer-architecture/computer-arch-1.png",
-                "./img/computer-architecture/computer-arch-2.png",
-                "./img/computer-architecture/computer-arch-3.png",
-                "./img/computer-architecture/computer-arch-4.png"
+                "./img/operating-systems/so-1.jpeg",
+                "./img/operating-systems/so-2.jpeg",
+                "./img/operating-systems/so-3.jpeg",
+                "./img/operating-systems/so-4.jpeg",
+                "./img/operating-systems/so-5.jpeg",
+                "./img/operating-systems/so-6.jpeg"
             ]
         },
         {
             "id": 12,
-            "src": " ",
+            "src": "./img/electronics/el-1.jpeg",
             "title": "Electronics Projects",
-            "course": "Computer Architecture I",
-            "src_ctrl": " ",
+            "course": "Mixed Signals and Active Elements Lab",
             "short_description": "",
             "description": "lorem ipsum",
             "link": " ",
@@ -505,10 +510,25 @@
                 "Assembly x86"
             ],
             "imgs": [
-                "./img/computer-architecture/computer-arch-1.png",
-                "./img/computer-architecture/computer-arch-2.png",
-                "./img/computer-architecture/computer-arch-3.png",
-                "./img/computer-architecture/computer-arch-4.png"
+                "./img/electronics/el-1.jpeg",
+                "./img/electronics/el-2.jpeg",
+                "./img/electronics/el-3.jpeg",
+                "./img/electronics/el-4.jpeg",
+                "./img/electronics/el-5.jpeg"
+            ],
+            "admin_imgs": [
+                "./img/electronics/el-6.png",
+                "./img/electronics/el-7.jpeg",
+                "./img/electronics/el-8.jpeg",
+                "./img/electronics/el-9.jpeg",
+                "./img/electronics/el-10.jpeg",
+                "./img/electronics/el-11.jpeg",
+                "./img/electronics/el-12.jpeg"
+            ],
+            "mobile_imgs": [
+                "./img/electronics/el-13.jpeg",
+                "./img/electronics/el-14.jpeg",
+                "./img/electronics/el-15.jpeg"
             ]
         }
     ]
