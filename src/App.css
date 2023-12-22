@@ -587,18 +587,11 @@ h3 {
   stroke: #006b6a;
 }
 
-.swiper-pagination-bullet {
-  background-color: var(--primary);
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--black);
-}
-
 .my-swiper {
   width: 100%;
   height: 100%;
-  --swiper-pagination-color: #007aff;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .my-swiper-slide {
@@ -631,6 +624,7 @@ h3 {
   padding-top: 20px;
   object-fit: cover;
 }
+
 
 /* Modal Style */
 .modal--button-container {

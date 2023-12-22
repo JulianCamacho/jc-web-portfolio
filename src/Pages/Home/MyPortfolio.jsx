@@ -6,6 +6,7 @@ export default function MyPortfolio() {
 
     const webProjects = data?.portfolio;
     const otherProjects = data?.other_projects;
+    const moreProjects = data?.more_projects;
     
     return (
         <section className="portfolio--section" id="MyPortfolio">
@@ -42,8 +43,8 @@ export default function MyPortfolio() {
             <div className="portfolio--section--container">
                 <p className="portfolio--sub--title">Some other cool projects</p>
                 <MySwiper projects={otherProjects}/>
+                <MySwiper projects={moreProjects}/>
             </div>
-
         </section >
     )
 }

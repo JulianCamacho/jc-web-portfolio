@@ -164,7 +164,8 @@
                 "./img/embedded-systems/smart-home/embedded-systems-2.jpeg",
                 "./img/embedded-systems/smart-home/embedded-systems-3.jpeg",
                 "./img/embedded-systems/smart-home/embedded-systems-4.jpeg",
-                "./img/embedded-systems/smart-home/embedded-systems-5.jpeg"
+                "./img/embedded-systems/smart-home/embedded-systems-5.jpeg",
+                "./img/embedded-systems/smart-home/embedded-systems-6.jpeg"
             ]
         },
         {
@@ -368,7 +369,9 @@
                 "./img/text-finder/textfinder-9.png",
                 "./img/text-finder/textfinder-10.png"
             ]
-        },
+        }
+    ],
+    "more_projects": [
         {
             "id": 7,
             "src": "./img/formula-e/fe-1.png",
