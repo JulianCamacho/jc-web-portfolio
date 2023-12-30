@@ -32,7 +32,7 @@ function App() {
         </div>
       </Fade>
 
-      {isLoading && <Loader />}
+      {isLoading && <Loader loading={isLoading}/>}
     </div>
   );
 }
