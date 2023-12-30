@@ -217,6 +217,62 @@ h3 {
 
 /* Section Titles Ends */
 
+/* Loader Style */
+
+.loader--svg--container{
+  width: 100%;
+}
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, var(--white), var(--bg-shade), var(--bg-shader));
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: #191654;
+}
+
+#loader-svg {
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  stroke: var(--black);
+  fill-opacity: 0;
+  stroke-width: 5px;
+  stroke-dasharray: 4500;
+  animation: draw 14s ease;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.loader-text-container {
+  height: 30px;
+  overflow: hidden;
+}
+
+.loader-text {
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* Loader Style Ends */
+
+
 /* Navbar Style */
 
 .box {
@@ -504,6 +560,15 @@ h3 {
 
 .stars {
   background-image: url("./assets/stars.png");
+  background-position: bottom;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.dark-stars {
+  background-image: url("./assets/dark-stars.png");
   background-position: bottom;
   height: 100%;
   position: absolute;

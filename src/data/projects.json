@@ -3,7 +3,7 @@
         {
             "src": "./img/databases-gymtec/client/gymtec-client-3.png",
             "title": "GymTEC",
-            "short_description": "",
+            "short_description": "Gym app",
             "description": "lorem ipsum",
             "course": "Databases",
             "src_ctrl": "Azure",
@@ -260,7 +260,7 @@
             "title": "Circuit Designer",
             "course": "Algorithms and Data Structures I",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Logical circuit simulator",
             "description": "lorem ipsum",
             "link": "https://github.com/JulianCamacho/Circuit-Designer",
             "tools": [],
@@ -295,7 +295,7 @@
             "title": "The Imitation Game",
             "course": "Computer Architecture I",
             "src_ctrl": "GitHub",
-            "short_description": "RSA image decryption x86 app",
+            "short_description": "Image RSA decryption x86 app",
             "description": "lorem ipsum",
             "link": "https://github.com/JulianCamacho/jcamacho_computer_architecture_1_2022",
             "tools": [
@@ -412,7 +412,7 @@
             "title": "Mobile Maze",
             "course": "Operating Systems",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Maze x86 game",
             "description": "lorem ipsum",
             "link": "https://github.com/SistemasOperativos-lS2023/Tarea1",
             "tools": [
@@ -457,7 +457,7 @@
             "title": "4 Line",
             "course": "Languages, Compilers and Interpreters",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Connect Four game developed in Racket",
             "description": "https://github.com/JulianCamacho/RestauranTEC/, https://github.com/JulianCamacho/breakOutTec",
             "link": "https://github.com/JulianCamacho/4Line",
             "tools": [

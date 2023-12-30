@@ -16,6 +16,10 @@ export default function AboutMe() {
     const yImg = useTransform(scrollYProgress, [0, 1], ["50%", "-200%"]);
     const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
+    const isDarkModeEnabled = () => {
+        return document.querySelector("body").getAttribute('data-theme') === 'dark';
+    };
+
     return (
         <section id="AboutMe" className="about--section" ref={ref}>
 
@@ -35,7 +39,12 @@ export default function AboutMe() {
             </div>
 
             <motion.div style={{ y: yBg }} className="planets"> </motion.div>
-            <motion.div style={{ x: yBg }} className="stars"> </motion.div>
-        </section>
+            {isDarkModeEnabled() && 
+                <motion.div className="stars" style={{ x: yBg }}> </motion.div>
+            }
+            {!isDarkModeEnabled() && 
+                <motion.div className="stars" style={{ x: yBg }}> </motion.div>
+            }
+        </section >
     )
 }

@@ -1,22 +1,38 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from './Pages/Home/Navbar';
-import Home from "./Pages/Home/Homescreen"
+import Fade from '@mui/material/Fade';
+import Navbar from './components/Home/Navbar';
+import Home from "./components/Home/Homescreen"
+import Loader from './components/Home/Loader';
 
 function App() {
 
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(delay);
+  }, [])
+
   return (
-    <div className="App">
-      <Router>
+    <div className='App'>
+      <Fade in={!isLoading} timeout={1000}>
         <div>
-          <Navbar />
-          <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='*' element={<div>404 Not Found</div>}></Route>
-          </Routes>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="*" element={<div>404 Not Found</div>} />
+            </Routes>
+        </Router>
         </div>
-      </Router>
+      </Fade>
+
+      {isLoading && <Loader />}
     </div>
   );
 }
