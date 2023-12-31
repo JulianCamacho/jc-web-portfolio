@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import Reveal from './Reveal';
-import urls from "../../data/url.json"
+import Reveal from '../utils/Reveal';
+import urls from "../../data/url.json";
 
 export default function AboutMe() {
 

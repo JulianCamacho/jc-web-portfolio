@@ -4,7 +4,7 @@ import { ReactComponent as ShowLessIcon } from '../../assets/show-less.svg';
 import Fade from '@mui/material/Fade';
 import urls from "../../data/url.json";
 import MySwiper from "./MySwiper";
-import Reveal from './Reveal';
+import Reveal from '../utils/Reveal';
 import data from "../../data/projects.json";
 
 export default function MyPortfolio() {

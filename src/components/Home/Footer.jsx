@@ -1,9 +1,9 @@
 import { Link } from "react-scroll";
+import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
 import React, { useEffect } from "react";
 import urls from "../../data/url.json";
-import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
 import Cookies from 'js-cookie';
-import Reveal from "./Reveal";
+import Reveal from '../utils/Reveal';
 
 function Footer() {
 

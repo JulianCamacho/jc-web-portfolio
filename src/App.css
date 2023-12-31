@@ -289,7 +289,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 105.333px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 105.333px;
+  padding-right: 75.333px;
   background: rgba(var(--white), 0.9);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -336,10 +339,36 @@ h3 {
 }
 
 .navbar--logo {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   fill: var(--black);
   stroke: var(--black);
+}
+
+.dark--mode {
+  margin-top: -20px;
+  margin-left: 10px;
+
+}
+
+.dark--mode--button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.dark--mode--button svg {
+  position: relative;
+  margin-top: 7px;
+  min-width: 22px;
+  min-height: 22px;
+  top: 5px;
+  z-index: 100;
+  fill: var(--black);
+  stroke: var(--black);
+  transition: 0.5s;
 }
 
 /* Navbar Style Ends */
@@ -353,6 +382,7 @@ h3 {
   justify-content: space-between;
   gap: 32px;
   background-color: var(--bg-shade);
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .hero--section--content--box {
@@ -423,6 +453,7 @@ h3 {
   align-items: flex-start;
   gap: 106.667px;
   background-color: var(--bg-shade);
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .skills--section--heading {
@@ -515,74 +546,6 @@ h3 {
 
 /* Skills Section Style Ends */
 
-/* About Section Style */
-.about--section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  padding-top: 133.3px;
-  padding-bottom: 133.3px;
-  background: linear-gradient(180deg, var(--bg-shade), var(--star-bg), var(--bg-shade));
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.about--section--box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 60%;
-  padding-left: 85.3px;
-  padding-right: 85.3px;
-}
-
-.about--section--img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.about--section--img>img {
-  width: 80%;
-  height: 80%;
-  border-radius: 60%;
-}
-
-.mountains {
-  background-image: url("./assets/mountains.png");
-  background-size: cover;
-  background-position: bottom;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 3;
-}
-
-.planets {
-  background-image: url("./assets/planets.png");
-  background-size: cover;
-  background-position: bottom;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 2;
-}
-
-.stars {
-  background-image: url("./assets/stars.png");
-  background-position: bottom;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
-
-/* About Section Style Ends */
-
 /* Portfolio Section Style */
 
 .portfolio--section {
@@ -592,6 +555,7 @@ h3 {
   align-items: flex-start;
   gap: 80px;
   background-color: var(--bg-shade);
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .portfolio--container-box {
@@ -677,7 +641,6 @@ h3 {
   align-items: center;
   background: var(--white);
   border-radius: 8px;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.15);
   min-height: 500px;
   max-height: 500px;
   margin-top: 12px;
@@ -811,6 +774,76 @@ h3 {
 
 /* Portfolio Section Style Ends */
 
+
+/* About Section Style */
+.about--section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 133.3px;
+  padding-bottom: 133.3px;
+  background: linear-gradient(180deg, var(--bg-shade), var(--star-bg), var(--bg-shade));
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.about--section--box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  padding-left: 85.3px;
+  padding-right: 85.3px;
+}
+
+.about--section--img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about--section--img>img {
+  width: 80%;
+  height: 80%;
+  border-radius: 60%;
+}
+
+.mountains {
+  background-image: url("./assets/mountains.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+.planets {
+  background-image: url("./assets/planets.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.stars {
+  background-image: url("./assets/stars.png");
+  background-position: bottom;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+/* About Section Style Ends */
+
 /* Contact Section Style */
 .contact--section {
   display: flex;
@@ -821,6 +854,7 @@ h3 {
   text-align: center;
   gap: 64px;
   background-color: var(--bg-shade);
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .contact--form {
@@ -864,91 +898,6 @@ h3 {
 
 /* Contact Section Style Ends */
 
-/* Darkmode Style */
-
-.dark_mode {
-  margin-top: -20px;
-  margin-left: 10px;
-}
-
-.dark_mode_label {
-  width: 65px;
-  height: 30px;
-  position: relative;
-  display: block;
-  background: var(--bg-shader);
-  border-radius: 200px;
-  box-shadow: var(--bg-shade);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.dark_mode_label:after {
-  content: "";
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  background: var(--bg-shade);
-  border-radius: 180px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-
-.dark_mode_input {
-  width: 0;
-  height: 0;
-  visibility: hidden;
-}
-
-.dark_mode_input:checked+.dark_mode_label {
-  background: var(--bg-shade);
-}
-
-.dark_mode_input:checked+.dark_mode_label:after {
-  left: 62px;
-  transform: translateX(-100%);
-  background: var(--bg-shade);
-}
-
-.dark_mode_label:active:after {
-  width: 30px;
-}
-
-.dark_mode_label svg {
-  position: absolute;
-  width: 20px;
-  top: 5px;
-  z-index: 100;
-}
-
-.dark_mode_label svg.sun {
-  left: 5px;
-  fill: var(--black);
-  stroke: var(--black);
-  transition: 0.3s;
-}
-
-.dark_mode_label svg.moon {
-  left: 40px;
-  fill: var(--black);
-  stroke: var(--black);
-  transition: 0.3s;
-}
-
-.dark_mode_input:checked+.dark_mode_label svg.sun {
-  fill: var(--black);
-  stroke: var(--black);
-}
-
-.dark_mode_input:checked+.dark_mode_label svg.moon {
-  fill: var(--black);
-  stroke: var(--black);
-}
-
-/* Darkmode Style Ends */
-
 /* Footer Section Style */
 .footer--container {
   display: flex;
@@ -958,6 +907,7 @@ h3 {
   background: var(--bg-shade);
   align-items: center;
   align-self: stretch;
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .footer--link--container {
@@ -1171,7 +1121,7 @@ h3 {
   position: absolute;
   top: 25px;
   right: 25px;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .nav__hamburger__line {
@@ -1184,9 +1134,15 @@ h3 {
 }
 
 @media screen and (max-width: 1200px) {
+
+  .navbar {
+    padding: 15px 80.333px;
+  }
+
   .nav__hamburger {
     display: flex;
     z-index: 200;
+    margin-top: 2px;
   }
 
   .navbar--items {

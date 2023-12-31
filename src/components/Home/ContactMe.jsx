@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
-import Reveal from "./Reveal";
+import Reveal from '../utils/Reveal';
 
 /**
  * https://www.emailjs.com/

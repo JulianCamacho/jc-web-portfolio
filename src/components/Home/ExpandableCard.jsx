@@ -9,6 +9,7 @@ import { ReactComponent as SkillsSVG } from "../../assets/skills.svg";
 import { ReactComponent as OSSVG } from "../../assets/os.svg";
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import Reveal from '../utils/Reveal';
 //import { ReactComponent as TeamworkSVG } from "../../assets/teamwork.svg";
 
 /**
@@ -44,14 +45,18 @@ export default function ExpandableCard(props) {
 
             {isOpen &&
                 <motion.div className="skills--section--card--content">
+                    <Reveal>
                     <p className="skills--section--description">{props.skill.description}</p>
+                    </Reveal>
                     <div className='skill--tool--container'>
                         {props.skill?.badges?.map((item, index) => {
                             const modifiedSrc = isDarkModeEnabled()
                                 ? item.src.replace("f0f0f0", "0c0c0c") 
                                 : item.src.replace("0c0c0c", "f0f0f0");
-                            return(     
+                            return(  
+                                <Reveal>   
                                 <img src={modifiedSrc} key={index} alt={index.name} />
+                                </Reveal>
                             )
                         })}
                     </div>

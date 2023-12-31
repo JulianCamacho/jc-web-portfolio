@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import urls from "../../data/url.json";
-import Reveal from "./Reveal";
+import Reveal from '../utils/Reveal';
 
 export default function HeroSection() {
 

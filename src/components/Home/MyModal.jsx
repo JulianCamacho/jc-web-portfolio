@@ -3,6 +3,7 @@ import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import ProjectSwiper from './ProjectSwiper';
 import data from "../../data/skills.json"
+import Reveal from '../utils/Reveal';
 
 /**
  * https://mui.com/material-ui/react-modal/
@@ -65,12 +66,16 @@ export default function MyModal(props) {
             >
                 <Fade in={openModal}>
                     <div className="modal--card" transition={{ layout: { duration: 5, type: "spring" } }}>
-                        <h3 className="portfolio--section--title" id="transition-modal-title">
-                            {projectInfo.title}
-                        </h3>
-                        <p className="text-md" id="transition-modal-description">
-                            {projectInfo.description}
-                        </p>
+                        <Reveal>
+                            <h3 className="portfolio--section--title" id="transition-modal-title">
+                                {projectInfo.title}
+                            </h3>
+                        </Reveal>
+                        <Reveal>
+                            <p className="text-md" id="transition-modal-description">
+                                {projectInfo.description}
+                            </p>
+                        </Reveal>
                         <div className='project--tool--container'>
                             {projectInfo.tools?.map((tool, index2) => {
                                 const toolBadge = findReactBadge(tool);
@@ -80,24 +85,30 @@ export default function MyModal(props) {
                                     : toolBadge?.src.replace("0c0c0c", "f0f0f0");
                                 const modifiedSrc = colorModSrc.replace(/badge\/.*?-/, "badge/-"); // Removes everything between "badge/" and "-"
                                 return (
-                                    <img
-                                        src={modifiedSrc}
-                                        key={index2}
-                                        alt={toolBadge.name}
-                                    />
+                                    <Reveal>
+                                        <img
+                                            src={modifiedSrc}
+                                            key={index2}
+                                            alt={toolBadge.name}
+                                        />
+                                    </Reveal>
                                 );
                             })}
                             {projectInfo.extra_tools?.map((extra_tool, index3) => (
-                                <img src={extra_tool} key={index3} alt="Extra_Tool" className='modal--extra--tools'/>
+                                <Reveal>
+                                    <img src={extra_tool} key={index3} alt="Extra_Tool" className='modal--extra--tools' />
+                                </Reveal>
                             ))}
                         </div>
                         <br /><br />
                         <div className="portfolio--section--container">
-                            <ProjectSwiper projectData={projectInfo.imgs} />
+                            <Reveal>
+                                <ProjectSwiper projectData={projectInfo.imgs} />
+                            </Reveal>
                             <br /><br />
-                            {projectInfo.admin_imgs && <ProjectSwiper projectData={projectInfo.admin_imgs} />}
+                            {projectInfo.admin_imgs && <Reveal><ProjectSwiper projectData={projectInfo.admin_imgs} /></Reveal>}
                             <br /><br />
-                            {projectInfo.mobile_imgs && <ProjectSwiper projectData={projectInfo.mobile_imgs} />}
+                            {projectInfo.mobile_imgs && <Reveal><ProjectSwiper projectData={projectInfo.mobile_imgs} /></Reveal>}
                         </div>
                     </div>
                 </Fade>

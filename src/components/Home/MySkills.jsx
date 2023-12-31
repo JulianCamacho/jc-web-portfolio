@@ -1,7 +1,7 @@
 
 import skills_data from '../../data/skills.json'
 import ExpandableCard from './ExpandableCard';
-import Reveal from './Reveal';
+import Reveal from '../utils/Reveal';
 
 export default function MySkills() {
 

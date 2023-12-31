@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { ReactComponent as LogoSVG } from '../../assets/jc-logo-3.svg';
-import DarkMode from "../DarkMode/DarkMode";
+import DarkMode from "../utils/DarkMode";
 
 function Navbar() {
     const [navActive, setNavActive] = useState(false);
