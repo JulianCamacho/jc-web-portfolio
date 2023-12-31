@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
+import Reveal from "./Reveal";
 
 /**
  * https://www.emailjs.com/
@@ -19,7 +20,7 @@ export default function ContactMe() {
     const [buttonText, setButtonText] = useState("Submit");
     const [status, setStatus] = useState({});
     const form = useRef();
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
         setButtonText("Sending");
@@ -36,7 +37,7 @@ export default function ContactMe() {
                 setStatus({ success: false, message: "Something went wrong, please try again later" });
             });
     };
-    
+
     const onFormUpdate = (category, value) => {
         setFormData({
             ...formData,
@@ -47,10 +48,17 @@ export default function ContactMe() {
     return (
         <section id="Contact" className="contact--section">
             <div>
-                <p className="sub--title">Get In Touch</p>
-                <h2>Contact Me</h2>
-                <p className="text-lg">Fill the form or contact me at camachohjosejulian@gmail.com</p>
+                <Reveal>
+                    <p className="sub--title">Get In Touch</p>
+                </Reveal>
+                <Reveal>
+                    <h2>Contact Me</h2>
+                </Reveal>
+                <Reveal>
+                    <p className="text-lg">Fill the form or contact me at camachohjosejulian@gmail.com</p>
+                </Reveal>
             </div>
+            <Reveal>
             <form className="contact--form--contaier" ref={form} onSubmit={sendEmail}>
                 <div className="container">
                     <label htmlFor="first-name" className="contact--label">
@@ -96,8 +104,8 @@ export default function ContactMe() {
                         <button className="btn btn-primary contact--form--btn">{buttonText}</button>
                         {status.message && (
                             <div className="row">
-                                <br/>
-                                <br/>
+                                <br />
+                                <br />
                                 <p className={status.success === false ? "danger" : "success"}>
                                     {status.message}
                                 </p>
@@ -106,6 +114,7 @@ export default function ContactMe() {
                     </div>
                 </div>
             </form>
+            </Reveal>
         </section>
     )
 }

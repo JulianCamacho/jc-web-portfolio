@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import Reveal from './Reveal';
 import urls from "../../data/url.json"
 
 export default function AboutMe() {
@@ -16,10 +17,6 @@ export default function AboutMe() {
     const yImg = useTransform(scrollYProgress, [0, 1], ["50%", "-200%"]);
     const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
-    const isDarkModeEnabled = () => {
-        return document.querySelector("body").getAttribute('data-theme') === 'dark';
-    };
-
     return (
         <section id="AboutMe" className="about--section" ref={ref}>
 
@@ -31,20 +28,19 @@ export default function AboutMe() {
 
             <div className="hero--section--content--box about--section--box">
                 <div className="hero--section--content">
-                    <p className="sub--title">About</p>
-                    <motion.h1 style={{ y: yHeader }} className="skills--section--heading">About Me</motion.h1>
+                    <Reveal>
+                        <p className="sub--title">About</p>
+                    </Reveal>
+                    <Reveal>
+                        <motion.h1 style={{ y: yHeader }} className="skills--section--heading">About Me</motion.h1>
+                    </Reveal>
                     <motion.p style={{ y: yText }} className="hero--section--description">I'm a Computer Engineering student at Costa Rica Institute of Technology. Through my career a have worked in several projects that involved learning multiple programming languages, algorithms and data structures, frameworks, database engines, HDLs, operating systems and other technologies and tools.</motion.p>
                     <motion.p style={{ y: yText }} className="hero--section--description">I love playing soccer, working out at the gym, playing video games, and hanging out with my friends. Additionally, I absolutely love pasta!</motion.p>
                 </div>
             </div>
 
             <motion.div style={{ y: yBg }} className="planets"> </motion.div>
-            {isDarkModeEnabled() && 
-                <motion.div className="stars" style={{ x: yBg }}> </motion.div>
-            }
-            {!isDarkModeEnabled() && 
-                <motion.div className="stars" style={{ x: yBg }}> </motion.div>
-            }
+            <motion.div style={{ x: yBg }} className="stars"> </motion.div>
         </section >
     )
 }

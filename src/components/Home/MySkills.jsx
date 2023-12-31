@@ -1,6 +1,7 @@
 
 import skills_data from '../../data/skills.json'
 import ExpandableCard from './ExpandableCard';
+import Reveal from './Reveal';
 
 export default function MySkills() {
 
@@ -13,12 +14,17 @@ export default function MySkills() {
     return (
         <section className="skills--section" id="mySkills">
             <div className="portfolio--container">
-                <p className="sub--title">My Skills</p>
-                <h2 className="skills--section--heading">My Expertise</h2>
+                <Reveal>
+                    <p className="sub--title">My Skills</p>
+                    <h2 className="skills--section--heading">My Expertise</h2>
+                </Reveal>
             </div>
+
             <div className="skills--section--container">
                 {skills_data?.skills?.map((item, index) => (
-                    <ExpandableCard skill={item} key={index}/>
+                    <Reveal>
+                        <ExpandableCard skill={item} key={index} />
+                    </Reveal>
                 ))}
             </div>
         </section >

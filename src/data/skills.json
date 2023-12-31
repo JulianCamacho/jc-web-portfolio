@@ -76,7 +76,7 @@
             "id": 3,
             "src": "./img/databases.svg",
             "title": "Databases",
-            "description": "lorem ipsum",
+            "description": "Various database management systems crucial for storing and retrieving data in different applications",
             "badges": [
                 {
                     "name": "SQL Server",

@@ -76,8 +76,8 @@ export default function MyModal(props) {
                                 const toolBadge = findReactBadge(tool);
 
                                 const colorModSrc = isDarkModeEnabled()
-                                    ? toolBadge?.src.replace("f8f8f8", "0c0c0c")
-                                    : toolBadge?.src.replace("0c0c0c", "f8f8f8");
+                                    ? toolBadge?.src.replace("f0f0f0", "0c0c0c")
+                                    : toolBadge?.src.replace("0c0c0c", "f0f0f0");
                                 const modifiedSrc = colorModSrc.replace(/badge\/.*?-/, "badge/-"); // Removes everything between "badge/" and "-"
                                 return (
                                     <img

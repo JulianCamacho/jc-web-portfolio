@@ -48,8 +48,8 @@ export default function ExpandableCard(props) {
                     <div className='skill--tool--container'>
                         {props.skill?.badges?.map((item, index) => {
                             const modifiedSrc = isDarkModeEnabled()
-                                ? item.src.replace("f8f8f8", "0c0c0c") 
-                                : item.src.replace("0c0c0c", "f8f8f8");
+                                ? item.src.replace("f0f0f0", "0c0c0c") 
+                                : item.src.replace("0c0c0c", "f0f0f0");
                             return(     
                                 <img src={modifiedSrc} key={index} alt={index.name} />
                             )
