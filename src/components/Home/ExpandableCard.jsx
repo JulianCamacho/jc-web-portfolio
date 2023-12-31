@@ -35,7 +35,7 @@ export default function ExpandableCard(props) {
                 {props.skill.title === "Front-End" && <WebSVG className="skill--logo" />}
                 {props.skill.title === "Databases" && <DatabaseSVG className="skill--logo" />}
                 {props.skill.title === "Programming Languages" && <LanguageSVG className="skill--logo" />}
-                {props.skill.title === "DevOps" && <DevOpsSVG className="skill--logo" />}
+                {props.skill.title === "DevOps and Version Control" && <DevOpsSVG className="skill--logo" />}
                 {props.skill.title === "AI and ML environment" && <AISVG className="skill--logo" />}
                 {props.skill.title === "HDL, Assembly and Embedded Systems" && <CircuitSVG className="skill--logo" />}
                 {props.skill.title === "Operating Systems" && <OSSVG className="skill--logo" />}

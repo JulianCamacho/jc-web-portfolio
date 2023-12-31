@@ -48,7 +48,15 @@ function Navbar() {
         <div className={`navbar ${visible ? 'visible' : 'hidden'}`}>
             <nav className={`navbar ${navActive ? "active" : ""}`}>
                 <div>
-                    <LogoSVG className="navbar--logo" />
+                    <Link
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        to="heroSection"
+                    >
+                        <LogoSVG className="navbar--logo" />
+                    </Link>
                 </div>
                 {/* eslint-disable-next-line*/}
                 <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>

@@ -4,7 +4,7 @@
             "src": "./img/databases-gymtec/client/gymtec-client-3.png",
             "title": "GymTEC",
             "short_description": "Gym app",
-            "description": "lorem ipsum",
+            "description": "",
             "course": "Databases",
             "src_ctrl": "Azure",
             "link": "https://dev.azure.com/tec-bases-IS2021-KBJ/Proyecto%20II",
@@ -42,7 +42,7 @@
             "src": "./img/xbattle-pong/match/xbattle-pong-match-8.PNG",
             "title": "XBattlePong",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "course": "Software Specification",
             "src_ctrl": "Azure",
             "link": "https://dev.azure.com/CRUD-Masters/XBattlePong",
@@ -82,7 +82,7 @@
             "src": "./img/proyecto1-bda.png",
             "title": "Club Manager",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
             "link": "https://github.com/astuaTEC/Proyecto-1-BDA",
@@ -92,7 +92,7 @@
             "src": "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
             "title": "SmartHomeTEC",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "course": "Databases",
             "src_ctrl": "Azure",
             "link": "https://dev.azure.com/tec-bases-IS2021-KBJ/Proyecto%20I",
@@ -136,7 +136,7 @@
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
             "tools": []
         },
@@ -146,7 +146,7 @@
             "course": "Embedded Systems",
             "src_ctrl": "GitHub",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/TheACE01/CE5303-2023-P1",
             "tools": [
                 "React",
@@ -174,7 +174,7 @@
             "course": "Embedded Systems",
             "src_ctrl": "GitHub",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/TheACE01/CE5303-2023-P1",
             "tools": [
                 "Ionic",
@@ -205,7 +205,7 @@
             "src": "https://i.imgur.com/OTGoUAk.png",
             "title": "Rowser Castle",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "course": "Programming Workshop",
             "src_ctrl": "GitHub",
             "link": "https://github.com/JulianCamacho/Rowser_Castle",
@@ -261,7 +261,7 @@
             "course": "Data Structures I",
             "src_ctrl": "GitHub",
             "short_description": "Logical circuit simulator",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/JulianCamacho/Circuit-Designer",
             "tools": [],
             "extra_tools": [
@@ -296,10 +296,10 @@
             "course": "Computer Architecture I",
             "src_ctrl": "GitHub",
             "short_description": "Image RSA decryption x86 app",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/JulianCamacho/jcamacho_computer_architecture_1_2022",
             "tools": [
-                "Assembly x86"
+                "Assembly x86", "Python"
             ],
             "imgs": [
                 "./img/computer-architecture/computer-arch-1.png",
@@ -321,7 +321,7 @@
             "extra_tools": [
                 "https://img.shields.io/badge/Java-orange?style=for-the-badge",
                 "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea",
-                "https://img.shields.io/badge/ANTLR-#E4202E?style=for-the-badge"
+                "https://img.shields.io/badge/ANTLR-E4202E?style=for-the-badge"
             ],
             "imgs": [
                 "./img/lang-comp/logo/logo-1.png",
@@ -413,7 +413,7 @@
             "course": "Operating Systems",
             "src_ctrl": "GitHub",
             "short_description": "Maze x86 game",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/SistemasOperativos-lS2023/Tarea1",
             "tools": [
                 "Assembly x86"
@@ -487,7 +487,7 @@
             "course": "Operating Systems",
             "src_ctrl": "GitHub",
             "short_description": "Course projects",
-            "description": "lorem ipsum",
+            "description": "",
             "link": "https://github.com/orgs/SistemasOperativos-lS2023/repositories",
             "tools": [
                 "Assembly x86"
@@ -507,7 +507,7 @@
             "title": "Electronics Projects",
             "course": "Mixed Signals and Active Elements Lab",
             "short_description": "",
-            "description": "lorem ipsum",
+            "description": "",
             "link": " ",
             "tools": [
                 "Assembly x86"

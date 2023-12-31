@@ -25,7 +25,15 @@ function Footer() {
             <div className="footer--link--container">
                 <Reveal>
                     <div>
-                        <LogoSVG className="navbar--logo" />
+                        <Link
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="heroSection"
+                        >
+                            <LogoSVG className="navbar--logo" />
+                        </Link>
                     </div>
                 </Reveal>
                 <div className="footer--items">
@@ -39,7 +47,7 @@ function Footer() {
                                     offset={-70}
                                     duration={500}
                                     to="heroSection"
-                                    className="text-md"
+                                    className="navbar--content"
                                 >
                                     Home
                                 </Link>
@@ -54,7 +62,7 @@ function Footer() {
                                     offset={-70}
                                     duration={500}
                                     to="MyPortfolio"
-                                    className="text-md"
+                                    className="navbar--content"
                                 >
                                     My Skills
                                 </Link>
@@ -69,7 +77,7 @@ function Footer() {
                                     offset={-70}
                                     duration={500}
                                     to="MyPortfolio"
-                                    className="text-md"
+                                    className="navbar--content"
                                 >
                                     Portfolio
                                 </Link>
@@ -84,7 +92,7 @@ function Footer() {
                                     offset={-70}
                                     duration={500}
                                     to="AboutMe"
-                                    className="text-md"
+                                    className="navbar--content"
                                 >
                                     About Me
                                 </Link>
@@ -99,7 +107,7 @@ function Footer() {
                                     offset={-70}
                                     duration={500}
                                     to="Contact"
-                                    className="text-md"
+                                    className="navbar--content"
                                 >
                                     Contact
                                 </Link>
@@ -237,10 +245,10 @@ function Footer() {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
-                                    to="Terms_of_Service"
+                                    to="Cookies_Settings"
                                     className="text-sm"
                                 >
-                                    Current views: {Cookies.get('website_views')}
+                                    Cookies Settings
                                 </Link>
                             </li>
                         </Reveal>
@@ -252,10 +260,10 @@ function Footer() {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
-                                    to="Cookies_Settings"
+                                    to="Terms_of_Service"
                                     className="text-sm"
                                 >
-                                    Cookies Settings
+                                    Current views: {Cookies.get('website_views')}
                                 </Link>
                             </li>
                         </Reveal>

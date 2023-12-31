@@ -86,7 +86,7 @@ export default function MyModal(props) {
                                 const modifiedSrc = colorModSrc.replace(/badge\/.*?-/, "badge/-"); // Removes everything between "badge/" and "-"
                                 return (
                                     <Reveal>
-                                        <img
+                                        <img className='project--tool--img'
                                             src={modifiedSrc}
                                             key={index2}
                                             alt={toolBadge.name}

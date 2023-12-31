@@ -4,7 +4,7 @@
             "id": 1,
             "src": "./img/web.svg",
             "title": "Front-End",
-            "description": "Diverse set of technologies and frameworks I have used in web development",
+            "description": "Diverse set of technologies and frameworks I have used in web development, including front-end frameworks, design and styling components, authentication, and mobile app development",
             "badges": [
                 {
                     "name": "Angular",
@@ -13,6 +13,7 @@
                 {
                     "name": "React",
                     "src": "https://img.shields.io/badge/React-0c0c0c?style=for-the-badge&logo=react&logoColor=61DAFB"
+
                 },
                 {
                     "name": "Bootstrap",
@@ -52,7 +53,7 @@
             "id": 2,
             "src": "./img/backend.svg",
             "title": "Back-End",
-            "description": "lorem ipsum",
+            "description": "Technologies and frameworks I have used in team projects to develop scalable and feature-rich APIs, handle HTTP requests and connections with databases on server-side web applications, or to build lightweight web applications",
             "badges": [
                 {
                     "name": ".NET",
@@ -76,7 +77,7 @@
             "id": 3,
             "src": "./img/databases.svg",
             "title": "Databases",
-            "description": "Various database management systems crucial for storing and retrieving data in different applications",
+            "description": "Various database management systems crucial for storing and retrieving data in different applications, including relational databases managed by SQL queries, non-relational and lightweight embedded databases ",
             "badges": [
                 {
                     "name": "SQL Server",
@@ -108,7 +109,7 @@
             "id": 4,
             "src": "",
             "title": "Programming Languages",
-            "description": "lorem ipsum",
+            "description": "Programming languages I'm familiar with that cover a broad range of applications, from web development to system-level programming and general-purpose application implementation",
             "badges": [
                 {
                     "name": "Python",
@@ -147,8 +148,8 @@
         {
             "id": 5,
             "src": "",
-            "title": "DevOps",
-            "description": "lorem ipsum",
+            "title": "DevOps and Version Control",
+            "description": "Tools  that were essential in my team projects, crucial in project management to track issues, implement DevOps practices, collaboration, and version control, enabling efficient and organized development workflows",
             "badges": [
                 {
                     "name": "Jira",
@@ -157,6 +158,14 @@
                 {
                     "name": "DevOps",
                     "src": "https://img.shields.io/badge/Azure_DevOps-0c0c0c?style=for-the-badge&logo=azure-devops&logoColor=0078D7"
+                },
+                {
+                    "name": "Git",
+                    "src": "https://img.shields.io/badge/Git-0c0c0c?style=for-the-badge&logo=git&logoColor=%23F05032"
+                },
+                {
+                    "name": "GitKraken",
+                    "src": "https://img.shields.io/badge/GitKraken-0c0c0c?style=for-the-badge&logo=gitkraken&logoColor=179287"
                 }
             ]
         },
@@ -164,7 +173,7 @@
             "id": 6,
             "src": "",
             "title": "AI and ML environment",
-            "description": "lorem ipsum",
+            "description": "Diverse technologies and tools I employed to develop, train, and analyze models, as well as share work progress and collaborate with my teammates",
             "badges": [
                 {
                     "name": "TensorFlow",
@@ -192,7 +201,7 @@
             "id": 7,
             "src": "",
             "title": "HDL, Assembly and Embedded Systems",
-            "description": "lorem ipsum",
+            "description": "Instruction sets I have used for low-level application development, hardware description languages for synthesis on FPGAs, and embedded systems for multiple applications",
             "badges": [
                 {
                     "name": "Assembly x86",
@@ -224,7 +233,7 @@
             "id": 8,
             "src": "",
             "title": "Operating Systems",
-            "description": "lorem ipsum",
+            "description": "Some operating systems I have worked with and handle",
             "badges": [
                 {
                     "name": "Arch Linux",
@@ -244,7 +253,7 @@
             "id": 9,
             "src": "",
             "title": "Other skills",
-            "description": "lorem ipsum",
+            "description": "Tools and technologies that have been crucial in the projects, where proficiency in them has been essential for more efficient development, report creation, presentations and more",
             "badges": [
                 {
                     "name": "Visual Studio Code",
