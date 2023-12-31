@@ -14,7 +14,7 @@ import { useState } from 'react';
 /**
  * Badge background color is hardcoded
  * To adjust the darkmode color toggle, change the color 0c0c0c in the src field in skills.json                   
- * Also adjust colorModSrc definition lines of this file
+ * Also adjust modifiedSrc definition lines of this file
  * These are also hardcoded to var(--bg-shade) of App.css
  */
 
@@ -29,7 +29,7 @@ export default function ExpandableCard(props) {
     return (
         <motion.div layout className="skills--section--card" onClick={() => setIsOpen(!isOpen)}
             transition={{ layout: { duration: 1, type: "spring" } }}>
-            <motion.div layout="position" className="skills--section-img">
+            <motion.div layout="position" className="skills--section--card--header">
                 {props.skill.title === "Back-End" && <BackendSVG className="skill--logo" />}
                 {props.skill.title === "Front-End" && <WebSVG className="skill--logo" />}
                 {props.skill.title === "Databases" && <DatabaseSVG className="skill--logo" />}
@@ -39,10 +39,11 @@ export default function ExpandableCard(props) {
                 {props.skill.title === "HDL, Assembly and Embedded Systems" && <CircuitSVG className="skill--logo" />}
                 {props.skill.title === "Operating Systems" && <OSSVG className="skill--logo" />}
                 {props.skill.title === "Other skills" && <SkillsSVG className="skill--logo" />}
+                <h3 className="skills--section--title">{props.skill.title}</h3>
             </motion.div>
+
             {isOpen &&
                 <motion.div className="skills--section--card--content">
-                    <h3 className="skills--section--title">{props.skill.title}</h3>
                     <p className="skills--section--description">{props.skill.description}</p>
                     <div className='skill--tool--container'>
                         {props.skill?.badges?.map((item, index) => {

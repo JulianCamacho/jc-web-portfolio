@@ -1,3 +1,7 @@
+import { useState } from 'react';
+import { ReactComponent as ShowMoreIcon } from '../../assets/show-more.svg';
+import { ReactComponent as ShowLessIcon } from '../../assets/show-less.svg';
+import Fade from '@mui/material/Fade';
 import urls from "../../data/url.json";
 import MySwiper from "./MySwiper";
 import data from "../../data/projects.json";
@@ -7,7 +11,12 @@ export default function MyPortfolio() {
     const webProjects = data?.portfolio;
     const otherProjects = data?.other_projects;
     const moreProjects = data?.more_projects;
-    
+
+    const [isExpanded, setIsExpanded] = useState(false);
+    const toggleContent = () => {
+        setIsExpanded(!isExpanded);
+    };
+
     return (
         <section className="portfolio--section" id="MyPortfolio">
             <div className="portfolio--container-box">
@@ -15,7 +24,7 @@ export default function MyPortfolio() {
                     <h2 className="section--heading">My Portfolio</h2>
                 </div>
                 <div className="portfolio--container">
-                    <a className="btn btn-github" href={urls?.gitHub} target="_blank" 
+                    <a className="btn btn-github" href={urls?.gitHub} target="_blank"
                         rel="noreferrer" style={{ display: 'flex', alignItems: 'center' }}>
                         Visit my GitHub
                         <svg className="btn-github-logo"
@@ -38,12 +47,27 @@ export default function MyPortfolio() {
 
             <div className="portfolio--section--container">
                 <p className="portfolio--sub--title">Web related projects</p>
-                <MySwiper projects={webProjects}/>
+                <MySwiper projects={webProjects} />
             </div>
+
             <div className="portfolio--section--container">
-                <p className="portfolio--sub--title">Some other cool projects</p>
-                <MySwiper projects={otherProjects}/>
-                <MySwiper projects={moreProjects}/>
+                <div layout="position">
+                    <p className="portfolio--sub--title">Some other cool projects</p>
+                    <MySwiper projects={otherProjects} />
+                </div>
+
+                <Fade in={isExpanded} timeout={1000} unmountOnExit>
+                    <div>
+                        <MySwiper projects={moreProjects} />
+                    </div>
+                </Fade>
+
+                <div className='show-more-button--container'>
+                    <button onClick={toggleContent} className="btn btn-primary show-more-button">
+                        {isExpanded ? 'Show less' : 'Show more'}
+                        {isExpanded ? <ShowLessIcon className="show-more-icon" /> : <ShowMoreIcon className="show-more-icon" />}
+                    </button>
+                </div>
             </div>
         </section >
     )

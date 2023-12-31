@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Fade in={!isLoading} timeout={1000}>
+      {!isLoading && <Fade in={!isLoading} timeout={1000}>
         <div>
           <Router>
             <Navbar />
@@ -28,11 +28,12 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="*" element={<div>404 Not Found</div>} />
             </Routes>
-        </Router>
+          </Router>
         </div>
       </Fade>
+      }
 
-      {isLoading && <Loader loading={isLoading}/>}
+      {isLoading && <Loader loading={isLoading} />}
     </div>
   );
 }
