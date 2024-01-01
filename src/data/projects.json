@@ -79,14 +79,31 @@
             ]
         },
         {
-            "src": "./img/proyecto1-bda.png",
+            "src": "./img/advanced-databases/club-manager/club-manager-10.png",
             "title": "Club Manager",
             "short_description": "",
             "description": "",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
             "link": "https://github.com/astuaTEC/Proyecto-1-BDA",
-            "tools": []
+            "tools": [
+                "Angular",
+                "Express",
+                "MongoDB"
+            ],
+            "imgs": [
+                "./img/advanced-databases/club-manager/club-manager-1.png",
+                "./img/advanced-databases/club-manager/club-manager-2.png",
+                "./img/advanced-databases/club-manager/club-manager-3.png",
+                "./img/advanced-databases/club-manager/club-manager-4.png",
+                "./img/advanced-databases/club-manager/club-manager-5.png",
+                "./img/advanced-databases/club-manager/club-manager-6.png",
+                "./img/advanced-databases/club-manager/club-manager-7.png",
+                "./img/advanced-databases/club-manager/club-manager-8.png",
+                "./img/advanced-databases/club-manager/club-manager-9.png",
+                "./img/advanced-databases/club-manager/club-manager-10.png",
+                "./img/advanced-databases/club-manager/club-manager-11.png"
+            ]
         },
         {
             "src": "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
@@ -131,14 +148,50 @@
             ]
         },
         {
-            "src": "./img/proyecto2-bda.png",
-            "title": "Project 2",
+            "src": "./img/advanced-databases/retail/retail-20.png",
+            "title": "Customer Purchase Insights",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
             "short_description": "",
             "description": "",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
-            "tools": []
+            "tools": [
+                "Angular",
+                "Express",
+                "Neo4j"
+            ],
+            "imgs": [
+                "./img/advanced-databases/retail/retail-1.png",
+                "./img/advanced-databases/retail/retail-2.png",
+                "./img/advanced-databases/retail/retail-3.png",
+                "./img/advanced-databases/retail/retail-4.png",
+                "./img/advanced-databases/retail/retail-5.png",
+                "./img/advanced-databases/retail/retail-6.png",
+                "./img/advanced-databases/retail/retail-7.png",
+                "./img/advanced-databases/retail/retail-8.png",
+                "./img/advanced-databases/retail/retail-9.png",
+                "./img/advanced-databases/retail/retail-10.png",
+                "./img/advanced-databases/retail/retail-11.png",
+                "./img/advanced-databases/retail/retail-12.png",
+                "./img/advanced-databases/retail/retail-13.png",
+                "./img/advanced-databases/retail/retail-14.png",
+                "./img/advanced-databases/retail/retail-15.png",
+                "./img/advanced-databases/retail/retail-16.png",
+                "./img/advanced-databases/retail/retail-17.png",
+                "./img/advanced-databases/retail/retail-18.png",
+                "./img/advanced-databases/retail/retail-19.png",
+                "./img/advanced-databases/retail/retail-20.png",
+                "./img/advanced-databases/retail/retail-21.png",
+                "./img/advanced-databases/retail/retail-22.png",
+                "./img/advanced-databases/retail/retail-23.png",
+                "./img/advanced-databases/retail/retail-24.png",
+                "./img/advanced-databases/retail/retail-25.png",
+                "./img/advanced-databases/retail/retail-26.png",
+                "./img/advanced-databases/retail/retail-27.png",
+                "./img/advanced-databases/retail/retail-28.png",
+                "./img/advanced-databases/retail/retail-29.png",
+                "./img/advanced-databases/retail/retail-30.png"
+            ]
         },
         {
             "src": "./img/embedded-systems/smart-home/embedded-systems-3.jpeg",
@@ -299,7 +352,8 @@
             "description": "",
             "link": "https://github.com/JulianCamacho/jcamacho_computer_architecture_1_2022",
             "tools": [
-                "Assembly x86", "Python"
+                "Assembly x86",
+                "Python"
             ],
             "imgs": [
                 "./img/computer-architecture/computer-arch-1.png",

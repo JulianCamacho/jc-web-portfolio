@@ -61,7 +61,7 @@ function Footer() {
                                     smooth={true}
                                     offset={-70}
                                     duration={500}
-                                    to="skills--section"
+                                    to="mySkills"
                                     className="navbar--content"
                                 >
                                     My Skills
