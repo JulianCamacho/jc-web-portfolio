@@ -100,7 +100,9 @@
                 "./img/advanced-databases/club-manager/club-manager-6.png",
                 "./img/advanced-databases/club-manager/club-manager-7.png",
                 "./img/advanced-databases/club-manager/club-manager-8.png",
-                "./img/advanced-databases/club-manager/club-manager-9.png",
+                "./img/advanced-databases/club-manager/club-manager-9.png"
+            ],
+            "admin_imgs": [
                 "./img/advanced-databases/club-manager/club-manager-10.png",
                 "./img/advanced-databases/club-manager/club-manager-11.png"
             ]
