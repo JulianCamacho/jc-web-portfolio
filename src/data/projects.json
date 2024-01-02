@@ -138,7 +138,7 @@
         {
             "src": "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
             "title": "SmartHomeTEC",
-            "short_description": "Device management & E-Commerce",
+            "short_description": "Device e-commerce",
             "description": "",
             "course": "Databases",
             "src_ctrl": "Azure",

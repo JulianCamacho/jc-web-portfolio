@@ -68,7 +68,9 @@ export default function MySwiper(props) {
                                     {item.short_description}
                                 </p>
 
-                                <BadgeRenderer id="badges" projectTools={item.main_tools} bg_color={"f8f8f8"} />
+                                <BadgeRenderer id="badges" projectTools={item.main_tools} 
+                                    flex={'card--tool--container'}
+                                    bg_color={"f8f8f8"} />
 
                                 <hr className="card--divider" />
 

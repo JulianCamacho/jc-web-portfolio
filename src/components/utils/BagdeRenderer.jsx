@@ -12,7 +12,7 @@ import data from "../../data/skills.json"
  * These are also hardcoded to var(--bg-shade) of App.css
  */
 
-const BadgeRenderer = ({ projectTools, projectExtraTools, bg_color }) => {
+const BadgeRenderer = ({ projectTools, projectExtraTools, flex, bg_color }) => {
 
     const isDarkModeEnabled = () => {
         return document.querySelector("body").getAttribute('data-theme') === 'dark';
@@ -30,7 +30,7 @@ const BadgeRenderer = ({ projectTools, projectExtraTools, bg_color }) => {
     }
 
     return (
-        <div className='project--tool--container'>
+        <div className={flex}>
             {projectTools?.map((tool, index) => {
                 const toolBadge = findReactBadge(tool);
 

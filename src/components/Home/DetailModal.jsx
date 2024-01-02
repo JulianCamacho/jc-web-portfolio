@@ -51,7 +51,9 @@ export default function DetailModal(props) {
                         </Reveal>
 
                         <BadgeRenderer projectTools={projectInfo.tools} 
-                            projectExtraTools={projectInfo.extra_tools} bg_color={"f0f0f0"}/>
+                            projectExtraTools={projectInfo.extra_tools} 
+                            flex={'project--tool--container'}
+                            bg_color={"f0f0f0"}/>
                         
                         <Reveal>
                             <p className="text-md" id="transition-modal-description">

@@ -60,7 +60,10 @@ export default function VideoModal(props) {
                                 {projectInfo.title}
                             </h3>
                         </Reveal>
-                        <BadgeRenderer projectTools={projectInfo.tools} projectExtraTools={projectInfo.extra_tools} bg_color={"f0f0f0"} />
+                        <BadgeRenderer projectTools={projectInfo.tools} 
+                            projectExtraTools={projectInfo.extra_tools} 
+                            flex={'project--tool--container'}
+                            bg_color={"f0f0f0"} />
                         <br /><br />
                         <div className="portfolio--section--container">
                             {projectInfo.videos?.map((video, index) => (
