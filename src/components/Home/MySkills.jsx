@@ -3,13 +3,13 @@ import skills_data from '../../data/skills.json'
 import ExpandableCard from './ExpandableCard';
 import Reveal from '../utils/Reveal';
 
-export default function MySkills() {
+/** 
+ * To add a badge: https://shields.io/badges
+ * Badge icons from: https://simpleicons.org/
+ * Card icons from: https://www.svgrepo.com/
+ */
 
-    /** 
-     * To add a badge: https://shields.io/badges
-     * Badge icons from: https://simpleicons.org/
-     * Card icons from: https://www.svgrepo.com/
-     */
+export default function MySkills() {
 
     return (
         <section className="skills--section" id="mySkills">

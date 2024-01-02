@@ -17,6 +17,11 @@
                 "C#",
                 "SQL Server"
             ],
+            "main_tools": [
+                "Angular",
+                ".NET",
+                "SQL Server"
+            ],
             "imgs": [
                 "./img/databases-gymtec/client/gymtec-client-1.png",
                 "./img/databases-gymtec/client/gymtec-client-2.png",
@@ -36,6 +41,9 @@
                 "./img/databases-gymtec/admin/gymtec-admin-8.png",
                 "./img/databases-gymtec/admin/gymtec-admin-9.png",
                 "./img/databases-gymtec/admin/gymtec-admin-10.png"
+            ],
+            "docs": [
+                "./doc/databases/databases-gymtec-doc.pdf"
             ]
         },
         {
@@ -57,6 +65,11 @@
                 "C#",
                 "DevOps"
             ],
+            "main_tools": [
+                "Angular",
+                ".NET",
+                "PostgreSQL"
+            ],
             "imgs": [
                 "./img/xbattle-pong/match/xbattle-pong-match-1.PNG",
                 "./img/xbattle-pong/match/xbattle-pong-match-2.PNG",
@@ -76,7 +89,8 @@
                 "./img/xbattle-pong/mockups/xbattle-pong-mockups-4.PNG",
                 "./img/xbattle-pong/mockups/xbattle-pong-mockups-5.PNG",
                 "./img/xbattle-pong/mockups/xbattle-pong-mockups-6.png"
-            ]
+            ],
+            "doc": "https://dev.azure.com/CRUD-Masters/XBattlePong/_wiki/wikis/XBattlePong.wiki/1/XBattlePong#"
         },
         {
             "src": "./img/advanced-databases/club-manager/club-manager-10.png",
@@ -87,6 +101,13 @@
             "src_ctrl": "GitHub",
             "link": "https://github.com/astuaTEC/Proyecto-1-BDA",
             "tools": [
+                "Angular",
+                "TypeScript",
+                "Express",
+                "JavaScript",
+                "MongoDB"
+            ],
+            "main_tools": [
                 "Angular",
                 "Express",
                 "MongoDB"
@@ -105,6 +126,9 @@
             "admin_imgs": [
                 "./img/advanced-databases/club-manager/club-manager-10.png",
                 "./img/advanced-databases/club-manager/club-manager-11.png"
+            ],
+            "docs": [
+                "./doc/advanced-databases/club-manager-doc.pdf"
             ]
         },
         {
@@ -127,6 +151,11 @@
                 "TypeScript",
                 "C#"
             ],
+            "main_tools": [
+                "Angular",
+                ".NET",
+                "SQLite"
+            ],
             "imgs": [
                 "./img/databases-smart-home-tec/client/smart-home-tec-client-1.png",
                 "./img/databases-smart-home-tec/client/smart-home-tec-client-2.png",
@@ -147,17 +176,28 @@
                 "./img/databases-smart-home-tec/mobile/smart-home-tec-mobile-1.png",
                 "./img/databases-smart-home-tec/mobile/smart-home-tec-mobile-2.png",
                 "./img/databases-smart-home-tec/mobile/smart-home-tec-mobile-3.png"
+            ],
+            "docs": [
+                "./doc/databases/databases-smart-home-tec-admin.pdf",
+                "./doc/databases/databases-smart-home-tec-client.pdf"
             ]
         },
         {
             "src": "./img/advanced-databases/retail/retail-20.png",
-            "title": "Customer Purchase Insights",
+            "title": "ShopInsight",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
             "short_description": "",
             "description": "",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
             "tools": [
+                "Angular",
+                "TypeScript",
+                "Express",
+                "JavaScript",
+                "Neo4j"
+            ],
+            "main_tools": [
                 "Angular",
                 "Express",
                 "Neo4j"
@@ -193,6 +233,9 @@
                 "./img/advanced-databases/retail/retail-28.png",
                 "./img/advanced-databases/retail/retail-29.png",
                 "./img/advanced-databases/retail/retail-30.png"
+            ],
+            "docs": [
+                "./doc/advanced-databases/retail-doc.pdf"
             ]
         },
         {
@@ -214,6 +257,11 @@
             "extra_tools": [
                 "https://img.shields.io/badge/Yocto-2fa5f5?style=for-the-badge"
             ],
+            "main_tools": [
+                "React",
+                "Flask",
+                "RaspberryPi"
+            ],
             "imgs": [
                 "./img/embedded-systems/smart-home/embedded-systems-1.jpeg",
                 "./img/embedded-systems/smart-home/embedded-systems-2.jpeg",
@@ -221,6 +269,9 @@
                 "./img/embedded-systems/smart-home/embedded-systems-4.jpeg",
                 "./img/embedded-systems/smart-home/embedded-systems-5.jpeg",
                 "./img/embedded-systems/smart-home/embedded-systems-6.jpeg"
+            ],
+            "docs": [
+                "./doc/embedded-systems/smart-home.pdf"
             ]
         },
         {
@@ -244,6 +295,11 @@
             ],
             "extra_tools": [
                 "https://img.shields.io/badge/Yocto-2fa5f5?style=for-the-badge"
+            ],
+            "main_tools": [
+                "Ionic",
+                "Firebase",
+                "RaspberryPi"
             ],
             "imgs": [
                 "./img/embedded-systems/raspvision/raspvision-1.png",
@@ -269,6 +325,9 @@
             ],
             "extra_tools": [
                 "https://img.shields.io/badge/PyGame-8DDA23?style=for-the-badge"
+            ],
+            "main_tools": [
+                "Python"
             ],
             "imgs": [
                 "https://i.imgur.com/9DMXlkV.png",
@@ -297,7 +356,11 @@
                 "Jupyter",
                 "Google Colab"
             ],
-            "extra_tools": [],
+            "main_tools": [
+                "Python",
+                "TensorFlow",
+                "Jupyter"
+            ],
             "imgs": [
                 "./img/pattern-recognition/ml-1.jpeg",
                 "./img/pattern-recognition/ml-2.png",
@@ -307,6 +370,12 @@
                 "./img/pattern-recognition/ml-6.png",
                 "./img/pattern-recognition/ml-7.png",
                 "./img/pattern-recognition/ml-8.png"
+            ],
+            "docs": [
+                "./doc/pattern-recognition/Proyecto1_Patrones.pdf",
+                "./doc/pattern-recognition/Proyecto2_Patrones.pdf",
+                "./doc/pattern-recognition/Proyecto3_Patrones.pdf",
+                "./doc/pattern-recognition/Investigacion_Patrones.pdf"
             ]
         },
         {
@@ -318,11 +387,13 @@
             "short_description": "Logical circuit simulator",
             "description": "",
             "link": "https://github.com/JulianCamacho/Circuit-Designer",
-            "tools": [],
             "extra_tools": [
                 "https://img.shields.io/badge/JavaFx-478ed1?style=for-the-badge",
                 "https://img.shields.io/badge/Java-orange?style=for-the-badge",
                 "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea"
+            ],
+            "main_tools": [
+                "Java"
             ],
             "imgs": [
                 "./img/circuit-designer/cd-1.png",
@@ -342,7 +413,8 @@
                 "./img/circuit-designer/cd-15.png",
                 "./img/circuit-designer/cd-16.png",
                 "./img/circuit-designer/cd-17.png"
-            ]
+            ],
+            "doc": "https://github.com/JulianCamacho/Circuit-Designer/wiki"
         },
         {
             "id": 4,
@@ -354,6 +426,10 @@
             "description": "",
             "link": "https://github.com/JulianCamacho/jcamacho_computer_architecture_1_2022",
             "tools": [
+                "Assembly x86",
+                "Python"
+            ],
+            "main_tools": [
                 "Assembly x86",
                 "Python"
             ],
@@ -373,11 +449,13 @@
             "short_description": "",
             "description": " ",
             "link": "https://github.com/Braalfa/Logo",
-            "tools": [],
             "extra_tools": [
                 "https://img.shields.io/badge/Java-orange?style=for-the-badge",
                 "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea",
                 "https://img.shields.io/badge/ANTLR-E4202E?style=for-the-badge"
+            ],
+            "main_tools": [
+                "Java"
             ],
             "imgs": [
                 "./img/lang-comp/logo/logo-1.png",
@@ -396,6 +474,9 @@
                 "./img/lang-comp/logo/logo-14.png",
                 "./img/lang-comp/logo/logo-15.png",
                 "./img/lang-comp/logo/logo-16.png"
+            ],
+            "docs": [
+                "./doc/lang-comp/logo-doc.pdf"
             ]
         },
         {
@@ -413,6 +494,9 @@
                 "https://img.shields.io/badge/Java-orange?style=for-the-badge",
                 "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea"
             ],
+            "main_tools": [
+                "Java"
+            ],
             "imgs": [
                 "./img/text-finder/textfinder-1.png",
                 "./img/text-finder/textfinder-2.png",
@@ -424,7 +508,8 @@
                 "./img/text-finder/textfinder-8.png",
                 "./img/text-finder/textfinder-9.png",
                 "./img/text-finder/textfinder-10.png"
-            ]
+            ],
+            "doc": "https://github.com/JulianCamacho/Text-Finder/wiki"
         }
     ],
     "more_projects": [
@@ -442,6 +527,9 @@
             ],
             "extra_tools": [
                 "https://img.shields.io/badge/NodeMCU-0c0c0c?style=for-the-badge"
+            ],
+            "main_tools": [
+                "Python"
             ],
             "imgs": [
                 "./img/formula-e/fe-1.png",
@@ -477,11 +565,17 @@
             "extra_tools": [
                 "https://img.shields.io/badge/Bootloader-0c0c0c?style=for-the-badge"
             ],
+            "main_tools": [
+                "Assembly x86"
+            ],
             "imgs": [
                 "./img/operating-systems/mobile-maze/mobile-maze-1.png",
                 "./img/operating-systems/mobile-maze/mobile-maze-2.png",
                 "./img/operating-systems/mobile-maze/mobile-maze-3.png",
                 "./img/operating-systems/mobile-maze/mobile-maze-4.png"
+            ],
+            "docs": [
+                "./doc/operating-systems/os-mobile-maze.pdf"
             ]
         },
         {
@@ -498,6 +592,11 @@
                 "Octave",
                 "Rust"
             ],
+            "main_tools": [
+                "Python",
+                "Octave",
+                "Rust"
+            ],
             "extra_tools": [
                 "https://img.shields.io/badge/Sympy-55ad3e?style=for-the-badge",
                 "https://img.shields.io/badge/Tkinter-478ed1?style=for-the-badge"
@@ -505,6 +604,10 @@
             "imgs": [
                 "./img/numerical-analysis/numerical-analysis-1.jpeg",
                 "./img/numerical-analysis/numerical-analysis-2.png"
+            ],
+            "docs": [
+                "./doc/numerical-analysis/manual.pdf",
+                "./doc/numerical-analysis/manual_FunTras.pdf" 
             ]
         },
         {
@@ -523,6 +626,10 @@
                 "https://img.shields.io/badge/Racket-9F1D20?style=for-the-badge&logo=racket&logoColor=ffffff",
                 "https://img.shields.io/badge/Java-orange?style=for-the-badge",
                 "https://img.shields.io/badge/Prolog-4d5154?style=for-the-badge"
+            ],
+            "main_tools": [
+                "C++",
+                "Java"
             ],
             "imgs": [
                 "./img/lang-comp/4Line/4Line-1.png",
@@ -546,7 +653,12 @@
             "description": "",
             "link": "https://github.com/orgs/SistemasOperativos-lS2023/repositories",
             "tools": [
-                "Assembly x86"
+                "C",
+                "Arduino"
+            ],
+            "main_tools": [
+                "C",
+                "Arduino"
             ],
             "imgs": [
                 "./img/operating-systems/so-1.jpeg",
@@ -555,6 +667,11 @@
                 "./img/operating-systems/so-4.jpeg",
                 "./img/operating-systems/so-5.jpeg",
                 "./img/operating-systems/so-6.jpeg"
+            ],
+            "docs": [
+                "./doc/operating-systems/os-project1.pdf",
+                "./doc/operating-systems/os-project2.pdf",
+                "./doc/operating-systems/os-project3.pdf"
             ]
         },
         {
@@ -566,7 +683,10 @@
             "description": "",
             "link": " ",
             "tools": [
-                "Assembly x86"
+                "Arduino"
+            ],
+            "main_tools": [
+                "Arduino"
             ],
             "imgs": [
                 "./img/electronics/el-1.jpeg",
