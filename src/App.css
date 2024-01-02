@@ -47,7 +47,7 @@ p {
   --white: #f8f8f8;
   --star-bg: #cfcfcf;
   --skill-card-bg: #e7e7e7;
-  --modal-bg: #f8f8f8;
+  --modal-bg: #f0f0f0;
 }
 
 [data-theme="dark"] {
@@ -705,7 +705,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
   flex-shrink: 0;
   text-decoration: none;
   padding: 0;
