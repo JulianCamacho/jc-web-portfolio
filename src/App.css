@@ -1039,6 +1039,10 @@ h3 {
   fill: var(--black);
 }
 
+.footer--logo--2 {
+  stroke: var(--black);
+}
+
 .navbar--content:hover .footer--logo {
   fill: var(--primary);
   gap: 60px;

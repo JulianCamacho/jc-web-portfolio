@@ -15,12 +15,14 @@
                 "CSS3",
                 ".NET",
                 "C#",
-                "SQL Server"
+                "SQL Server",
+                "MongoDB"
             ],
             "main_tools": [
                 "Angular",
                 ".NET",
-                "SQL Server"
+                "SQL Server",
+                "MongoDB"
             ],
             "imgs": [
                 "./img/databases-gymtec/client/gymtec-client-1.png",
@@ -43,7 +45,9 @@
                 "./img/databases-gymtec/admin/gymtec-admin-10.png"
             ],
             "docs": [
-                "./doc/databases/databases-gymtec-doc.pdf"
+                "./doc/databases/databases-gymtec-doc.pdf",
+                "./doc/databases/databases-gymtec-manual.pdf",
+                "./doc/databases/databases-gymtec-install.pdf"
             ]
         },
         {
@@ -179,7 +183,10 @@
             ],
             "docs": [
                 "./doc/databases/databases-smart-home-tec-admin.pdf",
-                "./doc/databases/databases-smart-home-tec-client.pdf"
+                "./doc/databases/databases-smart-home-tec-client.pdf",
+                "./doc/databases/smart-home-tec-mobile.pdf",
+                "./doc/databases/smart-home-tec-doc.pdf",
+                "./doc/databases/smart-home-tec-classes.pdf"
             ]
         },
         {
@@ -549,10 +556,10 @@
                 "./img/formula-e/fe-15.jpg",
                 "./img/formula-e/fe-16.png"
             ],
-            "docs":[
+            "docs": [
                 "./doc/formula-e/formula-e.pdf"
             ],
-            "videos":[
+            "videos": [
                 "-_HEe-wgwIo",
                 "Muuq0AcyPIM"
             ]
@@ -614,7 +621,7 @@
             ],
             "docs": [
                 "./doc/numerical-analysis/manual.pdf",
-                "./doc/numerical-analysis/manual_FunTras.pdf" 
+                "./doc/numerical-analysis/manual_FunTras.pdf"
             ]
         },
         {
