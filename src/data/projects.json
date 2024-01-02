@@ -3,7 +3,7 @@
         {
             "src": "./img/databases-gymtec/client/gymtec-client-3.png",
             "title": "GymTEC",
-            "short_description": "Gym app",
+            "short_description": "Gym management app",
             "description": "",
             "course": "Databases",
             "src_ctrl": "Azure",
@@ -53,7 +53,7 @@
         {
             "src": "./img/xbattle-pong/match/xbattle-pong-match-8.PNG",
             "title": "XBattlePong",
-            "short_description": "",
+            "short_description": "Battleship game for events",
             "description": "",
             "course": "Software Specification",
             "src_ctrl": "Azure",
@@ -138,7 +138,7 @@
         {
             "src": "./img/databases-smart-home-tec/client/smart-home-tec-client-3.png",
             "title": "SmartHomeTEC",
-            "short_description": "",
+            "short_description": "Device management & E-Commerce",
             "description": "",
             "course": "Databases",
             "src_ctrl": "Azure",
@@ -250,14 +250,15 @@
             "title": "Smart Home",
             "course": "Embedded Systems",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Home automation system",
             "description": "",
             "link": "https://github.com/TheACE01/CE5303-2023-P1",
             "tools": [
                 "React",
                 "Auth0",
-                "Flask",
                 "Material-UI",
+                "Flask",
+                "C",
                 "JavaScript",
                 "RaspberryPi"
             ],
@@ -286,7 +287,7 @@
             "title": "RaspVision",
             "course": "Embedded Systems",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Sobel filter photo app",
             "description": "",
             "link": "https://github.com/TheACE01/CE5303-2023-P1",
             "tools": [
@@ -322,7 +323,7 @@
             "id": 1,
             "src": "https://i.imgur.com/OTGoUAk.png",
             "title": "Rowser Castle",
-            "short_description": "",
+            "short_description": "PyGame Arcade Game",
             "description": "",
             "course": "Programming Workshop",
             "src_ctrl": "GitHub",
@@ -352,7 +353,7 @@
             "title": "Machine Learning",
             "course": "Pattern Recognition",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Course ML and IA projects",
             "description": "",
             "link": "https://github.com/JulianCamacho/CE-5506-Reconocimiento-de-Patrones",
             "tools": [
@@ -450,10 +451,10 @@
         {
             "id": 5,
             "src": "./img/lang-comp/logo/logo-9.png",
-            "title": "Logo",
+            "title": "LogoTec",
             "course": "Compilers and Interpreters",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Turtle graphics system",
             "description": " ",
             "link": "https://github.com/Braalfa/Logo",
             "extra_tools": [
@@ -492,7 +493,7 @@
             "title": "Text Finder",
             "course": "Data Structures I",
             "src_ctrl": "GitHub",
-            "short_description": "Text searching Java application",
+            "short_description": "Text searching application",
             "description": "The Text Finder application is designed with the primary goal of facilitating text searches within txt, pdf, and docx files that users have previously added to their library. Upon adding documents, the application indexes them and incorporates all their words into a binary search tree. Users can then perform text searches by looking up the specified word or phrase in the pre-built binary tree. Once the user enters the word or phrase of interest, the application displays search results across all documents, highlighting the relevant word and providing an excerpt of the surrounding text.",
             "link": "https://github.com/JulianCamacho/Text-Finder",
             "tools": [],
@@ -526,7 +527,7 @@
             "title": "Formula E Telemetry",
             "course": "Programming Workshop",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Custom electronic car",
             "description": "",
             "link": "https://github.com/JulianCamacho/Formula-E_CE_TEC",
             "tools": [
