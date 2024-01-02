@@ -1,27 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { ReactComponent as Sun } from "../../assets/sun.svg";
 import { ReactComponent as Moon } from "../../assets/moon.svg";
+import { useTheme } from './ThemeContext'; // Adjust the path accordingly
 
 const DarkMode = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
-
-    const setDarkMode = () => {
-        document.querySelector("body").setAttribute('data-theme', 'dark');
-        setIsDarkMode(true);
-    };
-
-    const setLightMode = () => {
-        document.querySelector("body").setAttribute('data-theme', 'light');
-        setIsDarkMode(false);
-    };
-
-    const toggleTheme = () => {
-        if (isDarkMode) {
-            setLightMode();
-        } else {
-            setDarkMode();
-        }
-    };
+    const { isDarkMode, toggleDarkMode } = useTheme();
 
     return (
         <div className='dark--mode'>
@@ -29,7 +12,7 @@ const DarkMode = () => {
             <a
                 className='dark--mode--button'
                 id='darkmode-toggle'
-                onClick={toggleTheme}
+                onClick={toggleDarkMode}
             >
                 {isDarkMode ? <Sun /> : <Moon />}
             </a>

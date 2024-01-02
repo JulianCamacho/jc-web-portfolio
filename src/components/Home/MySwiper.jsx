@@ -1,5 +1,7 @@
+import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import { useTheme } from '../utils/ThemeContext';
 import DetailModal from './DetailModal';
 import 'swiper/css';
 import 'swiper/css/grid';
@@ -13,6 +15,16 @@ import Reveal from '../utils/Reveal';
  * https://swiperjs.com/demos#pagination
  */
 export default function MySwiper(props) {
+
+    const { isDarkMode } = useTheme();
+
+    useEffect(() => {
+        console.log('Dark mode has changed:', isDarkMode);
+        const elementToUpdate = document.getElementById('badges');
+        if (elementToUpdate) {
+            elementToUpdate.classList.toggle('dark-mode', isDarkMode);
+        }
+    }, [isDarkMode]);
 
     return (
         <>
@@ -55,7 +67,7 @@ export default function MySwiper(props) {
                                     {item.short_description}
                                 </p>
 
-                                <BadgeRenderer projectTools={item.main_tools} bg_color={"f8f8f8"} />
+                                <BadgeRenderer id="badges" projectTools={item.main_tools} bg_color={"f8f8f8"} />
 
                                 <hr className="card--divider" />
 

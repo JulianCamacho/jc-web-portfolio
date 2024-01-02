@@ -5,6 +5,7 @@ import Fade from '@mui/material/Fade';
 import Navbar from './components/Home/Navbar';
 import Home from "./components/Home/Homescreen"
 import Loader from './components/Home/Loader';
+import { ThemeProvider } from './components/utils/ThemeContext';
 
 function App() {
 
@@ -19,22 +20,24 @@ function App() {
   }, [])
 
   return (
-    <div className='App'>
-      {!isLoading && <Fade in={!isLoading} timeout={1000}>
-        <div>
-          <Router>
-            <Navbar />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="*" element={<div>404 Not Found</div>} />
-            </Routes>
-          </Router>
-        </div>
-      </Fade>
-      }
+    <ThemeProvider>
+      <div className='App'>
+        {!isLoading && <Fade in={!isLoading} timeout={1000}>
+          <div>
+            <Router>
+              <Navbar />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="*" element={<div>404 Not Found</div>} />
+              </Routes>
+            </Router>
+          </div>
+        </Fade>
+        }
 
-      {isLoading && <Loader loading={isLoading} />}
-    </div>
+        {isLoading && <Loader loading={isLoading} />}
+      </div>
+    </ThemeProvider>
   );
 }
 

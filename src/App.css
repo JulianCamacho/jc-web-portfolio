@@ -22,6 +22,18 @@ p {
  * Light - Dark
  * #34a6bf
  * #5b912a - #4f7e24
+
+ [data-theme="dark"] {
+  --primary: #1e468b;
+  --heading-color: #d1d2da;
+  --bg-shade: #0c0c0c;
+  --bg-shader: #050505;
+  --github: #f8f8f8;
+  --darkblue: #b9badb;
+  --white: #000000;
+  --black: #f8f8f8;
+  --star-bg: #000000;
+}
  */
 
 :root {
@@ -34,18 +46,22 @@ p {
   --black: #000000;
   --white: #f8f8f8;
   --star-bg: #cfcfcf;
+  --skill-card-bg: #e7e7e7;
+  --modal-bg: #f8f8f8;
 }
 
 [data-theme="dark"] {
   --primary: #1e468b;
   --heading-color: #d1d2da;
-  --bg-shade: #0c0c0c;
-  --bg-shader: #050505;
+  --bg-shade: #050505;
+  --bg-shader: #000000;
   --github: #f8f8f8;
   --darkblue: #b9badb;
-  --white: #000000;
+  --white:  #0c0c0c;
   --black: #f8f8f8;
   --star-bg: #000000;
+  --skill-card-bg: #0c0c0c;  
+  --modal-bg: #0c0c0c;
 }
 
 .btn {
@@ -485,7 +501,7 @@ h3 {
   gap: 32px;
   flex: 1 0 0;
   border-radius: 10.6px;
-  background: var(--bg-shader);
+  background: var(--skill-card-bg);
   cursor: context-menu;
 }
 
@@ -743,7 +759,7 @@ h3 {
 .modal--card {
   justify-content: center;
   align-items: center;
-  background-color: var(--bg-shade);
+  background-color: var(--modal-bg);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -754,7 +770,7 @@ h3 {
 
 .doc--modal--card {
   justify-content: center;
-  background-color: var(--bg-shade);
+  background-color: var(--modal-bg);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
