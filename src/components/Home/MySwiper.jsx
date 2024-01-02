@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import DocModal from './DocModal';
 import BadgeRenderer from '../utils/BagdeRenderer';
 import Reveal from '../utils/Reveal';
+import VideoModal from './VideoModal';
 
 /**
  * https://swiperjs.com/demos#pagination
@@ -120,7 +121,9 @@ export default function MySwiper(props) {
                                                         </a>
                                                     </div>
                                                 </li>
-                                            </Reveal>}
+                                            </Reveal>
+                                        }
+                                        {item.videos && <Reveal> <li><VideoModal project={item} /></li> </Reveal>}
                                     </ul>
                                 </div>
                             </div>
