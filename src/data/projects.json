@@ -379,7 +379,10 @@
                 "./img/pattern-recognition/ml-5.png",
                 "./img/pattern-recognition/ml-6.png",
                 "./img/pattern-recognition/ml-7.png",
-                "./img/pattern-recognition/ml-8.png"
+                "./img/pattern-recognition/ml-8.png",
+                "./img/pattern-recognition/ml-9.png",
+                "./img/pattern-recognition/ml-10.png",
+                "./img/pattern-recognition/ml-11.png"
             ],
             "docs": [
                 "./doc/pattern-recognition/Proyecto1_Patrones.pdf",
@@ -453,6 +456,9 @@
                 "./img/computer-architecture/computer-arch-2.png",
                 "./img/computer-architecture/computer-arch-3.png",
                 "./img/computer-architecture/computer-arch-4.png"
+            ],
+            "docs":[
+                "./doc/computer-arch/the-imitation-game-doc.pdf"
             ]
         },
         {
@@ -672,10 +678,10 @@
         {
             "id": 11,
             "src": "./img/operating-systems/so-1.jpeg",
-            "title": "Operating Systems",
+            "title": "Phone unlocker",
             "course": "Operating Systems",
             "src_ctrl": "GitHub",
-            "short_description": "Course projects",
+            "short_description": "Robotic arm and course projects",
             "description": "",
             "link": "https://github.com/orgs/SistemasOperativos-lS2023/repositories",
             "tools": [
@@ -702,6 +708,71 @@
         },
         {
             "id": 12,
+            "src": "./img/logical-design/logical-design-1.png",
+            "title": "Digital Design",
+            "course": "Logical and Digital Design",
+            "src_ctrl": "GitHub",
+            "short_description": "Course projects",
+            "description": "",
+            "link": "https://github.com/JulianCamacho/Proyecto_Dise-o_Logico",
+            "tools": [
+                "Verilog",
+                "Assembly ARM"
+            ],
+            "main_tools": [
+                "Verilog",
+                "Assembly ARM"
+            ],
+            "imgs": [
+                "./img/logical-design/logical-design-1.png",
+                "./img/logical-design/logical-design-2.png",
+                "./img/logical-design/logical-design-3.png"
+            ],
+            "admin_imgs": [
+                "./img/logical-design/digital-design-1.PNG",
+                "./img/logical-design/digital-design-2.png",
+                "./img/logical-design/digital-design-3.PNG",
+                "./img/logical-design/digital-design-4.png",
+                "./img/logical-design/digital-design-5.png"
+            ],
+            "docs": [
+                "./doc/logical-digital-design/logical-design-doc.pdf",
+                "./doc/logical-digital-design/digital-design-doc.pdf"
+            ]
+        },
+        {
+            "id": 13,
+            "src": "./img/embedded-systems/baremetal-2.jpeg",
+            "title": "MetalSense",
+            "course": "Embedded Systems",
+            "src_ctrl": "GitHub",
+            "short_description": "Baremetal distance sensor control",
+            "description": "",
+            "link": "https://github.com/TheACE01/CE5303-2023-P2",
+            "tools": [
+                "C++",
+                "Arduino",
+                "RaspberryPi"
+            ],
+            "extra_tools": [
+                "https://img.shields.io/badge/Circle-6ab0de?style=for-the-badge&link=https%3A%2F%2Fcircle-rpi.readthedocs.io%2Fen%2F44.5%2F",
+                "https://img.shields.io/badge/uboot-000000?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Fu-boot%2Fu-boot"
+            ],
+            "main_tools": [
+                "C++",
+                "Arduino",
+                "RaspberryPi"
+            ],
+            "imgs": [
+                "./img/embedded-systems/baremetal-1.jpeg",
+                "./img/embedded-systems/baremetal-2.jpeg"
+            ],
+            "docs": [
+                "./doc/embedded-systems/baremetal.pdf"
+            ]
+        },
+        {
+            "id": 14,
             "src": "./img/electronics/el-1.jpeg",
             "title": "Electronics Projects",
             "course": "Mixed Signals and Active Elements Lab",
@@ -734,6 +805,11 @@
                 "./img/electronics/el-13.jpeg",
                 "./img/electronics/el-14.jpeg",
                 "./img/electronics/el-15.jpeg"
+            ],
+            "docs":[
+                "./doc/mixed-signals-lab/Proyecto_1.pdf",
+                "./doc/mixed-signals-lab/Proyecto_2.pdf",
+                "./doc/mixed-signals-lab/Proyecto_3.pdf"
             ]
         }
     ]
