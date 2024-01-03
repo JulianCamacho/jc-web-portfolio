@@ -12,7 +12,7 @@
                 },
                 {
                     "name": "React",
-                    "src": "https://img.shields.io/badge/React-0c0c0c?style=for-the-badge&logo=react&logoColor=61DAFB"
+                    "src": "https://img.shields.io/badge/React-0c0c0c?style=for-the-badge&logo=react&logoColor=61DAFB&link=https%3A%2F%2Freact.dev%2F"
 
                 },
                 {
@@ -194,13 +194,17 @@
                 {
                     "name": "Google Colab",
                     "src": "https://img.shields.io/badge/googlecolab-0c0c0c?style=for-the-badge&logo=googlecolab&logoColor=F9AB00"
+                },
+                {
+                    "name": "Numpy",
+                    "src": "https://img.shields.io/badge/Numpy-0c0c0c?style=for-the-badge&logo=numpy&logoColor=013243"
                 }
             ]
         },
         {
             "id": 7,
             "src": "",
-            "title": "HDL, Assembly and Embedded Systems",
+            "title": "Assembly, HDL and Embedded Systems",
             "description": "Instruction sets I have used for low-level application development, hardware description languages for synthesis on FPGAs, and embedded systems for multiple applications",
             "badges": [
                 {

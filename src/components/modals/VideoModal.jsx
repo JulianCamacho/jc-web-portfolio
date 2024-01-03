@@ -57,7 +57,7 @@ export default function VideoModal(props) {
                     <div className="doc--modal--card" transition={{ layout: { duration: 5, type: "spring" } }}>
                         <Reveal>
                             <h3 className="portfolio--section--title" id="transition-modal-title">
-                                {projectInfo.title}
+                                {projectInfo.title} Videos
                             </h3>
                         </Reveal>
                         <BadgeRenderer projectTools={projectInfo.tools} 

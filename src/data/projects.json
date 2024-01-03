@@ -158,7 +158,8 @@
             "main_tools": [
                 "Angular",
                 ".NET",
-                "SQLite"
+                "SQLite",
+                "PostgreSQL"
             ],
             "imgs": [
                 "./img/databases-smart-home-tec/client/smart-home-tec-client-1.png",
@@ -263,7 +264,7 @@
                 "RaspberryPi"
             ],
             "extra_tools": [
-                "https://img.shields.io/badge/Yocto-2fa5f5?style=for-the-badge"
+                "https://img.shields.io/badge/Yocto-2fa5f5?style=for-the-badge&link=https%3A%2F%2Fwww.yoctoproject.org%2F"
             ],
             "main_tools": [
                 "React",
@@ -302,7 +303,7 @@
                 "Arduino"
             ],
             "extra_tools": [
-                "https://img.shields.io/badge/Yocto-2fa5f5?style=for-the-badge"
+                "https://img.shields.io/badge/Yocto-2fa5f5?style=for-the-badge&link=https%3A%2F%2Fwww.yoctoproject.org%2F"
             ],
             "main_tools": [
                 "Ionic",
@@ -332,7 +333,7 @@
                 "Python"
             ],
             "extra_tools": [
-                "https://img.shields.io/badge/PyGame-8DDA23?style=for-the-badge"
+                "https://img.shields.io/badge/PyGame-8DDA23?style=for-the-badge&link=https%3A%2F%2Fwww.pygame.org%2Fnews"
             ],
             "main_tools": [
                 "Python"
@@ -362,7 +363,8 @@
                 "Keras",
                 "Scikit-learn",
                 "Jupyter",
-                "Google Colab"
+                "Google Colab",
+                "Numpy"
             ],
             "main_tools": [
                 "Python",
@@ -384,6 +386,12 @@
                 "./doc/pattern-recognition/Proyecto2_Patrones.pdf",
                 "./doc/pattern-recognition/Proyecto3_Patrones.pdf",
                 "./doc/pattern-recognition/Investigacion_Patrones.pdf"
+            ],
+            "notebooks": [
+                "./doc/pattern-recognition/Proyecto1.html",
+                "./doc/pattern-recognition/Proyecto2.html",
+                "./doc/pattern-recognition/Proyecto3.html",
+                "./doc/pattern-recognition/Autoencoders.html"
             ]
         },
         {
@@ -396,9 +404,8 @@
             "description": "",
             "link": "https://github.com/JulianCamacho/Circuit-Designer",
             "extra_tools": [
-                "https://img.shields.io/badge/JavaFx-478ed1?style=for-the-badge",
-                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
-                "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea"
+                "https://img.shields.io/badge/JavaFx-478ed1?style=for-the-badge&link=https%3A%2F%2Fopenjfx.io%2F",
+                "https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellijidea"
             ],
             "main_tools": [
                 "Java"
@@ -454,13 +461,15 @@
             "title": "LogoTec",
             "course": "Compilers and Interpreters",
             "src_ctrl": "GitHub",
-            "short_description": "Turtle graphics system",
+            "short_description": "Turtle graphics app",
             "description": " ",
             "link": "https://github.com/Braalfa/Logo",
+            "tools":[
+                "Java"
+            ],
             "extra_tools": [
-                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
                 "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea",
-                "https://img.shields.io/badge/ANTLR-E4202E?style=for-the-badge"
+                "https://img.shields.io/badge/ANTLR-E4202E?style=for-the-badge&link=https%3A%2F%2Fwww.antlr.org"
             ],
             "main_tools": [
                 "Java"
@@ -496,10 +505,11 @@
             "short_description": "Text searching application",
             "description": "The Text Finder application is designed with the primary goal of facilitating text searches within txt, pdf, and docx files that users have previously added to their library. Upon adding documents, the application indexes them and incorporates all their words into a binary search tree. Users can then perform text searches by looking up the specified word or phrase in the pre-built binary tree. Once the user enters the word or phrase of interest, the application displays search results across all documents, highlighting the relevant word and providing an excerpt of the surrounding text.",
             "link": "https://github.com/JulianCamacho/Text-Finder",
-            "tools": [],
+            "tools":[
+                "Java"
+            ],
             "extra_tools": [
-                "https://img.shields.io/badge/Java_Scene_Builder-478ed1?style=for-the-badge",
-                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
+                "https://img.shields.io/badge/Java_Scene_Builder-478ed1?style=for-the-badge&link=https%3A%2F%2Fgluonhq.com%2Fproducts%2Fscene-builder%2F",
                 "https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea"
             ],
             "main_tools": [
@@ -534,7 +544,7 @@
                 "Python"
             ],
             "extra_tools": [
-                "https://img.shields.io/badge/NodeMCU-0c0c0c?style=for-the-badge"
+                "https://img.shields.io/badge/NodeMCU-0c0c0c?style=for-the-badge&link=https%3A%2F%2Fcomponents101.com%2Fdevelopment-boards%2Fnodemcu-esp8266-pinout-features-and-datasheet"
             ],
             "main_tools": [
                 "Python"
@@ -578,7 +588,7 @@
                 "Assembly x86"
             ],
             "extra_tools": [
-                "https://img.shields.io/badge/Bootloader-0c0c0c?style=for-the-badge"
+                "https://img.shields.io/badge/Bootloader-0c0c0c?style=for-the-badge&link=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBootloader"
             ],
             "main_tools": [
                 "Assembly x86"
@@ -605,16 +615,17 @@
             "tools": [
                 "Python",
                 "Octave",
-                "Rust"
+                "Rust",
+                "Numpy"
             ],
             "main_tools": [
-                "Python",
+                "Numpy",
                 "Octave",
                 "Rust"
             ],
             "extra_tools": [
-                "https://img.shields.io/badge/Sympy-55ad3e?style=for-the-badge",
-                "https://img.shields.io/badge/Tkinter-478ed1?style=for-the-badge"
+                "https://img.shields.io/badge/Sympy-0c0c0c?style=for-the-badge&logo=sympy&logoColor=3B5526&link=https%3A%2F%2Fwww.sympy.org%2Fen%2Findex.html",
+                "https://img.shields.io/badge/Tkinter-478ed1?style=for-the-badge&link=https%3A%2F%2Fdocs.python.org%2F3%2Flibrary%2Ftkinter.html"
             ],
             "imgs": [
                 "./img/numerical-analysis/numerical-analysis-1.jpeg",
@@ -635,12 +646,12 @@
             "description": "https://github.com/JulianCamacho/RestauranTEC/, https://github.com/JulianCamacho/breakOutTec",
             "link": "https://github.com/JulianCamacho/4Line",
             "tools": [
-                "C++"
+                "C++",
+                "Java"
             ],
             "extra_tools": [
                 "https://img.shields.io/badge/Racket-9F1D20?style=for-the-badge&logo=racket&logoColor=ffffff",
-                "https://img.shields.io/badge/Java-orange?style=for-the-badge",
-                "https://img.shields.io/badge/Prolog-4d5154?style=for-the-badge"
+                "https://img.shields.io/badge/Prolog-4d5154?style=for-the-badge&link=https%3A%2F%2Fwww.swi-prolog.org%2F"
             ],
             "main_tools": [
                 "C++",

@@ -43,8 +43,7 @@ export default function DocModal(props) {
                 </a>
             </div>
             <Modal className='my--modal'
-                open={openModal}
-                onClose={handleClose}
+                open={openModal} onClose={handleClose}
                 aria-labelledby="transition-modal-title"
                 aria-describedby="transition-modal-description"
                 closeAfterTransition
@@ -58,7 +57,7 @@ export default function DocModal(props) {
                     <div className="doc--modal--card" transition={{ layout: { duration: 5, type: "spring" } }}>
                         <Reveal>
                             <h3 className="portfolio--section--title" id="transition-modal-title">
-                                {projectInfo.title}
+                                {projectInfo.title} Documentation
                             </h3>
                         </Reveal>
                         <BadgeRenderer projectTools={projectInfo.tools} 

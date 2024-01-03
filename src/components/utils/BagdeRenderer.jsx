@@ -50,7 +50,9 @@ const BadgeRenderer = ({ projectTools, projectExtraTools, flex, bg_color }) => {
             })}
             {projectExtraTools?.map((extra_tool, index2) => (
                 <Reveal>
-                    <img src={extra_tool} key={index2} alt="Extra_Tool" className='modal--extra--tools' />
+                    <object type="image/svg+xml" data={extra_tool} className='modal--extra--tools'>
+                        <img src={extra_tool} key={index2} alt="Extra_Tool" />
+                    </object>
                 </Reveal>
             ))}
         </div>

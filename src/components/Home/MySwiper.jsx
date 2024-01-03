@@ -2,15 +2,16 @@ import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { useTheme } from '../utils/ThemeContext';
-import DetailModal from './DetailModal';
+import DetailModal from '../modals/DetailModal';
 import 'swiper/css';
 import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import DocModal from './DocModal';
+import DocModal from '../modals/DocModal';
 import BadgeRenderer from '../utils/BagdeRenderer';
 //import Reveal from '../utils/Reveal';
-import VideoModal from './VideoModal';
+import VideoModal from '../modals/VideoModal';
+import NotebookModal from '../modals/NotebookModal';
 
 /**
  * https://swiperjs.com/demos#pagination
@@ -125,6 +126,7 @@ export default function MySwiper(props) {
 
                                         }
                                         {item.videos && <li><VideoModal project={item} /></li>}
+                                        {item.notebooks && <li><NotebookModal project={item} /></li>}
                                     </ul>
                                 </div>
                             </div>

@@ -570,7 +570,7 @@ h3 {
   width: 100%;
 }
 
-.skill--tool--container img {
+.skill--tool--container object {
   border-radius: 8px;
 }
 
@@ -780,7 +780,7 @@ h3 {
 }
 
 .modal--extra--tools {
-  max-width: 80px;
+  max-width: 100%;
   max-height: 30px;
   border-radius: 8px;
 }
@@ -852,6 +852,13 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+}
+
+.notebook-viewer {
+  height: 80vh;
+  width: 90%;
+  padding: 50px 5%;
+  border-color: var(--white);
 }
 
 /* Modal Style Ends */

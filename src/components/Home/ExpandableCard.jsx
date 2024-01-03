@@ -37,7 +37,7 @@ export default function ExpandableCard(props) {
                 {props.skill.title === "Programming Languages" && <LanguageSVG className="skill--logo" />}
                 {props.skill.title === "DevOps and Version Control" && <DevOpsSVG className="skill--logo" />}
                 {props.skill.title === "AI and ML environment" && <AISVG className="skill--logo" />}
-                {props.skill.title === "HDL, Assembly and Embedded Systems" && <CircuitSVG className="skill--logo" />}
+                {props.skill.title === "Assembly, HDL and Embedded Systems" && <CircuitSVG className="skill--logo" />}
                 {props.skill.title === "Operating Systems" && <OSSVG className="skill--logo" />}
                 {props.skill.title === "Other skills" && <SkillsSVG className="skill--logo" />}
                 <h3 className="skills--section--title">{props.skill.title}</h3>
@@ -46,16 +46,16 @@ export default function ExpandableCard(props) {
             {isOpen &&
                 <motion.div className="skills--section--card--content">
                     <Reveal>
-                    <p className="skills--section--description">{props.skill.description}</p>
+                        <p className="skills--section--description">{props.skill.description}</p>
                     </Reveal>
                     <div className='skill--tool--container'>
                         {props.skill?.badges?.map((item, index) => {
                             const modifiedSrc = isDarkModeEnabled()
-                                ? item.src.replace("f0f0f0", "0c0c0c") 
+                                ? item.src.replace("f0f0f0", "0c0c0c")
                                 : item.src.replace("0c0c0c", "f0f0f0");
-                            return(  
-                                <Reveal>   
-                                <img src={modifiedSrc} key={index} alt={index.name} />
+                            return (
+                                <Reveal>
+                                    <img src={modifiedSrc} key={index} alt={index.name} />
                                 </Reveal>
                             )
                         })}
