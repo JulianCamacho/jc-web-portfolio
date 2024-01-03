@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext, useEffect } from 'react';
 
 const ThemeContext = createContext();
 
@@ -6,12 +6,26 @@ const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(
     window.matchMedia('(prefers-color-scheme: dark)').matches
   );
-  
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    const handleChange = () => {
+      setIsDarkMode(mediaQuery.matches);
+    };
+
+    mediaQuery.addEventListener('change', handleChange);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleChange);
+    };
+  }, []);
+
   const toggleDarkMode = () => {
-    if (isDarkMode){
+    if (isDarkMode) {
       setIsDarkMode(false);
       document.querySelector("body").setAttribute('data-theme', 'light');
-    }else{
+    } else {
       setIsDarkMode(true);
       document.querySelector("body").setAttribute('data-theme', 'dark');
     }
