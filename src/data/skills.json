@@ -204,7 +204,7 @@
         {
             "id": 7,
             "src": "",
-            "title": "Assembly, HDL and Embedded Systems",
+            "title": "Assembly, HDL and Systems",
             "description": "Instruction sets I have used for low-level application development, hardware description languages for synthesis on FPGAs, and embedded systems for multiple applications",
             "badges": [
                 {

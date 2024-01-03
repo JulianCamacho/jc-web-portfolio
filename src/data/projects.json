@@ -99,7 +99,7 @@
         {
             "src": "./img/advanced-databases/club-manager/club-manager-10.png",
             "title": "Club Manager",
-            "short_description": "",
+            "short_description": "Club registration platform",
             "description": "",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
@@ -195,7 +195,7 @@
             "title": "ShopInsight",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
-            "short_description": "",
+            "short_description": "Purchase data analyzer app",
             "description": "",
             "link": "https://github.com/astuaTEC/Proyecto-2-BDA",
             "tools": [
@@ -281,6 +281,9 @@
             ],
             "docs": [
                 "./doc/embedded-systems/smart-home.pdf"
+            ],
+            "videos":[
+                "DB2zhWlSzpw"
             ]
         },
         {
@@ -467,7 +470,7 @@
             "title": "LogoTec",
             "course": "Compilers and Interpreters",
             "src_ctrl": "GitHub",
-            "short_description": "Turtle graphics app",
+            "short_description": "Turtle graphics application",
             "description": " ",
             "link": "https://github.com/Braalfa/Logo",
             "tools":[
@@ -678,7 +681,7 @@
         {
             "id": 11,
             "src": "./img/operating-systems/so-1.jpeg",
-            "title": "Phone unlocker",
+            "title": "Phone Unlocker",
             "course": "Operating Systems",
             "src_ctrl": "GitHub",
             "short_description": "Robotic arm and course projects",
@@ -712,7 +715,7 @@
             "title": "Digital Design",
             "course": "Logical and Digital Design",
             "src_ctrl": "GitHub",
-            "short_description": "Course projects",
+            "short_description": "Courses projects",
             "description": "",
             "link": "https://github.com/JulianCamacho/Proyecto_Dise-o_Logico",
             "tools": [
@@ -810,6 +813,14 @@
                 "./doc/mixed-signals-lab/Proyecto_1.pdf",
                 "./doc/mixed-signals-lab/Proyecto_2.pdf",
                 "./doc/mixed-signals-lab/Proyecto_3.pdf"
+            ],
+            "videos": [
+                "66UgZ_mxUL4",
+                "UvSeFu1Pz4A",
+                "0JjUFGo7tAc",
+                "WPfwL879rg4",
+                "UyO_bZJ5nAI",
+                "2PLdxndEQr0"
             ]
         }
     ]
