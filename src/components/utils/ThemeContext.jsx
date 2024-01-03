@@ -3,8 +3,10 @@ import React, { createContext, useState, useContext } from 'react';
 const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
+  const [isDarkMode, setIsDarkMode] = useState(
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  );
+  
   const toggleDarkMode = () => {
     if (isDarkMode){
       setIsDarkMode(false);
