@@ -7,11 +7,13 @@ const ThemeProvider = ({ children }) => {
     window.matchMedia('(prefers-color-scheme: dark)').matches
   );
 
+  // Check if users system scheme changed so theme change too
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
     const handleChange = () => {
       setIsDarkMode(mediaQuery.matches);
+      document.querySelector("body").setAttribute('data-theme', mediaQuery.matches ? 'dark' : 'light');
     };
 
     mediaQuery.addEventListener('change', handleChange);
@@ -20,6 +22,11 @@ const ThemeProvider = ({ children }) => {
       mediaQuery.removeEventListener('change', handleChange);
     };
   }, []);
+
+  // Set the initial theme on the body element
+  useEffect(() => {
+    document.querySelector("body").setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+  }, [isDarkMode]);
 
   const toggleDarkMode = () => {
     if (isDarkMode) {
