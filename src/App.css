@@ -60,7 +60,7 @@ p {
   --white:  #0c0c0c;
   --black: #f8f8f8;
   --star-bg: #000000;
-  --skill-card-bg: #0c0c0c;  
+  --skill-card-bg: #111111;  
   --modal-bg: #0c0c0c;
 }
 
@@ -570,7 +570,7 @@ h3 {
   width: 100%;
 }
 
-.skill--tool--container object {
+.skill--tool--container img {
   border-radius: 8px;
 }
 
