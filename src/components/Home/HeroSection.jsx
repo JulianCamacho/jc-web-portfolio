@@ -4,11 +4,7 @@ import Reveal from '../utils/Reveal';
 
 export default function HeroSection() {
 
-    /**
-     * As a software engineer, I’m passionate about designing and building software applications that are efficient, robust, and meet user needs.
-     */
-    //const cv = "ResumeJulianCamachoENG.pdf";
-    const cv = "Resume";
+    const cv = "Resume_JulianCamacho_ENG.pdf";
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
