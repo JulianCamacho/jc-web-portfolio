@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactComponent as Sun } from "../../assets/sun.svg";
 import { ReactComponent as Moon } from "../../assets/moon.svg";
-import { useTheme } from './ThemeContext'; // Adjust the path accordingly
+import { useTheme } from './ThemeContext';
 
 const DarkMode = () => {
     const { isDarkMode, toggleDarkMode } = useTheme();
