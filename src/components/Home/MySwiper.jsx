@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { useTheme } from '../utils/ThemeContext';
@@ -28,6 +28,9 @@ export default function MySwiper(props) {
         }
     }, [isDarkMode]);
 
+    // Create an array of refs (one for each project)
+    const modalRefs = useRef([]);
+
     return (
         <>
             <Swiper
@@ -40,26 +43,26 @@ export default function MySwiper(props) {
                     clickable: true,
                 }}
                 breakpoints={{
-                    576: {
-                        slidesPerView: 1
-                    },
-                    768: {
-                        slidesPerView: 2,
-                    },
-                    1024: {
-                        slidesPerView: 3,
-                    }
+                    576: { slidesPerView: props.breakpoints[0] },
+                    768: { slidesPerView: props.breakpoints[1], },
+                    1024: { slidesPerView: props.breakpoints[2], }
                 }}
                 modules={[Navigation, Pagination]}
             >
-                {props.projects.map((item, index) => (
+                {props.projects?.map((item, index) => {
+                    // Ensure we have a ref for each modal
+                    if (!modalRefs.current[index]) {
+                        modalRefs.current[index] = React.createRef();
+                    }
+
+                    return (
                     <SwiperSlide key={index} className='my-swiper-slide'>
-                        <div className='slide--img--container'>
+                        <div className='slide--img--container' onClick={() => modalRefs.current[index]?.current?.open()} style={{ cursor: 'pointer' }}>
                             <img src={item.src} alt="Placeholder" />
                         </div>
                         <div className="portfolio--section--card--content">
                             <div>
-                                <h3 className="portfolio--section--title">
+                                <h3 className="portfolio--section--title" onClick={() => modalRefs.current[index]?.current?.open()} style={{ cursor: 'pointer' }}>
                                     {item.title}
                                 </h3>
                                 <h4 className="text-md">
@@ -103,11 +106,11 @@ export default function MySwiper(props) {
                                                 >
                                                     <svg viewBox="0 0 24 24" height="25" width="25.5" xmlns="http://www.w3.org/2000/svg"><path className="footer--logo" d="M0 8.877L2.247 5.91l8.405-3.416V.022l7.37 5.393L2.966 8.338v8.225L0 15.707zm24-4.45v14.651l-5.753 4.9-9.303-3.057v3.056l-5.978-7.416 15.057 1.798V5.415z" /></svg>
                                                 </a>
-                                            </li>
+                                            </li>  
 
                                         }
 
-                                        <li><DetailModal project={item} /></li>
+                                        <li><DetailModal ref={modalRefs.current[index]} project={item} /></li>
                                         {item.docs && <li><DocModal project={item} /></li>}
                                         {item.doc &&
 
@@ -132,7 +135,8 @@ export default function MySwiper(props) {
                             </div>
                         </div>
                     </SwiperSlide>
-                ))}
+                    );
+                })}
             </Swiper>
         </>
     )

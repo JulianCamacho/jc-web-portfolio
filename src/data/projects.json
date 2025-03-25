@@ -103,7 +103,7 @@
             "description": "",
             "course": "Advanced Databases",
             "src_ctrl": "GitHub",
-            "link": "https://github.com/astuaTEC/Proyecto-1-BDA",
+            "link": "https://github.com/JulianCamacho/Proyecto-1-BDA",
             "tools": [
                 "Angular",
                 "TypeScript",
@@ -822,6 +822,70 @@
                 "UyO_bZJ5nAI",
                 "2PLdxndEQr0",
                 "Ybqnm8S6_zs"
+            ]
+        }
+    ],
+    "final_projects": [
+        {
+            "id": 15,
+            "src": "./img/tfg/propuesta.png",
+            "title": "Simics SysCfg Tool",
+            "short_description": "Simics Automation Tool",
+            "description": "",
+            "course": "Final Graduation Project",
+            "src_ctrl": "",
+            "link": "",
+            "tools": [
+                "Python"
+            ],
+            "extra_tools": [
+                ""
+            ],
+            "main_tools": [
+                "Python"
+            ],
+            "imgs": [
+            ]
+        },
+        {
+            "id": 16,
+            "src": "./img/point-clouds/neural_network.png",
+            "title": "Point Cloud Generator",
+            "course": "Project Formulation and Design",
+            "src_ctrl": "GitHub",
+            "short_description": "",
+            "description": "",
+            "link": "https://github.com/JulianCamacho/point-cloud-generator",
+            "tools": [
+                "Python"
+            ],
+            "main_tools": [
+                "Python"
+            ],
+            "imgs": [
+                "./img/point-clouds/neural_network.png",
+                "./img/point-clouds/class_diagram.png",
+                "./img/point-clouds/component.png",
+                "./img/point-clouds/mlp.png",
+                "./img/point-clouds/use_case_diagram.png",
+                "./img/point-clouds/icp_alt.png",
+                "./img/point-clouds/functionality.png",
+                "./img/point-clouds/larger-system-2.png",
+                "./img/point-clouds/sequence.png",
+                "./img/point-clouds/flowchart(2).png",
+                "./img/point-clouds/squared-system.png"
+            ],
+            "docs": [
+                "./doc/pattern-recognition/Proyecto1_Patrones.pdf",
+                "./doc/pattern-recognition/Proyecto2_Patrones.pdf",
+                "./doc/pattern-recognition/Proyecto3_Patrones.pdf",
+                "./doc/pattern-recognition/Investigacion_Patrones.pdf"
+            ],
+            "notebooks": [
+                "./doc/pattern-recognition/Proyecto1.html",
+                "./doc/pattern-recognition/Proyecto2.html",
+                "./doc/pattern-recognition/Proyecto3.html",
+                "./doc/pattern-recognition/Autoencoders.html"
             ]
         }
     ]

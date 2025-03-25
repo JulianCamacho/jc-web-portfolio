@@ -34,8 +34,8 @@ export default function AboutMe() {
                     <Reveal>
                         <motion.h1 style={{ y: yHeader }} className="skills--section--heading">About Me</motion.h1>
                     </Reveal>
-                    <motion.p style={{ y: yText }} className="hero--section--description">I'm a Computer Engineering student at Costa Rica Institute of Technology. Through my career a have worked in several projects that involved learning multiple programming languages, algorithms and data structures, frameworks, database engines, HDLs, operating systems and other technologies and tools.</motion.p>
-                    <motion.p style={{ y: yText }} className="hero--section--description">I love playing soccer, working out at the gym, playing video games, and hanging out with my friends. Additionally, I absolutely love pasta!</motion.p>
+                    <motion.p style={{ y: yText }} className="hero--section--description">I'm a Computer Engineer from Costa Rica Institute of Technology (TEC), I have actively contributed to projects involving cutting-edge technologies, automation, and functional verification. I'm passionate about problem-solving and software development.</motion.p>
+                    <motion.p style={{ y: yText }} className="hero--section--description">I love hiking, playing soccer, working out at the gym, playing video games, and hanging out with my friends. Additionally, I absolutely love pasta!</motion.p>
                 </div>
             </div>
 

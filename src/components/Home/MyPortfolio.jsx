@@ -10,6 +10,7 @@ import data from "../../data/projects.json";
 export default function MyPortfolio() {
 
     const webProjects = data?.portfolio;
+    const finalProjects = data?.final_projects;
     const otherProjects = data?.other_projects;
     const moreProjects = data?.more_projects;
 
@@ -52,10 +53,19 @@ export default function MyPortfolio() {
 
             <div className="portfolio--section--container">
                 <Reveal>
+                    <p className="portfolio--sub--title">Final degree projects</p>
+                </Reveal>
+                <Reveal>
+                    <MySwiper projects={finalProjects} breakpoints={[1,2,2]}/>
+                </Reveal>
+            </div>
+
+            <div className="portfolio--section--container">
+                <Reveal>
                     <p className="portfolio--sub--title">Web related projects</p>
                 </Reveal>
                 <Reveal>
-                    <MySwiper projects={webProjects} />
+                    <MySwiper projects={webProjects} breakpoints={[1,2,3]}/>
                 </Reveal>
             </div>
 
@@ -65,14 +75,14 @@ export default function MyPortfolio() {
                         <p className="portfolio--sub--title">Some other cool projects</p>
                     </Reveal>
                     <Reveal>
-                        <MySwiper projects={otherProjects} />
+                        <MySwiper projects={otherProjects} breakpoints={[1,2,3]}/>
                     </Reveal>
                 </div>
 
                 <Fade in={isExpanded} timeout={1000} mountOnEnter unmountOnExit>
                     <div>
                         <Reveal>
-                            <MySwiper projects={moreProjects} />
+                            <MySwiper projects={moreProjects} breakpoints={[1,2,3]}/>
                         </Reveal>
                     </div>
                 </Fade>

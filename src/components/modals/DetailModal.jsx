@@ -1,13 +1,13 @@
-import { useState } from 'react';
+import { useState, forwardRef, useImperativeHandle } from 'react';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import ProjectSwiper from '../Home/ProjectSwiper';
 import Reveal from '../utils/Reveal';
 import BadgeRenderer from '../utils/BagdeRenderer';
 
-export default function DetailModal(props) {
+const DetailModal = forwardRef(({ project }, ref) => {
 
-    const projectInfo = props.project;
+    const projectInfo = project;
     const [openModal, setOpenModal] = useState(false);
 
     const handleOpen = () => {
@@ -17,6 +17,11 @@ export default function DetailModal(props) {
     const handleClose = () => {
         setOpenModal(false);
     };
+
+    // Expose the handleOpen function to the parent component
+    useImperativeHandle(ref, () => ({
+        open: handleOpen
+    }));
 
     return (
         <>
@@ -76,4 +81,6 @@ export default function DetailModal(props) {
             </Modal>
         </>
     )
-}
+});
+
+export default DetailModal;

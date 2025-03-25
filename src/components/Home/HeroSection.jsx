@@ -4,7 +4,7 @@ import Reveal from '../utils/Reveal';
 
 export default function HeroSection() {
 
-    const cv = "Resume_JulianCamacho_ENG.pdf";
+    const cv = "Jose_Julian_Camacho_CV.pdf";
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -12,7 +12,7 @@ export default function HeroSection() {
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     // eslint-disable-next-line
     const [index, setIndex] = useState(1);
-    const toRotate = ["Frontend", "Backend"];
+    const toRotate = ["Computer", "Software"];
     const period = 2000;
 
     const tick = () => {
@@ -63,12 +63,12 @@ export default function HeroSection() {
                                 </span>
                             </span>{" "}
                             <br />
-                            Developer
+                            Engineer
                         </h1>
                     </Reveal>
                     <Reveal>
                         <p className="hero--section--description">
-                            I'm a Computer Engineering Student at TEC, <br /> Costa Rica
+                            I'm a Computer Engineer from TEC, <br /> Costa Rica
                             <br /> Welcome to my portfolio
                         </p>
                     </Reveal>
