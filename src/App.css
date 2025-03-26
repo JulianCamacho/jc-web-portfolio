@@ -456,11 +456,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 101%;
 }
 
 .hero--section--img>img {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   border-radius: 50%;
 }
 
@@ -826,6 +827,7 @@ h3 {
   gap: 30px;
   width: 100%;
   margin-top: 5px;
+  margin-left: -12.5px;
 }
 
 .project--tool--img {
@@ -1132,6 +1134,10 @@ h3 {
     text-align: center;
   }
 
+  .hero--section--img{
+    width: 80%;
+  }
+
   .about--section,
   .hero--section--button-container,
   .portfolio--section--container,
@@ -1225,6 +1231,10 @@ h3 {
 @media only screen and (max-width: 800px) {
   .skills--section--container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero--section--img{
+    width: 100%;
   }
 }
 /* Hamburger menu  */

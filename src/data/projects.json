@@ -21,7 +21,6 @@
             "main_tools": [
                 "Angular",
                 ".NET",
-                "SQL Server",
                 "MongoDB"
             ],
             "imgs": [
@@ -828,7 +827,7 @@
     "final_projects": [
         {
             "id": 15,
-            "src": "./img/tfg/propuesta.png",
+            "src": "./img/tfg/TFG.png",
             "title": "Simics SysCfg Tool",
             "short_description": "Simics Automation Tool",
             "description": "",
@@ -839,17 +838,19 @@
                 "Python"
             ],
             "extra_tools": [
-                ""
+                "https://img.shields.io/badge/Simics-0071C5?style=for-the-badge&logoColor=%230071C5&link=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fdeveloper%2Farticles%2Ftool%2Fsimics-simulator.html"
             ],
             "main_tools": [
                 "Python"
             ],
             "imgs": [
+                "./img/tfg/TFG.png",
+                "./img/tfg/propuesta.png"
             ]
         },
         {
             "id": 16,
-            "src": "./img/point-clouds/neural_network.png",
+            "src": "./img/point-clouds/icp_alt.png",
             "title": "Point Cloud Generator",
             "course": "Project Formulation and Design",
             "src_ctrl": "GitHub",
@@ -862,30 +863,40 @@
             "main_tools": [
                 "Python"
             ],
+            "extra_tools": [
+                "https://img.shields.io/badge/Open3D-0c0c0c?style=for-the-badge&logo=Open3D&logoColor=%23ffffff&link=https%3A%2F%2Fwww.open3d.org%2F"
+            ],
             "imgs": [
-                "./img/point-clouds/neural_network.png",
-                "./img/point-clouds/class_diagram.png",
-                "./img/point-clouds/component.png",
-                "./img/point-clouds/mlp.png",
-                "./img/point-clouds/use_case_diagram.png",
-                "./img/point-clouds/icp_alt.png",
+                "./img/point-clouds/manual_load.png",
+                "./img/point-clouds/manual_config.png",
+                "./img/point-clouds/manual_preprocessing.png",
+                "./img/point-clouds/manual_res.png",
+                "./img/point-clouds/full-result-1.png",
+                "./img/point-clouds/full-result-2.png",
+                "./img/point-clouds/good-result-2.png",
+                "./img/point-clouds/good-result.png",
+                "./img/point-clouds/sala-1.png"
+            ],"admin_imgs": [
+                "./img/point-clouds/squared-system.png",
                 "./img/point-clouds/functionality.png",
-                "./img/point-clouds/larger-system-2.png",
+                "./img/point-clouds/component.png",
                 "./img/point-clouds/sequence.png",
                 "./img/point-clouds/flowchart(2).png",
-                "./img/point-clouds/squared-system.png"
+                "./img/point-clouds/use_case_diagram.png",
+                "./img/point-clouds/class_diagram.png",
+                "./img/point-clouds/mlp.png",
+                "./img/point-clouds/neural_network.png",
+                "./img/point-clouds/grafodeposes.png",
+                "./img/point-clouds/icp_alt.png"
             ],
             "docs": [
-                "./doc/pattern-recognition/Proyecto1_Patrones.pdf",
-                "./doc/pattern-recognition/Proyecto2_Patrones.pdf",
-                "./doc/pattern-recognition/Proyecto3_Patrones.pdf",
-                "./doc/pattern-recognition/Investigacion_Patrones.pdf"
-            ],
-            "notebooks": [
-                "./doc/pattern-recognition/Proyecto1.html",
-                "./doc/pattern-recognition/Proyecto2.html",
-                "./doc/pattern-recognition/Proyecto3.html",
-                "./doc/pattern-recognition/Autoencoders.html"
+                "./doc/point-clouds/Articulo_Tecnico_Final-Julian_Camacho-2019201459.pdf",
+                "./doc/point-clouds/Presentacion_Final-Julian_Camacho-2019201459 .pdf",
+                "./doc/point-clouds/Documento_de_Requerimientos-Julian_Camacho-2019201459.pdf",
+                "./doc/point-clouds/Documento_de_Diseno-Julian_Camacho-2019201459.pdf",
+                "./doc/point-clouds/Entregable_Manual_de_Usuario_JulianCamacho.pdf",
+                "./doc/point-clouds/Entregable_Plan_Pruebas_y_Resultados_JulianCamacho.pdf",
+                "./doc/point-clouds/Informe_de_avance_5-Julian_Camacho-2019201459.pdf"                
             ]
         }
     ]
